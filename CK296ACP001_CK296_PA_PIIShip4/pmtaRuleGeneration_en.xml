@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ IBM Confidential
+
+ OCO Source Materials
+
+ BI and PM: pmta
+
+ (C) Copyright IBM Corp. 2008, 2009, 2010, 2011
+
+ The source code for this program is not published or otherwise
+ divested of its trade secrets, irrespective of what has been
+ deposited with the U.S. Copyright Office.
+-->
+<!--
+ AUTO-GENERATED MSGSDK - NOT TO BE MANUALLY EDITED
+
+ This file was generated using prepare_msgsdk.py and should be updated using the same script.
+
+ The strings contained in this document are based on definitions found in the plugin.properties,
+ OSG-INF/bundle.properties and messages.properties files.
+
+ You may edit or add string definition attributes but not add/delete/modify strings as any such
+ changes will be undone when the auto-generation runs again.
+-->
+<stringTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CCLMessageFile.xsd" localization="Product Locale" usage="Message source for CCLMessageFramework">
+	<component name="pna">
+		<section name="pna" type="UI">
+			<string id="Region_HeaderLineUnqualified" type="String" usage="">Link rule: {0}</string>
+			<string id="Region_HeaderLineString" type="String" usage="">Link rule: {0} - String</string>
+			<string id="Region_HeaderLineNumeric" type="String" usage="">Link rule: {0} - Numeric</string>
+			<string id="Region_Source" type="String" usage="">Source cube: {0}</string>
+			<string id="Region_Target" type="String" usage="">Target cube: {0}</string>
+			<string id="Rules_CalculationDescription" type="String" usage="">Calculation rules: {0}</string>
+			<string id="CalculationPage_ItemsNotRecognised" type="String" usage="">This expression contains invalid items.</string>
+			<string id="CalculationPage_ValErrorBracketMissMatch" type="String" usage="">Bracket mismatch</string>
+			<string id="CalculationPage_ValErrorMissingIf" type="String" usage="">Missing if</string>
+			<string id="CalculationPage_ValErrorMissingThen" type="String" usage="">If missing then</string>
+			<string id="CalculationPage_ValErrorElseMissingThen" type="String" usage="">Else missing then</string>
+			<string id="CalculationPage_ValErrorIfExpNotBoolean" type="String" usage="">If expression is not a Boolean expression</string>
+			<string id="CalculationPage_ValErrorItemsNotRecognised" type="String" usage="">Items not recognised</string>
+			<string id="CalculationPage_ValErrorMissingOperand" type="String" usage="">Missing operand</string>
+			<string id="CalculationPage_ValErrorMissiongOperator" type="String" usage="">Missing operator</string>
+			<string id="CalculationPage_ValErrorNumericExpIsBoolean" type="String" usage="">Numeric expression is a Boolean expression</string>
+			<string id="CalculationPage_ValErrorStringExpIsBoolean" type="String" usage="">String expression is a Boolean expression</string>
+			<string id="CalculationPage_ValError" type="String" usage="">Validation Error</string>
+			<string id="CalculationPage_AmbiguousMemberName" type="String" usage="">Ambiguous member name. To resolve, place single quotes around any member names containing spaces or operators, and where a single quote appears within a member name, place another single quote in front, e.g. Jake's Store becomes 'Jake''s Store'.</string>
+			<string id="CalculationPage_ValErrorCircularReference" type="String" usage="">A member cannot be used within its own calculation.</string>
+			<string id="CalculationPage_NoStartingEquals" type="String" usage="">Expression must start with '='</string>
+			<string id="CalculationPage_MissingEndQuote" type="String" usage="">Missing end quote</string>
+			<string id="CalculationPage_ValErrorMissingElse" type="String" usage="">Missing else</string>
+			<string id="CalculationPage_ValErrorEndOfExpression" type="String" usage="">End of expression</string>
+			<string id="CalculationPage_ValErrorInvalidBIF" type="String" usage="">Invalid BIF</string>
+			<string id="CalculationPage_ValErrorInvalidTM1Function" type="String" usage="">Invalid TM1 Function</string>
+			<string id="CalculationPage_WrongNoArgument" type="String" usage="">Wrong number of arguments.</string>
+			<string id="CalculationPage_InvalidTimeAverageType" type="String" usage="">Not a valid value for a TIMEAVERAGE</string>
+			<string id="CalculationPage_MustBeString" type="String" usage="">Should be of string type</string>
+			<string id="CalculationPage_MustBeNumeric" type="String" usage="">Should be of numeric type</string>
+			<string id="CalculationPage_MustBeBoolean" type="String" usage="">Should be of Boolean type</string>
+			<string id="CalculationPage_TypeNotPermitted" type="String" usage="">Expressions of this type are not allowed in this context</string>
+			<string id="CalculationPage_TypesIncompatible" type="String" usage="">Expression types are not compatible</string>
+			<string id="CalculationPage_UnterminatedString" type="String" usage="">String literal is not terminated</string>
+			<string id="CalculationPage_BadNumber" type="String" usage="">Invalid numeric literal</string>
+			<string id="CalculationPage_MustBeIdentifier" type="String" usage="">Must be the name of a member in the dimension</string>
+			<string id="CalculationPage_InvalidDimensionName" type="String" usage="">Dimension cannot be identified.</string>
+			<string id="CalculationPage_InvalidSameCaptionDimension" type="String" usage="">Use invariant name of the dimension if more than one dimension has the same caption.</string>
+			<string id="CalculationPage_InvalidCubeName" type="String" usage="">Must be the name of a cube in the model tree</string>
+			<string id="CalculationPage_InvalidAttributeName" type="String" usage="">Attribute cannot be identified.</string>
+			<string id="CalculationPage_InvalidLinkName" type="String" usage="">Link cannot be identified.</string>
+			<string id="CalculationPage_InvalidLink" type="String" usage="">Link used in the expression is invalid</string>
+			<string id="CalculationPage_TargetAreaMembersDifferentType" type="String" usage="">The target area has members of different type.</string>
+			<string id="CalculationPage_EnterAttributeName" type="String" usage="">Must be name of an attribute after .</string>
+			<string id="CalculationPage_EnterMemberName" type="String" usage="">Must be name of a member after :</string>
+			<string id="CalculationPage_UseSquareBracket" type="String" usage="">Use square bracket to hide special characters.</string>
+			<string id="CalculationPage_UseQuotes" type="String" usage="">Use quotes to hide special characters.</string>
+			<string id="CalculationPage_MissingEndSquareBracket" type="String" usage="">End square bracket is missing</string>
+			<string id="CalculationPage_MemberNotInDimension" type="String" usage="">Member is not present in the dimension</string>
+			<string id="CalculationPage_InvalidSyntaxSingleAttributeValue" type="String" usage="">A member attribute value is referred using the syntax dimensionName:memberName.AttributeName .</string>
+			<string id="CalculationPage_InvalidSyntaxBangAttribute" type="String" usage="">All member attribute value are referred using the syntax dimensionName.AttributeName .</string>
+			<string id="CalculationPage_InvalidSyntaxItemMultiMember" type="String" usage="">Only single member reference using the syntax dimensionName:memberName is supported.</string>
+			<string id="CalculationPage_UnmappedSrcSCalc" type="String" usage="">Link containing unmapped source dimension cannot be used in expression which target string cells.</string>
+			<string id="CalculationPage_ManyToOneMapping" type="String" usage="">When the link contains a correspondence that maps to more than one target member, one or more many-to-one mapping is not allowed.</string>
+			<string id="CalculationPage_InvalidContextAreaTargetMapping" type="String" usage="">The member {0} of dimension {1}, selected in the context area is not mapped to a source dimension member in the link.</string>
+			<string id="CalculationPage_InvalidContextAreaTargetSelection" type="String" usage="">The member {0} of dimension {1}, selected in the context area is not selected in the link.</string>
+			<string id="CalculationPage_NotAllNumericMemberMapped" type="String" usage="">Number formatted member {0} of dimension {1} selected in the context area is not mapped in the link.</string>
+			<string id="CalculationPage_NotAllTextMemberMapped" type="String" usage="">Text formatted member {0} of dimension {1} selected in the context area is not mapped in the link.</string>
+			<string id="CalculationPage_InvalidMappingNumberToText" type="String" usage="">Text formatted member {0} of dimension {1} selected in the context area is mapped to a numeric formatted member.</string>
+			<string id="CalculationPage_InvalidMappingTextToNumber" type="String" usage="">Number formatted member {0} of dimension {1} selected in the context area is mapped to a text formatted member.</string>
+			<string id="CalculationPage_InvalidOnlyDimension" type="String" usage="">All members of a dimension can be referred only in a condition or in a function which accept dimension as its input.</string>
+			<string id="CalculationPage_TimeFunctionsNotAllowed" type="String" usage="">Time based functions are not allowed in an expression if the target area contains member of the time dimension.</string>
+			<string id="CalculationPage_MissingTimeDimension" type="String" usage="">Time based functions are not allowed in an expression, if the dimension of type Time is not in a cube.</string>
+			<string id="CalculationPage_MissingTimeDimensionAggregation" type="String" usage="">Time based aggregation are not allowed in an expression, if the dimension of type Time is not in a cube.</string>
+			<string id="CalculationPage_NCalcForConsolidatedMember" type="String" usage="">Leaf-level expressions only apply to leaf-level members. A consolidated member cannot have a leaf-level expression defined.</string>
+			<string id="CalculationPage_AggregationNSCalc" type="String" usage="">Aggregation function cannot be used when the calculation type is N: and S:</string>
+			<string id="CalculationPage_CalcTypeNumericCalcReturnStringTargetNumericUndefined" type="String" usage="">Leaf level expression cannot return string value.</string>
+			<string id="CalculationPage_CalcTypeNumericCalcReturnNumericTargetString" type="String" usage="">Leaf level expression return numeric value, but the context area contains only text formatted cells.</string>
+			<string id="CalculationPage_CalcTypeNumericCalcReturnStringUndefinedTargetString" type="String" usage="">Leaf level expression cannot return string value and the context area cannot contain only text formatted cells.</string>
+			<string id="CalculationPage_CalcTypeStringCalcReturnNumericTargetStringUndefined" type="String" usage="">String expression cannot return numeric value.</string>
+			<string id="CalculationPage_CalcTypeStringCalcReturnStringTargetNumeric" type="String" usage="">String expression return string value, but the context area contains only number formatted cells.</string>
+			<string id="CalculationPage_CalcTypeStringCalcReturnNumericUndefinedTargetNumeric" type="String" usage="">String expression cannot return numeric value and the context area cannot contain only number formatted cells.</string>
+			<string id="CalculationPage_CannotUseFunctionAsInput" type="String" usage="">A function cannot be passed as an input argument.</string>
+			<string id="CalculationPage_LagZeroPadding" type="String" usage="">Zero is the only permitted numeric pad value.</string>
+			<string id="CalculationPage_NoStringReturnForConsolidatedMember" type="String" usage="">Consolidated level expression cannot return string value.</string>
+			<string id="CalculationPage_MustBeANumber" type="String" usage="">Must be a literal number</string>
+			<string id="SecurityRuleRegion_DefaultSecurityRegionHeader" type="String" usage="">Default Security for {0}</string>
+			<string id="SecurityRuleRegion_ThisCellRegionHeader" type="String" usage="">Set access to {0} on this cell {1}</string>
+			<string id="SecurityRuleRegion_AllCellsExceptThisRegionHeader" type="String" usage="">Set access to {0} for all others except this cell {1}</string>
+			<string id="SecurityRuleRegion_ThisMemberAllGroupsRegionHeader" type="String" usage="">Set access to {0} for all groups on member {1}</string>
+			<string id="SecurityRuleRegion_AllMemberExceptThisAllGroupsRegionHeader" type="String" usage="">Set access to {0} for all groups except on member {1}</string>
+			<string id="MemberCalcRuleSection_RegionHeader" type="String" usage="">Dimension:{0}, Member:{1}</string>
+			<string id="CalcRuleSection_RegionHeader" type="String" usage="">Dimension:{0}</string>
+			<string id="AutoFeedersSection_RegionHeader" type="String" usage="">Automatically generated feeders</string>
+			<string id="CubeCellCalcRuleSection_RegionHeader" type="String" usage="">Cube:{0}</string>
+			<string id="CellCalcRuleSection_RegionHeader" type="String" usage="">CubeCalculation:{0}</string>
+			<string id="MetricStrategyCopyRuleSection_RegionHeader" type="String" usage="">Cube:{0}</string>
+			<string id="MetricStrategyCCALCRuleSection_RegionHeader" type="String" usage="">Dimension:{0}</string>
+			<string id="MetricStrategyStatusRuleSection_RegionHeader" type="String" usage="">Dimension:{0}, Member:{1}</string>
+			<string id="CalculationPage_UnmappedSrcMultiSelectAggFunction" type="String" usage="">Link contains unmapped source dimension {0} with more than one member selection.</string>
+			<string id="DerivedMetricRuleSection_RegionHeader" type="String" usage="">Dimension:{0}, Subset:{1}</string>
+			<string id="CalculationPage_AggregationLookupAccumulation" type="String" usage="">Lookup and Accumulation link type are not allowed in aggregation function.</string>
+			<string id="RuleDeployment_GeneratingRuleForCube" type="String" usage="">Generating Rule For Cube ''{0}''...</string>
+			<string id="RuleDeployment_GeneratingFeeders" type="String" usage="">Generating Feeders...</string>
+			<string id="RuleDeployment_DeployingRules" type="String" usage="">Deploying Rules...</string>
+		</section>
+	</component>
+</stringTable>
+<!-- UFRID:FD983CC2-69DE-4931-89FC-27C041CDBBA3 -->

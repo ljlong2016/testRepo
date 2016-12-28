@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ IBM Confidential
+
+ OCO Source Materials
+
+ BI and PM: cogdesktop
+
+ (C) Copyright IBM Corp. 2008, 2009, 2010, 2011
+
+ The source code for this program is not published or otherwise
+ divested of its trade secrets, irrespective of what has been
+ deposited with the U.S. Copyright Office.
+-->
+<!--
+ AUTO-GENERATED MSGSDK - NOT TO BE MANUALLY EDITED
+
+ This file was generated using prepare_msgsdk.py and should be updated using the same script.
+
+ The strings contained in this document are based on definitions found in the plugin.properties,
+ OSG-INF/bundle.properties and messages.properties files.
+
+ You may edit or add string definition attributes but not add/delete/modify strings as any such
+ changes will be undone when the auto-generation runs again.
+-->
+<stringTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CCLMessageFile.xsd" localization="Product Locale" usage="Message source for CCLMessageFramework">
+	<component name="pna">
+		<section name="pna" type="UI">
+			<string id="CognosDesktop_ExceptionMsg" type="String" usage="">An exception has occurred. Check the log file for details.</string>
+			<string id="CognosDesktop_ErrorDialogTitle" type="String" usage="">Error</string>
+			<string id="CognosDesktop_SevereErrorMsg" type="String" usage="">A severe error has occurred and the application needs to be closed.</string>
+			<string id="Application_Personal_License" type="String" usage="">IBM Cognos Insight Personal Edition is licensed for private, non-commercial use only.  Please contact your administrator to access this server.</string>
+			<string id="PersonalEditionExpiredDialog_1" type="String" usage="">Your 30 day trial period has expired.</string>
+			<string id="PersonalEditionExpiredDialog_2" type="String" usage="">Click the "Buy Now" button to upgrade and learn more about the additional capabilities you get with a full use license.</string>
+			<string id="PersonalEditionExpiredDialog_BuyNow" type="String" usage="">Buy Now</string>
+			<string id="PersonalEditionExpiredDialog_Cancel" type="String" usage="">Cancel</string>
+			<string id="PersonalEditionExpiredDialog_title" type="String" usage="">IBM Cognos Insight Personal Edition - For non-commercial use only</string>
+			<string id="PersonalEditionReminderDialog_title" type="String" usage="">IBM Cognos Insight Personal Edition - For non-commercial use only</string>
+			<string id="PersonalEditionReminderDialog_1" type="String" usage="">Click the &lt;a&gt;Buy Now&lt;/a&gt; button to upgrade to a full use license, which provides the following capabilities:</string>
+			<string id="PersonalEditionReminderDialog_2" type="String" usage="">- share Cognos Insight files with other users</string>
+			<string id="PersonalEditionReminderDialog_BuyNow" type="String" usage="">Buy Now</string>
+			<string id="PersonalEditionReminderDialog_Continue" type="String" usage="">Continue</string>
+			<string id="PersonalEditionReminderDialog_3" type="String" usage="">- access to additional data sources</string>
+			<string id="PersonalEditionReminderDialog_4" type="String" usage="">- technical support (12 month renewal)</string>
+			<string id="PersonalEditionReminderDialog_5" type="String" usage="">- commercial use rights</string>
+			<string id="CognosDesktop_StartupLocationMsg" type="String" usage="">Cognos Insight startup application home path:{0}</string>
+			<string id="CognosDesktop_InvalidStartupLocationCreateMsg" type="String" usage="">The application home path for Cognos Insight does not exist and the path can not be created. &#10;Verify that you have the proper permissions to create the path. &#10;The application home path is as follows:{0}</string>
+			<string id="CognosDesktop_InvalidStartupLocationReadMsg" type="String" usage="">You do not have read access to the application home path for Cognos Insight. &#10;The application home path is as follows:{0}</string>
+			<string id="CognosDesktop_InvalidStartupLocationWriteMsg" type="String" usage="">You do not have write access to the application home path for Cognos Insight. &#10;The application home path is as follows:{0}</string>
+			<string id="CognosDesktop_InvalidStartupLocationDirMsg" type="String" usage="">The application home path for Cognos Insight is not a directory . &#10;Verify that the following path is correct:{0}</string>
+			<string id="CognosDesktop_InvalidStartupLocationUnknownMsg" type="String" usage="">The application home path for Cognos Insight cannot be verified. &#10;The application home path is as follows:{0}</string>
+			<string id="CognosDesktop_InvalidStartupLocationTitle" type="String" usage="">Application Startup Error</string>
+			<string id="CognosDesktop_InvalidStartupLocationEmptyMsg" type="String" usage="">The application home path for Cognos Insight has been specified as an empty value. &#10;You must specify a value for the path.</string>
+			<string id="CognosDesktop_InvalidStartupLocationNotAbsoluteMsg" type="String" usage="">The application home path for Cognos Insight is a relative path. Relative paths are not supported. &#10;The application home path is as follows:{0}</string>
+			<string id="SplashHandler_ProductVersion" type="String" usage="">IBM® Planning Analytics 2.0</string>
+			<string id="SplashHandler_ProductName" type="String" usage="">IBM® Cognos® Insight</string>
+			<string id="SplashHandler_CopyrightInfo" type="String" usage="">Licensed Materials - Property of IBM Corp. © Copyright IBM Corporation and other(s) 2005, 2016. IBM, the IBM logo, ibm.com and Cognos are trademarks or registered trademarks of International Business Machines Corp., registered in many jurisdictions worldwide. A current list of IBM trademarks is available on the Web at www.ibm.com/legal/copytrade.shtml. Built on Eclipse is a trademark of Eclipse Foundation, Inc. Java and all Java-based trademarks and logos are trademarks or registered trademarks of Oracle and/or its affiliates. Other product and service names might be trademarks of IBM or other companies. This Program is licensed under the terms of the license agreement accompanying the Program. This license agreement may be either located in a Program directory folder or library identified as “License” or “Non_IBM_License”, if applicable, or provided as a printed license agreement. Please read this agreement carefully before using the Program. By using the Program, licensee agrees to these terms.  If you are using the Program on behalf of licensee, you represent and warrant either that licensee has accepted these terms or that you have full authority to bind licensee to these terms.US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.</string>
+		</section>
+	</component>
+</stringTable>
+<!-- UFRID:AED9248F-56EC-488C-9EB3-ABFADC7F976E -->

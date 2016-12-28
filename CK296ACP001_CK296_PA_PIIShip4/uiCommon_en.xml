@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ IBM Confidential
+
+ OCO Source Materials
+
+ BI and PM: cogdesktop
+
+ (C) Copyright IBM Corp. 2008, 2009, 2010, 2011
+
+ The source code for this program is not published or otherwise
+ divested of its trade secrets, irrespective of what has been
+ deposited with the U.S. Copyright Office.
+-->
+<!--
+ AUTO-GENERATED MSGSDK - NOT TO BE MANUALLY EDITED
+
+ This file was generated using prepare_msgsdk.py and should be updated using the same script.
+
+ The strings contained in this document are based on definitions found in the plugin.properties,
+ OSG-INF/bundle.properties and messages.properties files.
+
+ You may edit or add string definition attributes but not add/delete/modify strings as any such
+ changes will be undone when the auto-generation runs again.
+-->
+<stringTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CCLMessageFile.xsd" localization="Product Locale" usage="Message source for CCLMessageFramework">
+	<component name="pna">
+		<section name="pna" type="UI">
+			<string id="sidebar.content.title" type="String" usage="">Content</string>
+			<string id="sidebar.content.tabLabel" type="String" usage="">Content</string>
+			<string id="sidebar.content.tooltip" type="String" usage="">Content items</string>
+			<string id="sidebar.toolbox.title" type="String" usage="">Tools</string>
+			<string id="sidebar.toolbox.tabLabel" type="String" usage="">Toolbox</string>
+			<string id="sidebar.toolbox.tooltip" type="String" usage="">Toolbox items</string>
+			<string id="dashboard_not_empty_dialog_msg" type="String" usage="">is not empty. Are you sure you want to delete?</string>
+			<string id="label_get_data" type="String" usage="">Get Data</string>
+			<string id="copy_workspace" type="String" usage="">Copy as Image to Clipboard</string>
+			<string id="title_customize_widget" type="String" usage="">Edit Widget Style...</string>
+			<string id="new_project_title" type="String" usage="">New Workspace</string>
+			<string id="paste_into_workspace" type="String" usage="">Paste Files into Workspace</string>
+			<string id="contributor_widget_type" type="String" usage="">com.ibm.cdt.ui.widgets.contributorview</string>
+			<string id="bg_color_widget_tab_title" type="String" usage="">Widget</string>
+			<string id="customize_the_widget" type="String" usage="">Customize Widget Style</string>
+			<string id="file_dialog_extension_cdd" type="String" usage="">*.cdd</string>
+			<string id="file_dialog_extension_cdd_description" type="String" usage="">IBM Cognos Insight Workspaces (*.cdd)</string>
+			<string id="file_dialog_extension_csv" type="String" usage="">*.csv</string>
+			<string id="file_dialog_extension_csv_description" type="String" usage="">Comma-separated values (*.csv)</string>
+			<string id="file_dialog_extension_xls" type="String" usage="">*.xls</string>
+			<string id="file_dialog_extension_xls_description" type="String" usage="">Microsoft Excel (*.xls)</string>
+			<string id="file_dialog_extension_xlsx" type="String" usage="">*.xlsx</string>
+			<string id="file_dialog_extension_xlsx_description" type="String" usage="">Microsoft Excel 2007/2010 (*.xlsx)</string>
+			<string id="file_dialog_extension_quick_import" type="String" usage="">*.csv;*.txt;*.xls;*.xlsx;*.asc;*.tab;*.cma</string>
+			<string id="file_dialog_extension_quick_import_description" type="String" usage="">All import files (*.csv, *.txt, *.xls, *.xlsx, *.asc, *.tab, *.cma, *.report)</string>
+			<string id="file_dialog_extension_any" type="String" usage="">*.*</string>
+			<string id="file_dialog_extension_any_description" type="String" usage="">All Files (*.*)</string>
+			<string id="file_dialog_extension_png" type="String" usage="">*.png</string>
+			<string id="file_dialog_extension_png_description" type="String" usage="">PNG image (*.png)</string>
+			<string id="file_dialog_extension_gif" type="String" usage="">*.gif</string>
+			<string id="file_dialog_extension_gif_description" type="String" usage="">GIF image (*.gif)</string>
+			<string id="file_dialog_extension_bmp" type="String" usage="">*.bmp</string>
+			<string id="file_dialog_extension_bmp_description" type="String" usage="">BMP image (*.bmp)</string>
+			<string id="file_dialog_extension_jpg" type="String" usage="">*.jpg;*.jpeg;*.jpe</string>
+			<string id="file_dialog_extension_jpg_description" type="String" usage="">JPEG image (*.jpg, *.jpeg, *.jpe)</string>
+			<string id="file_dialog_extension_images_all" type="String" usage="">*.png;*.gif;*.bmp;*.jpg;*.jpeg;*.jpe</string>
+			<string id="file_dialog_extension_images_all_description" type="String" usage="">All images (*.png, *.gif, *.bmp, *.jpg, *.jpeg, *.jpe)</string>
+			<string id="error_missing_menu_action" type="String" usage="">ERROR:Missing menu action {0}</string>
+			<string id="error_missing_toolbar_action" type="String" usage="">ERROR:Missing toolbar action {0}</string>
+			<string id="error_command_handler" type="String" usage="">ERROR:Command handler failed</string>
+			<string id="error_sidebar_contributor" type="String" usage="">ERROR:Sidebar contributor {0} is not valid</string>
+			<string id="bg_color_reset_to_default" type="String" usage="">Reset widget settings</string>
+			<string id="confirm_save_changes" type="String" usage="">Do you want to save the changes to {0}?</string>
+			<string id="confirm_save_overwrite" type="String" usage="">A file with this name {0} already exists. &#10;Do you want to replace the existing file?</string>
+			<string id="info_save_changes" type="String" usage="">You must save the workspace before publishing it. Do you want to save the workspace and continue to publish?</string>
+			<string id="fail_create_workspace" type="String" usage="">Unable to create the workspace: {0}</string>
+			<string id="fail_delete_workspace" type="String" usage="">Unable to delete the workspace: {0}</string>
+			<string id="fail_create_widget" type="String" usage="">Unable to create a new widget</string>
+			<string id="fail_data_save_operation_on_open_project" type="String" usage="">Unable to save data to the workspace: {0}. &#10;Do you want to continue opening another workspace?</string>
+			<string id="fail_data_save_operation_on_new_project" type="String" usage="">Unable to save data to the workspace: {0}. &#10;Do you want to continue creating another workspace?</string>
+			<string id="fail_data_save_operation_on_close_project" type="String" usage="">Unable to save data to the workspace: {0}. &#10;Do you want to continue closing the workspace?</string>
+			<string id="sidebar_button" type="String" usage="">Content</string>
+			<string id="edit_widget_action_tooltip" type="String" usage="">Access advanced editing actions</string>
+			<string id="maximize_widget_action_tooltip" type="String" usage="">Maximize this widget</string>
+			<string id="restore_widget_action_tooltip" type="String" usage="">Restore this widget</string>
+			<string id="redo_action_tooltip" type="String" usage="">Redo</string>
+			<string id="undo_action_tooltip" type="String" usage="">Undo</string>
+			<string id="on_demand_blue_dot_action_tooltip" type="String" usage="">Widget actions</string>
+			<string id="sidebar_button_opened_info" type="String" usage="">Close content pane</string>
+			<string id="sidebar_button_closed_info" type="String" usage="">View content pane</string>
+			<string id="filter_button_hide_info" type="String" usage="">Hide filter</string>
+			<string id="message_box_details_title" type="String" usage="">Details</string>
+			<string id="message_box_default_title_for_error" type="String" usage="">IBM Cognos Insight</string>
+			<string id="message_box_default_title_for_warning" type="String" usage="">IBM Cognos Insight</string>
+			<string id="message_box_default_title_for_info" type="String" usage="">IBM Cognos Insight</string>
+			<string id="message_box_default_title_for_confirm" type="String" usage="">IBM Cognos Insight</string>
+			<string id="select_tab" type="String" usage="">Select Tab</string>
+			<string id="dialog_ok_label" type="String" usage="">OK</string>
+			<string id="dialog_yes_label" type="String" usage="">Yes</string>
+			<string id="dialog_no_label" type="String" usage="">No</string>
+			<string id="dialog_cancel_label" type="String" usage="">Cancel</string>
+			<string id="wizard_back" type="String" usage="">&lt; Back</string>
+			<string id="wizard_next" type="String" usage="">Next &gt;</string>
+			<string id="wizard_cancel" type="String" usage="">Cancel</string>
+			<string id="wizard_finish" type="String" usage="">Finish</string>
+			<string id="start_page_label_product" type="String" usage="">IBM Cognos Insight</string>
+			<string id="start_page_button_create_new" type="String" usage="">Create a workspace</string>
+			<string id="start_page_button_open_existing" type="String" usage="">Open a workspace</string>
+			<string id="start_page_label_recent" type="String" usage="">Open a recent workspace</string>
+			<string id="start_page_label_getting_started" type="String" usage="">Start analyzing now</string>
+			<string id="start_page_label_quickimport" type="String" usage="">Quick Import...</string>
+			<string id="start_page_label_no_mru" type="String" usage="">Your saved projects appear here.</string>
+			<string id="start_page_getting_started_content" type="String" usage="">To get started, you can drag and drop a simple tabular spreadsheet (.xls, .csv, .xlsx).</string>
+			<string id="acessible_action_press" type="String" usage="">press</string>
+			<string id="acessible_action_execute" type="String" usage="">execute</string>
+			<string id="error_creating_widget" type="String" usage="">Unable to create the widget: {0}.</string>
+			<string id="error_file_not_found" type="String" usage="">The file was not found.</string>
+			<string id="error_invalid_filename" type="String" usage="">The file name is not valid.</string>
+			<string id="unexpected_error" type="String" usage="">Unexpected error. Contact your system administrator.</string>
+			<string id="choose_report_dialog_label" type="String" usage="">Navigate the folders to find the report to import.</string>
+			<string id="choose_report_dialog_title" type="String" usage="">Select an IBM Cognos Report to Import</string>
+			<string id="fg_color_label" type="String" usage="">Foreground Color :</string>
+			<string id="cognos_report_cancel_execution_dialog_title" type="String" usage="">Import from a Cognos Report</string>
+			<string id="cognos_report_cancel_execution_dialog_label" type="String" usage="">Loading data...</string>
+			<string id="cognos_report_import_result" type="String" usage="">IBM Cognos report import result</string>
+			<string id="cognos_report_run_failed" type="String" usage="">Unable to run the IBM Cognos report. Confirm that the report can be run from IBM Cognos Connection.</string>
+			<string id="cognos_report_run_timed_out" type="String" usage="">Unable to run the IBM Cognos report. The report timed out.</string>
+			<string id="cognos_report_import_failed_general" type="String" usage="">Unable to import the IBM Cognos report. Contact your system administrator.</string>
+			<string id="CognosDesktop_Distributed" type="String" usage="">Distributed</string>
+			<string id="CognosDesktop_Connected" type="String" usage="">Connected</string>
+			<string id="deploy_invalid_username_password" type="String" usage="">Note: Unable to connect using the specified user name and password. Re-enter your user name and password.</string>
+			<string id="deploy_name_empty" type="String" usage="">Note: The application name is empty. Enter a valid name.</string>
+			<string id="deploy_name_has_invalid_chars" type="String" usage="">Note: The application name contains characters that are not supported. The following characters are not supported: * &lt; &gt; " \ / . :  &#10;Enter a new name that does not contain these characters.</string>
+			<string id="deploy_duplicate_application_name" type="String" usage="">Note: An application with this name already exists. Enter a new name for the application.</string>
+			<string id="deploy_approval_dim_not_set" type="String" usage="">Note: The approval dimension has not been specified. Select an approval dimension from a cube in the workspace. If the list of dimensions is empty, add a cube to the workspace.</string>
+			<string id="label_enable_ondemand_toolbar" type="String" usage="">Unlock Widget</string>
+			<string id="label_disable_ondemand_toolbar" type="String" usage="">Lock Widget</string>
+			<string id="label_show_auto_filter" type="String" usage="">View Explore Pane</string>
+			<string id="label_hide_auto_filter" type="String" usage="">Hide Explore Pane</string>
+			<string id="label_delete_widget" type="String" usage="">Remove from Workspace</string>
+			<string id="label_resize_widget" type="String" usage="">Resize</string>
+			<string id="label_move_widget" type="String" usage="">Move</string>
+			<string id="label_add_button" type="String" usage="">Add</string>
+			<string id="label_delete_button" type="String" usage="">Delete</string>
+			<string id="label_replace_button" type="String" usage="">Replace</string>
+			<string id="label_set_background_color" type="String" usage="">Set Background Color</string>
+			<string id="label_reset_background_color" type="String" usage="">Reset Background Color</string>
+			<string id="label_set_foreground_color" type="String" usage="">Set Font Color</string>
+			<string id="label_reset_foreground_color" type="String" usage="">Reset Font Color</string>
+			<string id="dnd_unsupported_title" type="String" usage="">IBM Cognos Insight</string>
+			<string id="dnd_unsupported_file" type="String" usage="">Unable to open the file because either the file format is not supported or Cube Import is not enabled.</string>
+			<string id="customize_dashboard_dialog_title" type="String" usage="">Apply Workspace Theme</string>
+			<string id="customize_widget_dialog_title" type="String" usage="">Edit Widget Style</string>
+			<string id="customize_dashboard_dialog_reset_all_confirm" type="String" usage="">Do you want to reset all custom settings to the default values for the theme?</string>
+			<string id="specify_widget_color_settings" type="String" usage="">Specify the color settings for the widgets</string>
+			<string id="bg_color_first_tab_title" type="String" usage="">Workspace</string>
+			<string id="bg_color_preview_label" type="String" usage="">Preview</string>
+			<string id="bg_color_reset_to_default_button" type="String" usage="">Reset all settings to default</string>
+			<string id="bg_color_specify_bg_color" type="String" usage="">Specify workspace background color</string>
+			<string id="bg_color_label" type="String" usage="">Background Color :</string>
+			<string id="bg_color_second_tab_title" type="String" usage="">Widgets</string>
+			<string id="bg_color_select_dialog_title" type="String" usage="">Choose Color</string>
+			<string id="bg_color_set_option" type="String" usage="">Set Color...</string>
+			<string id="bg_color_none_option" type="String" usage="">None</string>
+			<string id="bg_image_select_dialog_title" type="String" usage="">Choose Image</string>
+			<string id="customize_free_form_layout" type="String" usage="">Free-form Layout</string>
+			<string id="customize_auto_layout" type="String" usage="">Auto Layout</string>
+			<string id="customize_set_layout_management" type="String" usage="">Select preferred Layout management setting</string>
+			<string id="label_set_background_Image" type="String" usage="">Set Tab Background Image</string>
+			<string id="label_set_background_Color" type="String" usage="">Set Tab Background Color</string>
+			<string id="insert_menu_actions" type="String" usage="">Insert Widget</string>
+			<string id="bg_color_specify_widget_fg_color" type="String" usage="">Specify global widgets' foreground color</string>
+			<string id="EditWorkspaceStyleAction_EditWorkspaceStyle" type="String" usage="">Apply Workspace Theme...</string>
+			<string id="set_preferences_title" type="String" usage="">Set Preferences</string>
+			<string id="set_preferences_cognos_systems" type="String" usage="">IBM Cognos Systems</string>
+			<string id="set_preferences_system_gateway" type="String" usage="">System gateway URI:</string>
+			<string id="set_preferences_system_type" type="String" usage="">System type:</string>
+			<string id="set_preferences_button_add" type="String" usage="">Add</string>
+			<string id="set_preferences_button_replace" type="String" usage="">Replace</string>
+			<string id="set_preferences_button_delete" type="String" usage="">Delete</string>
+			<string id="set_preferences_system_table_column_system" type="String" usage="">System</string>
+			<string id="set_preferences_system_table_column_type" type="String" usage="">Type</string>
+			<string id="set_preferences_uri_valid_tooltip" type="String" usage="">Valid URI</string>
+			<string id="set_preferences_uri_invalid_tooltip" type="String" usage="">Invalid URI</string>
+			<string id="set_preferences_system_gateway_uri_valid_message" type="String" usage="">System gateway URI. URI is valid. {0}. Enter a valid gateway URI into text input area or select from the system list view. To select a system from the list view, tab to the list view, use arrow keys to navigate the list, then press ENTER to select a system."</string>
+			<string id="set_preferences_system_gateway_uri_invalid_message" type="String" usage="">System gateway URI. URI is invalid. {0}. Enter a valid gateway URI into text input area or select from the system list view. To select a system from the list view, tab to the list view, use arrow keys to navigate the list, then press ENTER to select a system."</string>
+			<string id="error_message_no_tm1_servers_found" type="String" usage="">No IBM Cognos TM1 Servers found.</string>
+			<string id="StyleDialog_Browse" type="String" usage="">Browse...</string>
+			<string id="StyleDialog_Preview" type="String" usage="">Preview</string>
+			<string id="StyleDialog_Reset" type="String" usage="">Reset to Style</string>
+			<string id="StyleDialog_ResetToDefault" type="String" usage="">Reset to Default</string>
+			<string id="StyleDialog_Style" type="String" usage="">Theme</string>
+			<string id="StyleDialog_WidgetFgColor" type="String" usage="">Widget foreground color</string>
+			<string id="StyleDialog_SelectTheme" type="String" usage="">Select or browse for a theme file</string>
+			<string id="StyleDialog_CustomTheme" type="String" usage="">\ (Custom)</string>
+			<string id="loading_project" type="String" usage="">Loading...</string>
+			<string id="Watermark_0" type="String" usage="">IBM Cognos Insight Personal Edition is licensed for your personal, non-commercial use only.</string>
+			<string id="WidgetDropListener_ImportingCube" type="String" usage="">Importing Cube Is In Progress...</string>
+			<string id="WidgetDropListener_ErrorProcessingFiles" type="String" usage="">Error Occurred While Processing Files</string>
+			<string id="WidgetDropListener_Error" type="String" usage="">Error</string>
+			<string id="ConnectToGatewayDialog_ConnectingToGateway" type="String" usage="">Connecting to gateway</string>
+			<string id="text_widget_type" type="String" usage="">com.ibm.cdt.ui.widgets.text.widget</string>
+			<string id="image_widget_type" type="String" usage="">com.ibm.cdt.ui.widget.image.widget</string>
+			<string id="actionbutton_widget_type" type="String" usage="">com.ibm.cdt.ui.widgets.actionbutton</string>
+			<string id="olap_widget_type" type="String" usage="">com.ibm.cdt.ui.widgets.olapview</string>
+			<string id="browser_widget_type" type="String" usage="">com.ibm.cdt.ui.widget.browser.widget</string>
+			<string id="facet_widget_type" type="String" usage="">com.ibm.cdt.ui.widgets.facetcontrol</string>
+			<string id="text_widget_name" type="String" usage="">Text Widget</string>
+			<string id="image_widget_name" type="String" usage="">Image Widget</string>
+			<string id="actionbutton_widget_name" type="String" usage="">Action Button Widget</string>
+			<string id="olap_widget_name" type="String" usage="">OLAP Cube View Widget</string>
+			<string id="browser_widget_name" type="String" usage="">Browser Widget</string>
+			<string id="facet_widget_name" type="String" usage="">Facet Control Widget</string>
+			<string id="contributor_widget_name" type="String" usage="">Contributor View Widget</string>
+			<string id="blue_button_accessibility_info" type="String" usage="">. Use the arrow keys to reach buttons in toolbar.</string>
+			<string id="StyleAction_Choose" type="String" usage="">...</string>
+			<string id="StyleAction_BrowseWorkspaceBackgroundImage" type="String" usage="">Browse for Workspace Background Image</string>
+			<string id="StyleAction_ChooseWorkspaceBackgroundColor" type="String" usage="">Choose Workspace Background Color</string>
+			<string id="StyleAction_ChooseWidgetBackgroundColor" type="String" usage="">Choose Widget Background Color</string>
+			<string id="StyleAction_ChooseWidgetForegroundColor" type="String" usage="">Choose Widget Foreground Color</string>
+			<string id="StyleAction_DefaultColor" type="String" usage="">Set Default Color</string>
+			<string id="StyleAction_DefaultImage" type="String" usage="">Set Default Image</string>
+			<string id="StyleAction_BrowseBackgroundImage" type="String" usage="">Set Image...</string>
+			<string id="StyleAction_ChooseBackgroundColor" type="String" usage="">Set Color...</string>
+			<string id="StyleAction_ChooseForegroundColor" type="String" usage="">Choose Foreground color</string>
+			<string id="StyleAction_DefaultWorkspaceBackgroundColor" type="String" usage="">Set Workspace Background Color to Default Value</string>
+			<string id="StyleAction_DefaultWorkspaceBackgroundImage" type="String" usage="">Set Workspace Background Image to Default Value</string>
+			<string id="StyleAction_DefaultWidgetBackgroundColor" type="String" usage="">Set Widget Background Color to Default Value</string>
+			<string id="StyleAction_DefaultWidgetForegroundColor" type="String" usage="">Set Widget Foreground Color to Default Value</string>
+			<string id="StyleAction_RemoveColor" type="String" usage="">Remove Background Color</string>
+			<string id="StyleAction_RemoveImage" type="String" usage="">Remove Background Image</string>
+			<string id="StyleAction_RemoveWorkspaceBackgroundColor" type="String" usage="">Remove Current Workspace Background Color</string>
+			<string id="StyleAction_RemoveWorkspaceBackgroundImage" type="String" usage="">Remove Current Workspace Background Image</string>
+			<string id="error_connecting_tm1_server" type="String" usage="">Error connecting to the Cognos TM1 server: {0}.</string>
+			<string id="error_insight_metadata_refresh" type="String" usage="">Cognos Insight will now refresh</string>
+			<string id="error_tm1_metadata" type="String" usage="">The model on the Cognos TM1 server has changed: {0}.</string>
+			<string id="error_insight_closing" type="String" usage="">Cognos insight will now close</string>
+			<string id="planning_connection_failure_message" type="String" usage="">Unable to communicate with planning server: {0}.</string>
+			<string id="error_insight_resarting" type="String" usage="">Cognos insight will now restart</string>
+			<string id="unable_to_perform_action" type="String" usage="">The operation can not be completed. {0}</string>
+			<string id="error_insight_closing_tm1_connection" type="String" usage="">Cognos insight will now close the connection to TM1</string>
+			<string id="error_server_not_found" type="String" usage="">The server not found.</string>
+			<string id="error_service_host_not_found" type="String" usage="">The service URL cannnot be reached.</string>
+			<string id="label_on_empty_dashboard" type="String" usage="">Drag spreadsheets onto the canvas and start working with your data.</string>
+			<string id="deploy_confirm_replacing_existing_application" type="String" usage="">The planning application {0} already exists.&#10;Do you want to replace the existing application?</string>
+			<string id="enter_node_failure_message" type="String" usage="">Failed to enter node ID "{0}" of application ID "{1}":&#10;{2}</string>
+			<string id="leave_node_failure_message" type="String" usage="">Failed to leave node ID "{0}" of application ID "{1}":&#10;{2}</string>
+			<string id="loading_TM1_progress_message" type="String" usage="">Loading Resources</string>
+			<string id="set_focus_on_widgetframe_error" type="String" usage="">Error! could not set display focus on widget</string>
+			<string id="lock_all_widgets" type="String" usage="">Lock All Widgets</string>
+			<string id="unlock_all_widgets" type="String" usage="">Unlock All Widgets</string>
+			<string id="send_widget_to_back" type="String" usage="">Send to Back</string>
+			<string id="send_widget_to_back_tooltip" type="String" usage="">Send this widget behind all other widgets</string>
+			<string id="connecting_to_remote_application" type="String" usage="">Connecting to the Remote Application</string>
+			<string id="start_page_button_create_new2" type="String" usage="">Click here to create a</string>
+			<string id="start_page_button_create_new3" type="String" usage="">workspace</string>
+			<string id="start_page_button_open_existing2" type="String" usage="">Click here to open a</string>
+			<string id="start_page_button_open_existing3" type="String" usage="">workspace</string>
+			<string id="start_page_label_theme" type="String" usage="">Create a workspace from a theme</string>
+			<string id="start_page_label_drop" type="String" usage="">Drag and drop your files here</string>
+			<string id="start_page_drop_files" type="String" usage="">Drag and drop your files (xls, csv...) here</string>
+			<string id="start_page_label_quickimport2" type="String" usage="">Click here to import data into</string>
+			<string id="start_page_label_quickimport3" type="String" usage="">a workspace</string>
+			<string id="CopyWidgetAction_Copy" type="String" usage="">Copy Widget</string>
+			<string id="PasteWidgetAction_Paste" type="String" usage="">Paste Widget</string>
+			<string id="EditGlobalStyleAction_EditWorkspaceStyle" type="String" usage="">Edit Workspace Style</string>
+			<string id="ApplyThemeDialog_ChooseTheme" type="String" usage="">Choose a Theme</string>
+			<string id="EditWorkspaceStyleDialog_EditWorkspaceStyle" type="String" usage="">Edit Workspace Style</string>
+			<string id="WorkspaceStyleDialog_Browse" type="String" usage="">Browse...</string>
+			<string id="ResetAllData_action_tooltip" type="String" usage="">Reset All Data</string>
+			<string id="ResetAllDataAction_ConfirmTitle" type="String" usage="">Reset All Data</string>
+			<string id="project_dirty_indicator" type="String" usage="">*</string>
+			<string id="blue_dot_action_tooltip" type="String" usage="">Actions</string>
+			<string id="menu_import_txt" type="String" usage="">Get Data</string>
+			<string id="menu_insert" type="String" usage="">Insert</string>
+			<string id="menu_help_tooltip" type="String" usage="">Need help? Find more information here</string>
+			<string id="style_text" type="String" usage="">Style</string>
+			<string id="style_tooltip" type="String" usage="">Change the appearance of this workspace</string>
+			<string id="menu_customize_view_tooltip" type="String" usage="">Apply Workspace Theme</string>
+			<string id="menu_insert_tooltip" type="String" usage="">Fill your workspace with data and tools</string>
+			<string id="menu_import" type="String" usage="">Get Data</string>
+			<string id="menu_import_tooltip" type="String" usage="">import data from a variety of sources</string>
+			<string id="menu_sendToBack" type="String" usage="">Send to Back</string>
+			<string id="menu_new" type="String" usage="">New</string>
+			<string id="menu_new_tooltip" type="String" usage="">Create new workspace</string>
+			<string id="menu_open" type="String" usage="">Open</string>
+			<string id="menu_open_tooltip" type="String" usage="">Open an existing workspace</string>
+			<string id="menu_save" type="String" usage="">Save</string>
+			<string id="menu_save_tooltip" type="String" usage="">Save this workspace</string>
+			<string id="take_ownership_action" type="String" usage="">Take Ownership</string>
+			<string id="take_ownership_action_tooltip" type="String" usage="">Take Ownership</string>
+			<string id="undo_action" type="String" usage="">Undo</string>
+			<string id="redo_action" type="String" usage="">Redo</string>
+			<string id="submit_action" type="String" usage="">Submit</string>
+			<string id="submit_action_tooltip" type="String" usage="">Submit</string>
+			<string id="submit_children_action" type="String" usage="">Submit elements children</string>
+			<string id="submit_children_action_tooltip" type="String" usage="">Submit elements children</string>
+			<string id="reject_action" type="String" usage="">Reject</string>
+			<string id="reject_action_tooltip" type="String" usage="">Reject</string>
+			<string id="resetData_action" type="String" usage="">Reset All Data</string>
+			<string id="resetData_action_tooltip" type="String" usage="">Reset All Data</string>
+			<string id="Unavailable_Application" type="String" usage="">The application is unavailable. {0}</string>
+			<string id="Inactive_Application" type="String" usage="">The application is inactive. Please contact you System Administrator.</string>
+			<string id="Ownership_Action_UnableToExecute" type="String" usage="">Unable to take ownership.</string>
+			<string id="Submit_Action_UnableToExecute" type="String" usage="">Unable to submit.</string>
+			<string id="Submit_Leaf_Nodes_Action_UnableToExecute" type="String" usage="">Unable submit elements children.</string>
+			<string id="Reject_Action_UnableToExecute" type="String" usage="">Unable to reject.</string>
+			<string id="Commit_Action_UnableToExecute" type="String" usage="">Unable to commit.</string>
+			<string id="Ownership_Confirm" type="String" usage="">This workflow item is currently owned by the user {0}. Do you still want to take ownership?</string>
+			<string id="Ownership_validation_message" type="String" usage="">Take ownership is not allowed due to one or more blocking validations</string>
+			<string id="Ownership_error_confirm" type="String" usage="">One or more validation errors are present. &#10;Do you want to continue and take ownership?</string>
+			<string id="Ownership_Lost" type="String" usage="">Ownership Lost</string>
+			<string id="Ownership_Lost_Details" type="String" usage="">{0} has taken ownership. Some or all of your data may not have been saved.&#10;Please export your data locally to ensure that it is not lost.</string>
+			<string id="submit_validation_message" type="String" usage="">Submit is not allowed due to one or more blocking validations</string>
+			<string id="submit_error_confirm" type="String" usage="">One or more validation errors are present. &#10;Do you want to continue and submit the data?</string>
+			<string id="submit_confirm_message" type="String" usage="">This will lock the data. Do you want to continue and submit the data?</string>
+			<string id="submit_reject_message" type="String" usage="">This will unlock the data and allow it to be edited. Do you want to continue and reject?</string>
+			<string id="ResetAllDataAction_ConfirmMessage" type="String" usage="">All data will be reverted to the last saved version. &#10;Do you want to continue?</string>
+			<string id="CommitDataAction_Text" type="String" usage="">Commit</string>
+			<string id="CommitDataAction_ToolTip" type="String" usage="">Commit your changes</string>
+			<string id="AutoUpdateDialog_RestartRequired" type="String" usage="">A software update is ready to install. IBM Cognos Insight must restart to complete the installation</string>
+			<string id="AutoUpdateDialog_RestartRequiredTitle" type="String" usage="">Software Update Ready to Install</string>
+			<string id="AutoUpdateDialog_RestartRequiredSub" type="String" usage="">Do you want to install and restart now or close and install when you exit?</string>
+			<string id="AutoUpdateDialog_DownloadInProgress" type="String" usage="">A software update is being downloaded.</string>
+			<string id="AutoUpdateDialog_DownloadInProgressTitle" type="String" usage="">Software Update Download in Progress</string>
+			<string id="AutoUpdateDialog_Title" type="String" usage="">Software Update Available</string>
+			<string id="AutoUpdateBadUrl" type="String" usage="">There are no software updates available.</string>
+			<string id="AutoUpdate_Title" type="String" usage="">Software Updates</string>
+			<string id="AutoUpdateDialog_InstallationError" type="String" usage="">The download of the software update has failed.</string>
+			<string id="AutoUpdateDialog_InstallationErrorSub" type="String" usage="">Do you want to retry or cancel the download?</string>
+			<string id="AutoUpdate_InstallationRetry" type="String" usage="">Retry</string>
+			<string id="AutoUpdateDialog_Install" type="String" usage="">Download</string>
+			<string id="AutoUpdate_button_tooltip_installing" type="String" usage="">Software updates downloading: {0}%</string>
+			<string id="AutoUpdate_button_tooltip_error" type="String" usage="">Software download failed</string>
+			<string id="AutoUpdate_button_tooltip_available" type="String" usage="">Software updates available</string>
+			<string id="AutoUpdate_button_tooltip_restart" type="String" usage="">Software updates ready. Restart required</string>
+			<string id="AutoUpdate_button_ally_installing" type="String" usage="">Updates Downloading</string>
+			<string id="AutoUpdate_button_ally_error" type="String" usage="">Download Failed</string>
+			<string id="AutoUpdate_button_ally_available" type="String" usage="">Updates Available</string>
+			<string id="AutoUpdate_button_ally_restart" type="String" usage="">Restart Required</string>
+			<string id="AutoUpdate_ProgressDialog_Checking" type="String" usage="">Checking for software updates.</string>
+			<string id="AutoUpdateDialog_dialogAdvice" type="String" usage="">New software is available from IBM.</string>
+			<string id="AutoUpdateDialog_ExitWarning" type="String" usage="">Do you want to exit and stop the download?</string>
+			<string id="AutoUpdate_InProgress" type="String" usage="">A check for updates is currently in progress.</string>
+			<string id="AutoUpdate_Settings" type="String" usage="">Software Updates</string>
+			<string id="AutoUpdate_Passive" type="String" usage="">Do not notify me of updates</string>
+			<string id="AutoUpdate_Assistive" type="String" usage="">Notify me of updates</string>
+			<string id="AutoUpdate_Assertive" type="String" usage="">Download updates automatically</string>
+			<string id="AutoUpdate_ContinueButton" type="String" usage="">Continue</string>
+			<string id="AutoUpdate_InstallButton" type="String" usage="">Install</string>
+			<string id="AutoUpdate_CloseButton" type="String" usage="">Close</string>
+			<string id="EditPasswordAction_SetPassword" type="String" usage="">Protect Workspace</string>
+			<string id="ConfirmPasswordAction_ConfirmPassword" type="String" usage="">Enter Password</string>
+			<string id="EditPasswordDialog_ProtectFile" type="String" usage="">Protect Workspace</string>
+			<string id="EditPasswordDialog_NoProtection" type="String" usage="">No password protection</string>
+			<string id="EditPasswordDialog_Protection" type="String" usage="">Protect workspace with password</string>
+			<string id="EditPasswordDialog_EnterPassword" type="String" usage="">Enter password</string>
+			<string id="EditPasswordDialog_VerifyPassword" type="String" usage="">Reenter password</string>
+			<string id="EditPasswordDialog_Hint" type="String" usage="">Passwords must be at least 5 characters long and are case-sensitive. &#10;Attention:If you lose or forget the password, it cannot be recovered. Make sure to store passwords in a safe place.</string>
+			<string id="EditPasswordDialog_InvalidPassword" type="String" usage="">Invalid password</string>
+			<string id="EditPasswordDialog_InvalidPassword_Empty" type="String" usage="">Please enter a password</string>
+			<string id="EditPasswordDialog_InvalidVerifyPassword_Empty" type="String" usage="">Please verify the password you have entered</string>
+			<string id="EditPasswordDialog_InvalidPassword_NotMatching" type="String" usage="">The passwords you typed do not match. &#10;Type the same password in both text boxes.</string>
+			<string id="EditPasswordDialog_Password_Changed" type="String" usage="">You have changed the password used to secure your workspace. Do you want to save the new password?</string>
+			<string id="EditPasswordDialog_Save_Confirmation" type="String" usage="">This action will save the workspace. Do you want to continue?</string>
+			<string id="ConfirmPasswordDialog_ProtectFile" type="String" usage="">Enter Password</string>
+			<string id="ConfirmPasswordDialog_EnterPassword" type="String" usage="">Enter password to open the workspace</string>
+			<string id="ConfirmPasswordDialog_InvalidPassword" type="String" usage="">Invalid Password</string>
+			<string id="ConfirmPasswordDialog_InvalidPassword_Msg" type="String" usage="">The wrong password has been entered.</string>
+			<string id="EditPasswordDialog_InvalidPassword_TooSmall" type="String" usage="">The password must be at least 5 characters in length.</string>
+			<string id="bv_select_server_dialog_title" type="String" usage="">Select IBM Cognos Business Viewpoint System</string>
+			<string id="bv_select_server_dialog_instructions" type="String" usage="">Unable to retrieve the IBM Cognos Business Viewpoint server URL from the IBM Cognos TM1 system.  Select from the list of defined systems or enter a new one.</string>
+			<string id="bv_select_server_dialog_label" type="String" usage="">IBM Cognos Business Viewpoint system URL:</string>
+			<string id="bv_test_connection_button" type="String" usage="">Test Connection</string>
+			<string id="bv_test_connection_dialog_title" type="String" usage="">Test Business Viewpoint Connection</string>
+			<string id="bv_test_connection_dialog_success_message" type="String" usage="">Test connection succeeded.</string>
+			<string id="bv_test_connection_dialog_failure_message" type="String" usage="">Test connection failed.</string>
+			<string id="tooltip_distributed_mode" type="String" usage="">Your data is located on a TM1&#10;server.</string>
+			<string id="tooltip_central_mode" type="String" usage="">Your data is located on a TM1&#10;server. Changes to your data will&#10;be saved implicitly.</string>
+			<string id="Insert_view_from_content_pane_cross_and_chart" type="String" usage="">Crosstab and Chart</string>
+			<string id="Insert_view_from_content_pane_cross" type="String" usage="">Crosstab</string>
+			<string id="Insert_view_from_content_pane_chart" type="String" usage="">Chart</string>
+			<string id="info_save_workspace_to_publish" type="String" usage="">Please save workspace before publishing.</string>
+			<string id="info_save_workspace_to_share" type="String" usage="">Please save workspace before sharing.</string>
+			<string id="blue_dot_action" type="String" usage="">Actions</string>
+			<string id="start_page_no_capability" type="String" usage="">You do not have the required capabilities to proceed</string>
+			<string id="start_page_themes_accessibility" type="String" usage="">Theme: {0}</string>
+			<string id="start_page_recent_accessibility" type="String" usage="">Recently opened: {0}</string>
+			<string id="dialog_view_help_title" type="String" usage="">View Help</string>
+			<string id="appbar_central_project_mode_img" type="String" usage="">Your data is located on a TM1 server. Changes to your data will be saved implicitly.</string>
+			<string id="appbar_managed_connected_project_mode_img" type="String" usage="">Your data is located on a TM1 server.</string>
+			<string id="appbar_offline_project_mode_img" type="String" usage="">Your data is located on a TM1 server but the connection is currently unavailable. Please contact your administrator.</string>
+			<string id="LockForFileAlreadyExistsException" type="String" usage="">"Unable to create lock for project file."</string>
+			<string id="LockCanNotBeAcquiredException" type="String" usage="">"Could not lock project file."</string>
+			<string id="ProjectAlreadyOpen" type="String" usage="">The Cognos Insight file is in use by another session.</string>
+			<string id="CognosDesktop_AppWindowTitle" type="String" usage="">IBM Cognos Insight</string>
+			<string id="confirm_leave_planning" type="String" usage="">Are you sure you want to leave {0}?</string>
+			<string id="close_button" type="String" usage="">Close</string>
+			<string id="invalid_numerical_val" type="String" usage="">The input value is not valid!</string>
+			<string id="workoffline_action" type="String" usage="">Work Offline</string>
+			<string id="workoffline_action_tooltip" type="String" usage="">Work Offline</string>
+			<string id="Refresh_Action_UnableToExecute" type="String" usage="">Unable to refresh.</string>
+			<string id="refresh_model_button" type="String" usage="">Refresh</string>
+			<string id="connection_failure_going_offline_message" type="String" usage="">Unable to communicate with planning server. Will switch to offline mode. You may continue to work locally.</string>
+			<string id="CognosDesktop_Offline" type="String" usage="">Offline</string>
+			<string id="ContentPaneDrawerActionDescription" type="String" usage="">To navigate press the up or down arrow.</string>
+			<string id="error_upgrade_title" type="String" usage="">Upgrade</string>
+			<string id="error_fail_upgrade" type="String" usage="">Failed to upgrade the cdd {0}</string>
+			<string id="error_upgrade_unexpected" type="String" usage="">An unexpected error occurred while upgrading.</string>
+			<string id="DashboardTabFolderAccessibleName" type="String" usage="">Tab {0}. Use left and right arrow keys to navigate through the tabs.</string>
+			<string id="BILaunch_Request_Error" type="String" usage="">Unable to successfully read report from Cognos BI portal. Please contact your administrator.</string>
+			<string id="BILaunch_ParseName_Error" type="String" usage="">Unable to successfully extract the name of report from Cognos BI portal information. Incorrect information may have been received from BI portal. Please contact your administrator.</string>
+			<string id="BILaunch_ParseReport_Error" type="String" usage="">Unable to successfully extract the report specification from Cognos BI portal information. Incorrect information may have been received from BI portal. Please contact your administrator.</string>
+			<string id="WebPage_title" type="String" usage="">Warning</string>
+			<string id="WebPage_message" type="String" usage="">This workspace contains one or more web pages. Web pages can contain malicious content. You should only open this workspace if it comes from a trusted source. Do you wish to proceed?</string>
+			<string id="LANGUAGE_CHANGE_DIALIG_TITLE" type="String" usage="">Content Language Preference Changed</string>
+			<string id="LANGUAGE_CHANGE_DIALIG_MESSAGE" type="String" usage="">The content language preference has changed to: {0}. The change will take effect after relaunching the application.</string>
+			<string id="label_content_language" type="String" usage="">Content language:</string>
+			<string id="label_regional_options" type="String" usage="">Regional Options</string>
+			<string id="use_default_language" type="String" usage="">Use the default language</string>
+			<string id="use_following_language" type="String" usage="">Use the following language:</string>
+			<string id="GETTING_STARTED_LABEL" type="String" usage="">Getting Started</string>
+			<string id="INSIGHT_COMMUNITY_LABEL" type="String" usage="">Cognos Insight Community</string>
+			<string id="INSIGHT_COMMUNITY_DETAILS" type="String" usage="">Everything you need to start delivering actionable insights and achieve better business performance.</string>
+			<string id="INSIGHT_COMMUNITY_TOOLTIP" type="String" usage="">Cognos Insight Community Link</string>
+			<string id="HOW_TO_VIDEOS_LABEL" type="String" usage="">How-to Videos</string>
+			<string id="HOW_TO_VIDEOS_DETAILS" type="String" usage="">View a series of English-only videos that demonstrate how to use Cognos Insight.</string>
+			<string id="HOW_TO_VIDEOS_TOOLTIP" type="String" usage="">How-to Videos Link</string>
+			<string id="upgrade_warning_message" type="String" usage="">The workspace {0} must be upgraded to be used with this version of Cognos Insight.  Once upgraded, the workspace will no longer be compatible with previous versions.</string>
+			<string id="upgrade_option_upgrade" type="String" usage="">Upgrade</string>
+			<string id="ContextMenuMsg" type="String" usage="">For the list of available actions press the space button, then use up or down arrows to navigate.</string>
+			<string id="ListenToAllWidgetsAction_Title" type="String" usage="">Listen to All Widgets</string>
+			<string id="AccessibleTextDescriptionAction_Title" type="String" usage="">Textual Description</string>
+			<string id="AutoUpdate_Download_cancel" type="String" usage="">Do you wish to continue or cancel it?</string>
+			<string id="AutoUpdateDialog_dont_show_again" type="String" usage="">Show update messages in the future</string>
+			<string id="set_preferences_botton_getting_started_page" type="String" usage="">Show the Getting Started Page at startup</string>
+			<string id="set_preferences_botton_show_grid_text_visual_cue" type="String" usage="">Show added visual cues for improved accessibility</string>
+			<string id="set_preferences_botton_detect_hierarchies" type="String" usage="">Detect hierarchies during import</string>
+			<string id="set_preferences_button_not_sync_new_views" type="String" usage="">Do not synchronize new views</string>
+			<string id="set_preferences_show_chart_on_top_of_grid" type="String" usage="">Initial Split View shows chart on top</string>
+			<string id="initialDimensionViewOptionsTitleLabel" type="String" usage="">Initial view of dimensions:</string>
+			<string id="start_fully_collapsed" type="String" usage="">Collapse all levels</string>
+			<string id="expand_to_first_child" type="String" usage="">Expand the first level</string>
+			<string id="expanded_to_leaves" type="String" usage="">Expand all levels</string>
+			<string id="set_preferences_crosstab" type="String" usage="">Crosstabs</string>
+			<string id="set_preferences_specify" type="String" usage="">Specify your general preferences.</string>
+			<string id="set_preferences_cell_double_click_TitleLabel" type="String" usage="">Default action for new workspaces when double-clicking on a cell:</string>
+			<string id="set_preferences_cell_double_click_edit" type="String" usage="">Edit</string>
+			<string id="set_preferences_cell_double_click_drill" type="String" usage="">Drill Down</string>
+			<string id="closing_project" type="String" usage="">Closing...</string>
+			<string id="menu_explore" type="String" usage="">Explore</string>
+			<string id="menu_explore_tooltip" type="String" usage="">Explore your data</string>
+			<string id="menu_explore_filter_menu_item_header" type="String" usage="">Explore Pane</string>
+			<string id="menu_explore_DoubleClickGridCell_header" type="String" usage="">Double-click in Crosstabs</string>
+			<string id="menu_explore_DoubleClickGridCell_DrillAction" type="String" usage="">Drill Down</string>
+			<string id="menu_explore_DoubleClickGridCell_EditAction" type="String" usage="">Edit</string>
+			<string id="GeneralTab" type="String" usage="">General</string>
+			<string id="SystemTab" type="String" usage="">System</string>
+			<string id="serverTabTitleText" type="String" usage="">Define the IBM Cognos systems you want to connect to and specify how to receive Cognos Insight updates.</string>
+			<string id="label_bidi_support" type="String" usage="">Bidirectional support</string>
+			<string id="label_text_dir" type="String" usage="">Base text direction for content:</string>
+			<string id="label_bidi_enabled" type="String" usage="">Enable bidirectional support</string>
+			<string id="label_ltr_text_dir" type="String" usage="">Left-to-right</string>
+			<string id="label_rtl_text_dir" type="String" usage="">Right-to-left</string>
+			<string id="label_contextual_text_dir" type="String" usage="">Contextual</string>
+			<string id="print_menu" type="String" usage="">Print...</string>
+			<string id="print_dialog_title" type="String" usage="">Print</string>
+			<string id="print_settings" type="String" usage="">Advanced...</string>
+			<string id="print_button" type="String" usage="">Print</string>
+			<string id="print_include_page_number" type="String" usage="">Page number</string>
+			<string id="print_include_tab_name" type="String" usage="">Tab name</string>
+			<string id="print_include_project_name" type="String" usage="">Workspace name</string>
+			<string id="apply_theme_acc_description" type="String" usage="">Apply theme: {0}</string>
+			<string id="menu_savewp" type="String" usage="">Save Waypoint</string>
+			<string id="menu_savewp_tooltip" type="String" usage="">Save Waypoint</string>
+			<string id="upgrade_warning_submessage" type="String" usage="">Do you want to upgrade the workspace?</string>
+			<string id="upgrade_option_cancel" type="String" usage="">Cancel</string>
+			<string id="print_printer_label" type="String" usage="">Printer:</string>
+			<string id="print_footer" type="String" usage="">Footer</string>
+			<string id="print_fit_to_page" type="String" usage="">Fit to one page</string>
+			<string id="print_include_background" type="String" usage="">Include background</string>
+			<string id="print_include_header_fotter" type="String" usage="">Include header and footer</string>
+			<string id="print_zoom_group" type="String" usage="">Zoom</string>
+			<string id="print_enable_zoom" type="String" usage="">Zoom</string>
+			<string id="print_page_title" type="String" usage="">Page {0}</string>
+			<string id="print_previous_button" type="String" usage="">Previous Page</string>
+			<string id="print_next_button" type="String" usage="">Next Page</string>
+			<string id="print_select_all_button" type="String" usage="">Select All</string>
+			<string id="print_deselect_all_button" type="String" usage="">Deselect All</string>
+			<string id="print_page_range" type="String" usage="">Page range:</string>
+			<string id="print_page_range_all" type="String" usage="">All</string>
+			<string id="print_page_range_pages" type="String" usage="">Pages:</string>
+			<string id="WPLoadProblem" type="String" usage="">Could not load the WP trail file.</string>
+			<string id="operation_create_project" type="String" usage="">Create workspace</string>
+			<string id="operation_close_project" type="String" usage="">Close workspace</string>
+			<string id="operation_open_project" type="String" usage="">Open workspace</string>
+			<string id="operation_could_not_open_workspace" type="String" usage="">Could not open workspace</string>
+			<string id="operation_send_to_back" type="String" usage="">Send to back</string>
+			<string id="export_to_pdf_action" type="String" usage="">As a PDF file</string>
+			<string id="append_to_existing_pdf" type="String" usage="">Current tab appended to an existing PDF file...</string>
+			<string id="create_new_pdf_action" type="String" usage="">Current tab as a PDF file...</string>
+			<string id="pdf_extension_search" type="String" usage="">PDF Files (*.pdf)</string>
+			<string id="pdf_extension" type="String" usage="">pdf</string>
+			<string id="select_file" type="String" usage="">Select file</string>
+			<string id="error_not_valid_pdf" type="String" usage="">The file you chose maybe corrupt or is not valid pdf file. Please try selecting another file.</string>
+			<string id="png_extension" type="String" usage="">png</string>
+			<string id="img_type_not_supported_Error" type="String" usage="">Image type not supported:</string>
+			<string id="pages_label" type="String" usage="">Pages</string>
+			<string id="orientation" type="String" usage="">Orientation:</string>
+			<string id="landscape" type="String" usage="">Landscape</string>
+			<string id="portrait" type="String" usage="">Portrait</string>
+			<string id="error_opening_pdf" type="String" usage="">Error Occured while attempting to open</string>
+			<string id="StyleAction_BrowseWorkspaceBackgroundImage_NoImage" type="String" usage="">Set no Workspace Background Image</string>
+			<string id="StyleAction_ChooseWorkspaceBackgroundColor_NoColor" type="String" usage="">No Color</string>
+			<string id="StyleAction_BrowseBackgroundImage_NoImage" type="String" usage="">No Image</string>
+			<string id="StyleAction_ChooseBackgroundColor_NoColor" type="String" usage="">No Color</string>
+			<string id="StyleAction_RestoreToDefault" type="String" usage="">Restore to Default</string>
+			<string id="Widget_Create_Error" type="String" usage="">Unable to create the content of this widget.</string>
+			<string id="ShowWidgetTitleAction_Title" type="String" usage="">Show Widget Title</string>
+			<string id="InsertAction_CreateBlankCube" type="String" usage="">Create Blank Cube</string>
+			<string id="InsertAction_CreateBlankCube_ToolTip" type="String" usage="">Create a cube and insert {0}</string>
+			<string id="InsertAction_AllViews" type="String" usage="">All Views</string>
+			<string id="InsertAction_AllViews_ToolTip" type="String" usage="">All Views</string>
+			<string id="InsertAction_ViewContentPane" type="String" usage="">View Content Pane</string>
+			<string id="InsertAction_ViewContentPane_ToolTip" type="String" usage="">View Content Pane</string>
+			<string id="move_to_choose_other_Language_instruction" type="String" usage="">To navigate to the content language combo box, press tab.</string>
+			<string id="instructionAdd" type="String" usage="">Add the system specified in the system gateway URI  text input area into the system list view.</string>
+			<string id="instructionDelete" type="String" usage="">Remove the selected entry in the system list view. To select a system in the list view, use the arrow keys to navigate the list view, then press enter to select the system.</string>
+			<string id="StyleDialog_DashboardBgColor_Label" type="String" usage="">Background color:</string>
+			<string id="StyleDialog_DashboardImage_Label" type="String" usage="">Background image:</string>
+			<string id="StyleDialog_Preview_Label" type="String" usage="">Preview:</string>
+			<string id="StyleDialog_WidgetBgColor_Label" type="String" usage="">Widget background color:</string>
+			<string id="expanded_to_all_subset" type="String" usage="">Expand to expose all subset members</string>
+			<string id="options_label" type="String" usage="">Options:</string>
+			<string id="printLabel" type="String" usage="">Print:</string>
+			<string id="printTheCurrentDashboard" type="String" usage="">The current tab</string>
+			<string id="printEntireWorkspace" type="String" usage="">The entire workspace</string>
+			<string id="printRange" type="String" usage="">A range of tabs (for example 1-5,8,9)</string>
+			<string id="invalidRangeFormat" type="String" usage="">Please enter a valid range (for example 1-5,8,10)</string>
+			<string id="rangeInputIsInvalid" type="String" usage="">The input range exceeds the number of tabs in the workspace.</string>
+			<string id="previewLabel" type="String" usage="">Tab preview</string>
+			<string id="exportEntireWorkspaceToPDF" type="String" usage="">Entire workspace as a PDF file...</string>
+			<string id="exportEntireWorkspaceToImages" type="String" usage="">All tabs as image files...</string>
+			<string id="export_to_pdf_or_Image_action" type="String" usage="">Export</string>
+			<string id="UndoRedo_Insert_Dimension" type="String" usage="">Insert Dimension</string>
+			<string id="UndoRedo_Replace_Dimension" type="String" usage="">Replace Dimension</string>
+			<string id="UndoRedo_Swap" type="String" usage="">Swap</string>
+			<string id="UndoRedo_Drill" type="String" usage="">Drill</string>
+			<string id="UndoRedo_Slice" type="String" usage="">Slice</string>
+			<string id="UndoRedo_View_All" type="String" usage="">View All</string>
+			<string id="UndoRedo_Move_to_page" type="String" usage="">Move to page</string>
+			<string id="UndoRedo_Zero_Suppression" type="String" usage="">Zero Suppression</string>
+			<string id="UndoRedo_Change_Explore_Point_Selection" type="String" usage="">Change Explore Point Selection</string>
+			<string id="UndoRedo_Sort" type="String" usage="">Sort</string>
+			<string id="UndoRedo_Top_or_Bottom" type="String" usage="">Top or Bottom</string>
+			<string id="UndoRedo_Expand_To" type="String" usage="">Expand To</string>
+			<string id="UndoRedo_Show_Value_as" type="String" usage="">Show Value as</string>
+			<string id="UndoRedo_Show_Totals" type="String" usage="">Show Totals</string>
+			<string id="SYNCHRONIZATION_SCOPE_TAB" type="String" usage="">Tab</string>
+			<string id="SYNCHRONIZATION_SCOPE_TAB_TIP" type="String" usage="">Tab group</string>
+			<string id="SYNCHRONIZATION_SCOPE_WORKSPACE" type="String" usage="">Workspace</string>
+			<string id="SYNCHRONIZATION_SCOPE_WORKSPACE_TIP" type="String" usage="">Workspace group</string>
+			<string id="SYNCHRONIZATION_SCOPE_NOSYNCH" type="String" usage="">No Synchronization</string>
+			<string id="SYNCHRONIZATION_SCOPE_NOSYNCH_TIP" type="String" usage="">No synchronization</string>
+			<string id="SYNCHRONIZATION_SCOPE_CUSTOM" type="String" usage="">Custom...</string>
+			<string id="SYNCHRONIZATION_SCOPE_CUSTOM_TIP" type="String" usage="">Custom group</string>
+			<string id="SYNCHRONIZATION_SCOPE" type="String" usage="">Synchronization Scope</string>
+			<string id="AboutDialog_title" type="String" usage="don't translated this to lang where there's no splash screen translation">About</string>
+			<string id="AboutDialog_productname_standard_edition" type="String" usage="don't translated this to lang where there's no splash screen translation">IBM® Cognos® Insight Standard Edition</string>
+			<string id="AboutDialog_productname_personal_edition" type="String" usage="don't translated this to lang where there's no splash screen translation">IBM® Cognos® Insight Personal Edition</string>
+			<string id="AboutDialog_productname_enterprise_edition" type="String" usage="don't translated this to lang where there's no splash screen translation">IBM® Cognos® Insight Enterprise Edition</string>
+			<string id="AboutDialog_version" type="String" usage="don't translated this to lang where there's no splash screen translation">IBM® Planning Analytics 2.0</string>
+			<string id="AboutDialog_license" type="String" usage="don't translated this to lang where there's no splash screen translation">Licensed Materials - Property of IBM Corp. © Copyright IBM Corporation and other(s) 2005, 2016. IBM, the IBM logo, ibm.com and Cognos are trademarks or registered trademarks of International Business Machines Corp., registered in many jurisdictions worldwide. A current list of IBM trademarks is available on the Web at www.ibm.com/legal/copytrade.shtml. This product is Built on EclipseTM. (http://www.eclipse.org). Java and all Java-based trademarks and logos are trademarks or registered trademarks of Oracle and/or its affiliates. Other product and service names might be trademarks of IBM or other companies. This Program is licensed under the terms of the license agreement accompanying the Program. This license agreement may be either located in a Program directory folder or library identified as "License" or "Non_IBM_License", if applicable, or provided as a printed license agreement. Please read the agreement carefully before using the Program. By using the Program you agree to these terms.US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.</string>
+			<string id="AboutDialog_build_number" type="String" usage="don't translated this to lang where there's no splash screen translation">Build: {0}</string>
+			<string id="AboutDialog_platform_win32" type="String" usage="don't translated this to lang where there's no splash screen translation">Windows 32 bit</string>
+			<string id="AboutDialog_platform_win64" type="String" usage="don't translated this to lang where there's no splash screen translation">Windows 64 bit</string>
+			<string id="AboutDialog_platform_osx32" type="String" usage="don't translated this to lang where there's no splash screen translation">Mac OS X 32 bit</string>
+			<string id="AboutDialog_platform_osx64" type="String" usage="don't translated this to lang where there's no splash screen translation">Mac OS X 64 bit</string>
+			<string id="AboutDialog_JAWS_message" type="String" usage="don't translated this to lang where there's no splash screen translation">About IBM® Cognos® Insight.  {0}</string>
+			<string id="UndoRedo_Change_Workspace_Style" type="String" usage="">Change Workspace Style</string>
+			<string id="UndoRedo_Change_Theme" type="String" usage="">Change Theme</string>
+			<string id="UndoRedo_Change_Tab_Background_Color" type="String" usage="">Change Tab Background Color</string>
+			<string id="UndoRedo_Change_Tab_Background_Image" type="String" usage="">Change Tab Background Image</string>
+			<string id="UndoRedo_Data_Change" type="String" usage="">Data Change</string>
+			<string id="TextWidget_0" type="String" usage="">[type your text here]</string>
+			<string id="set_preferences_botton_use_subsets" type="String" usage="">Use subsets</string>
+			<string id="tm1_application_context" type="String" usage="">Insight</string>
+			<string id="Transfer_TransferOutProgressTitle" type="String" usage="">Transfer Out</string>
+			<string id="Transfer_MessageBoxTitle" type="String" usage="">Transfer</string>
+			<string id="Transfer_CompleteMessage" type="String" usage="">Complete</string>
+			<string id="Transfer_SettingNotProvided" type="String" usage="">Transfer failed, some required data is not present.</string>
+			<string id="Transfer_Error" type="String" usage="">An error has occured running the transfer</string>
+			<string id="Transfer_ApplicationAccessError" type="String" usage="">Transfer has encountered a problem retrieving the application</string>
+			<string id="Transfer_InvestigatingChildrenOfNodegetName" type="String" usage="">Investigating children of '{0}'...</string>
+			<string id="Transfer_ImportingMetricsCubes" type="String" usage="">Importing metrics cube artifacts...</string>
+			<string id="HelpErrorMsg_Title" type="String" usage="">Error opening help</string>
+			<string id="HelpErrorMsg_Label" type="String" usage="">An error has occurred accessing the online help</string>
+			<string id="file_opened_in_another_session" type="String" usage="">The file {0} cannot be opened because it is used by another session.</string>
+		</section>
+	</component>
+</stringTable>
+<!-- UFRID:3A646D0A-D1BD-4956-96C5-5736B293F9AE -->
