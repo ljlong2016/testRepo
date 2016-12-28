@@ -1,0 +1,1630 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*******************************************************************************
+* IBM Confidential
+* 
+* OCO Source Materials
+* 
+* IBM Cognos Products: COR
+* 
+* © Copyright IBM Corp. 2005, 2016
+* 
+* The source code for this program is not published or otherwise divested of its trade secrets, irrespective of what has been deposited with the U.S. Copyright Office.
+*******************************************************************************/
+-->
+<stringTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../CCL/CCLCore/Resources/CCLMessageFile.xsd">
+  <component name="COR" usage="This component encompasses all labels and messages in Cognos Office Reporting.">
+    <section name="APP" usage="Messages for Application Pane" type="Messages">
+      <string id="MSG_COR_TITLE" type="Dialog Caption">IBM Planning Analytics for Microsoft Excel</string>
+      <string id="MSG_COR_ABOUT_TITLE" type="Dialog Caption">IBM® Planning Analytics for Microsoft Excel</string>
+      <string id="MSG_COR_ABOUT" type="Dialog Caption">About</string>
+      <string id="MSG_COR_ABOUT_COPYRIGHT" type="Control Label">Licensed Materials - Property of IBM Corp. © Copyright IBM Corporation and other(s) 2005, 2016. IBM, the IBM logo, ibm.com and Cognos are trademarks or registered trademarks of International Business Machines Corp., registered in many jurisdictions worldwide. A current list of IBM trademarks is available on the Web at www.ibm.com/legal/copytrade.shtml. Microsoft is a trademark of Microsoft Corporation in the United States, other countries, or both. Other product and service names might be trademarks of IBM or other companies. This Program is licensed under the terms of the license agreement accompanying the Program. This license agreement may be either located in a Program directory folder or library identified as "License" or "Non_IBM_License", if applicable, or provided as a printed license agreement. Please read the agreement carefully before using the Program. By using the Program you agree to these terms.</string>
+      <string id="MSG_COR_HELP_MENU" type="Tooltip">Help menu</string>
+      <string id="MSG_COR_SERVER_SELECTED" type="Tooltip">Servers selected</string>
+      <string id="MSG_COR_SHORTCUT_WAITING" type="String">(CTRL+M) was pressed.  Waiting for second key of chord...</string>
+      <string id="MSG_COR_NO_SERVERS" type="String">{0} (No Servers Found)</string>
+      <string id="MSG_COR_LOGON_NEEDED" type="String">{0} (Authentication Required)</string>
+    </section>
+    <section name="RIB" usage="Messages for Ribbon" type="Messages">
+      <string id="MSG_RIB_TITLE" type="Button">IBM Planning Analytics</string>
+      <string id="MSG_RIB_APPLICATIONGROUP" type="Button">Application</string>
+      <string id="MSG_RIB_STARTGROUP" type="Button">Application</string>
+      <string id="MSG_RIB_SIDEBAR" type="Button">Task Pane</string>
+      <string id="MSG_RIB_SIDEBARDES" type="Button">View the Task Pane</string>
+      <string id="MSG_RIB_LOGIN" type="Button">Connect</string>
+      <string id="MSG_RIB_LOGINDES" type="Button">Connect or create a data source</string>
+      <string id="MSG_RIB_HELPUSERGUIDE" type="Button">IBM Planning Analytics for Microsoft Excel User Guide</string>
+      <string id="MSG_RIB_HELPONLINE" type="Button">IBM Planning Analytics Online</string>
+      <string id="MSG_RIB_HELPABOUT" type="Button">About</string>
+      <string id="MSG_RIB_CONTENTGROUP" type="Button">Content</string>
+      <string id="MSG_RIB_ADDGROUP" type="Button">Add</string>
+      <string id="MSG_RIB_ADDEXPLORATION" type="Button">Exploration</string>
+      <string id="MSG_RIB_ADDEXPLORATIONSCT" type="Button">Exploration</string>
+      <string id="MSG_RIB_ADDEXPLORATIONDES" type="Button">Adds a new Exploration to the Book</string>
+      <string id="MSG_RIB_ADDLIST" type="Button">List</string>
+      <string id="MSG_RIB_ADDLISTSCT" type="Button">List</string>
+      <string id="MSG_RIB_ADDLISTDES" type="Button">Adds a new List to the Book</string>
+      <string id="MSG_RIB_ADDACTIONBUTTON" type="Button">Action Button</string>
+      <string id="MSG_RIB_ADDACTIONBUTTONSCT" type="Button">Action Button</string>
+      <string id="MSG_RIB_ADDACTIONBUTTONDES" type="Button">Adds a new Action Button to the Book</string>
+      <string id="MSG_RIB_DATAGROUP" type="Button">Data</string>
+      <string id="MSG_RIB_REFRESHGROUP" type="Button">Refresh</string>
+      <string id="MSG_RIB_REFRESHALL" type="Button">Refresh All Books</string>
+      <string id="MSG_RIB_REFRESHALLSCT" type="Button">Refresh All Books</string>
+      <string id="MSG_RIB_REFRESHALLDES" type="Button">Refreshes Explorations and Reports in all Books</string>
+      <string id="MSG_RIB_REFRESHWORKSHEET" type="Button">Refresh Sheet</string>
+      <string id="MSG_RIB_REFRESHWORKSHEETSCT" type="Button">Refresh Sheet</string>
+      <string id="MSG_RIB_REFRESHWORKSHEETDES" type="Button">Refreshes Explorations and Reports in current Sheet</string>
+      <string id="MSG_RIB_REFRESHWORKBOOK" type="Button">Refresh Book</string>
+      <string id="MSG_RIB_REFRESHWORKBOOKSCT" type="Button">Refresh Book</string>
+      <string id="MSG_RIB_REFRESHWORKBOOKDES" type="Button">Refreshes Explorations and Reports in current Book</string>
+      <string id="MSG_RIB_CLEARGROUP" type="Button">Clear</string>
+      <string id="MSG_RIB_CLEARGROUPSCT" type="Button">Clear</string>
+      <string id="MSG_RIB_CLEARALL" type="Button">Clear All Books</string>
+      <string id="MSG_RIB_CLEARALLSCT" type="Button">Clear All Books</string>
+      <string id="MSG_RIB_CLEARALLDES" type="Button">Clears Explorations and Reports in all Books</string>
+      <string id="MSG_RIB_CLEARWORKSHEET" type="Button">Clear Sheet</string>
+      <string id="MSG_RIB_CLEARWORKSHEETSCT" type="Button">Clear Sheet</string>
+      <string id="MSG_RIB_CLEARWORKSHEETDES" type="Button">Clear Explorations and Reports in current Sheet</string>
+      <string id="MSG_RIB_CLEARWORKBOOK" type="Button">Clear Book</string>
+      <string id="MSG_RIB_CLEARWORKBOOKSCT" type="Button">Clear Book</string>
+      <string id="MSG_RIB_CLEARWORKBOOKDES" type="Button">Clear Explorations and Reports in current Book</string>
+      <string id="MSG_RIB_CONVERTTOSNAPSHOTGROUP" type="Button">Snapshot</string>
+      <string id="MSG_RIB_CONVERTTOSNAPSHOTALL" type="Button">Convert All Books to Snapshots</string>
+      <string id="MSG_RIB_CONVERTTOSNAPSHOTALLSCT" type="Button">Convert All Books to Snapshots</string>
+      <string id="MSG_RIB_CONVERTTOSNAPSHOTALLDES" type="Button">Convert Explorations and Reports in all books to Snapshots</string>
+      <string id="MSG_RIB_CONVERTTOSNAPSHOTWORKSHEET" type="Button">Convert Sheet to Snapshot</string>
+      <string id="MSG_RIB_CONVERTTOSNAPSHOTWORKSHEETSCT" type="Button">Convert Sheet to Snapshot</string>
+      <string id="MSG_RIB_CONVERTTOSNAPSHOTWORKSHEETDES" type="Button">Converts Explorations and Reports the current Sheet to Snapshot</string>
+      <string id="MSG_RIB_CONVERTTOSNAPSHOTWORKBOOK" type="Button">Convert Book to Snapshot</string>
+      <string id="MSG_RIB_CONVERTTOSNAPSHOTWORKBOOKSCT" type="Button">Convert Book to Snapshot</string>
+      <string id="MSG_RIB_CONVERTTOSNAPSHOTWORKBOOKDES" type="Button">Converts Explorations and Reports in the current Book to Snapshot</string>
+      <string id="MSG_RIB_COMMITCHANGES" type="Button">Commit</string>
+      <string id="MSG_RIB_COMMITCHANGESSCT" type="Button">Commit</string>
+      <string id="MSG_RIB_COMMITCHANGESDES" type="Button">Commit data changes in current Sheet</string>
+      <string id="MSG_RIB_DISCARDCHANGES" type="Button">Discard</string>
+      <string id="MSG_RIB_DISCARDCHANGESSCT" type="Button">Discard</string>
+      <string id="MSG_RIB_DISCARDCHANGESDES" type="Button">Discard data changes in current Sheet</string>
+      <string id="MSG_RIB_EXPLORATION" type="Button">Exploration</string>
+      <string id="MSG_RIB_LIST" type="Button">List</string>
+      <string id="MSG_RIB_EXPLORATIONCONVERTTO" type="Button">Convert To</string>
+      <string id="MSG_RIB_EXPLORATIONCONVERTTOQR" type="Button">Quick Report</string>
+      <string id="MSG_RIB_EXPLORATIONCONVERTTODR" type="Button">Dynamic Report</string>
+      <string id="MSG_RIB_EXPLORATIONCONVERTTOCR" type="Button">Custom Report</string>
+      <string id="MSG_RIB_EXPLORATIONCONVERTTHISSHEET" type="Button">On This Sheet</string>
+      <string id="MSG_RIB_EXPLORATIONCONVERTTHISSHEETSCT" type="Button">On This Sheet</string>
+      <string id="MSG_RIB_EXPLORATIONCONVERTTHISSHEETDES" type="Button">Convert Exploration on this Sheet</string>
+      <string id="MSG_RIB_EXPLORATIONCONVERTNEWSHEET" type="Button">On New Sheet</string>
+      <string id="MSG_RIB_EXPLORATIONCONVERTNEWSHEETSCT" type="Button">On New Sheet</string>
+      <string id="MSG_RIB_EXPLORATIONCONVERTNEWSHEETDES" type="Button">Convert Exploration on new Sheet</string>
+      <string id="MSG_RIB_EXPLORATIONCONVERTATLOC" type="Button">At Specified Location</string>
+      <string id="MSG_RIB_EXPLORATIONCONVERTATLOCSCT" type="Button">At Specified Location</string>
+      <string id="MSG_RIB_EXPLORATIONCONVERTATLOCDES" type="Button">Convert Exploration at specified location</string>
+      <string id="MSG_RIB_EXPLORATIONREFRESH" type="Button">Use Excel Formats</string>
+      <string id="MSG_RIB_EXPLORATIONREFRESHSCT" type="Button">Use Excel Formats</string>
+      <string id="MSG_RIB_EXPLORATIONREFRESHDES" type="Button">Exploration uses Excel formats on refresh</string>
+      <string id="MSG_RIB_EXPLORATIONREFRESHWFORMATS" type="Button">Use Server Formats</string>
+      <string id="MSG_RIB_EXPLORATIONREFRESHWFORMATSSCT" type="Button">Use Server Formats</string>
+      <string id="MSG_RIB_EXPLORATIONREFRESHWFORMATSDES" type="Button">Exploration uses server formats on refresh</string>
+      <string id="MSG_RIB_EXPLORATIONREFRESHPREVIEW" type="Button">Design Mode</string>
+      <string id="MSG_RIB_EXPLORATIONREFRESHPREVIEWSCT" type="Button">Design Mode</string>
+      <string id="MSG_RIB_EXPLORATIONREFRESHPREVIEWDES" type="Button">Exploration only updates on refresh</string>
+      <string id="MSG_RIB_EXPLORATIONUNDO" type="Button">Undo</string>
+      <string id="MSG_RIB_EXPLORATIONUNDOSCT" type="Button">Undo</string>
+      <string id="MSG_RIB_EXPLORATIONUNDODES" type="Button">Undo last action in Exploration</string>
+      <string id="MSG_RIB_EXPLORATIONREDO" type="Button">Redo</string>
+      <string id="MSG_RIB_EXPLORATIONREDOSCT" type="Button">Redo</string>
+      <string id="MSG_RIB_EXPLORATIONREDODES" type="Button">Redo last action in Exploration</string>
+      <string id="MSG_RIB_EXPLORATIONOVERVIEW" type="Button">Overview</string>
+      <string id="MSG_RIB_EXPLORATIONOVERVIEWSCT" type="Button">Overview</string>
+      <string id="MSG_RIB_EXPLORATIONOVERVIEWDES" type="Button">Set Exploration overview visible/invisible</string>
+      <string id="MSG_RIB_EXPLORATIONSWAP" type="Button">Swap Rows and Columns</string>
+      <string id="MSG_RIB_EXPLORATIONSWAPSCT" type="Button">Swap Rows and Columns</string>
+      <string id="MSG_RIB_EXPLORATIONSWAPDES" type="Button">Swap rows and columns in Exploration</string>
+      <string id="MSG_RIB_EXPLORATIONSAVE" type="Button">Save View</string>
+      <string id="MSG_RIB_EXPLORATIONSAVESCT" type="Button">Save View</string>
+      <string id="MSG_RIB_EXPLORATIONSAVEDES" type="Button">Save Exploration as a View</string>
+      <string id="MSG_RIB_EXPLORATIONSUPP" type="Button">Suppression Type</string>
+      <string id="MSG_RIB_EXPLORATIONSUPPSCT" type="Button">Suppression Type</string>
+      <string id="MSG_RIB_EXPLORATIONSUPPDES" type="Button">Changes the suppression type in the Exploration</string>
+      <string id="MSG_RIB_EXPLORATIONPRO" type="Button">Properties</string>
+      <string id="MSG_RIB_EXPLORATIONPROSCT" type="Button">Properties</string>
+      <string id="MSG_RIB_EXPLORATIONPRODES" type="Button">Edit the properties of the Exploration</string>
+      <string id="MSG_RIB_EXPLORATIONMDX" type="Button">MDX</string>
+      <string id="MSG_RIB_EXPLORATIONMDXSCT" type="Button">MDX</string>
+      <string id="MSG_RIB_EXPLORATIONMDXDES" type="Button">Edit or replace the query of the Exploration</string>
+      <string id="MSG_RIB_EXPLORATIONOPENST" type="Button">Open In...</string>
+      <string id="MSG_RIB_EXPLORATIONOPENSTSCT" type="Button">Open In...</string>
+      <string id="MSG_RIB_EXPLORATIONOPENSTDES" type="Button">Open Exploration in external site</string>
+      <string id="MSG_RIB_EXPLORATIONRESET" type="Button">Reset</string>
+      <string id="MSG_RIB_EXPLORATIONRESETSCT" type="Button">Reset</string>
+      <string id="MSG_RIB_EXPLORATIONRESETDES" type="Button">Reset the Exploration</string>
+      <string id="MSG_RIB_MAP" type="Button">Quick Report</string>
+      <string id="MSG_RIB_MAPSHOW" type="Button">Highlight</string>
+      <string id="MSG_RIB_MAPSHOWSCT" type="Button">Highlight</string>
+      <string id="MSG_RIB_MAPSHOWDES" type="Button">Highlight the selected Quick Report</string>
+      <string id="MSG_RIB_MAPSERVERFORMATS" type="Button">Server Formats</string>
+      <string id="MSG_RIB_MAPSERVERFORMATSSCT" type="Button">Server Formats</string>
+      <string id="MSG_RIB_MAPSERVERFORMATSDES" type="Button">Use server formats for the selected Quick Report</string>
+      <string id="MSG_RIB_MAPPROP" type="Button">Properties</string>
+      <string id="MSG_RIB_MAPPROPSCT" type="Button">Properties</string>
+      <string id="MSG_RIB_MAPPROPDES" type="Button">Edit the properties of the selected Quick Report</string>
+      <string id="MSG_RIB_MAPREFRESH" type="Button">Refresh</string>
+      <string id="MSG_RIB_MAPREFRESHSCT" type="Button">Refresh</string>
+      <string id="MSG_RIB_MAPREFRESHDES" type="Button">Refresh the data in the selected Quick Report</string>
+      <string id="MSG_RIB_MAPCLEAR" type="Button">Clear</string>
+      <string id="MSG_RIB_MAPCLEARSCT" type="Button">Clear</string>
+      <string id="MSG_RIB_MAPCLEARDES" type="Button">Clear  the data in the selected Quick Report</string>
+      <string id="MSG_RIB_MAPCONVERT" type="Button">Convert</string>
+      <string id="MSG_RIB_MAPCONVERTSCT" type="Button">Convert</string>
+      <string id="MSG_RIB_MAPCONVERTDES" type="Button">Convert selected Quick Report to Snapshot</string>
+      <string id="MSG_RIB_MAPCOMMIT" type="Button">Commit</string>
+      <string id="MSG_RIB_MAPCOMMITSCT" type="Button">Commit</string>
+      <string id="MSG_RIB_MAPCOMMITDES" type="Button">Commit data changes from selected Quick Report</string>
+      <string id="MSG_RIB_SANDBOX" type="Button">Sandbox</string>
+      <string id="MSG_RIB_SANDBOXNEW" type="Button">New</string>
+      <string id="MSG_RIB_SANDBOXNEWSCT" type="Button">New</string>
+      <string id="MSG_RIB_SANDBOXNEWDES" type="Button">Create new sandbox</string>
+      <string id="MSG_RIB_SANDBOXDEL" type="Button">Delete</string>
+      <string id="MSG_RIB_SANDBOXDELSCT" type="Button">Delete</string>
+      <string id="MSG_RIB_SANDBOXDELDES" type="Button">Delete selected sandbox</string>
+      <string id="MSG_RIB_SANDBOXMER" type="Button">Merge</string>
+      <string id="MSG_RIB_SANDBOXMERSCT" type="Button">Merge</string>
+      <string id="MSG_RIB_SANDBOXMERDES" type="Button">Merge selected sandbox</string>
+      <string id="MSG_RIB_SANDBOXCLO" type="Button">Clone</string>
+      <string id="MSG_RIB_SANDBOXCLOSCT" type="Button">Clone</string>
+      <string id="MSG_RIB_SANDBOXCLODES" type="Button">Clone selected sandbox</string>
+      <string id="MSG_RIB_SANDBOXREN" type="Button">Rename</string>
+      <string id="MSG_RIB_SANDBOXRENSCT" type="Button">Rename</string>
+      <string id="MSG_RIB_SANDBOXRENDES" type="Button">Rename selected sandbox</string>
+      <string id="MSG_RIB_EXPLORATIONSUPPROWS" type="Button">Suppress Rows Only</string>
+      <string id="MSG_RIB_EXPLORATIONSUPPROWSSCT" type="Button">Suppress Rows Only</string>
+      <string id="MSG_RIB_EXPLORATIONSUPPROWSDES" type="Button">Suppress rows only in Exploration</string>
+      <string id="MSG_RIB_EXPLORATIONSUPPCOLUMNS" type="Button">Suppress Columns Only</string>
+      <string id="MSG_RIB_EXPLORATIONSUPPCOLUMNSSCT" type="Button">Suppress Columns Only</string>
+      <string id="MSG_RIB_EXPLORATIONSUPPCOLUMNSDES" type="Button">Suppress columns only in Exploration</string>
+      <string id="MSG_RIB_EXPLORATIONSUPPBOTH" type="Button">Suppress Rows and Columns</string>
+      <string id="MSG_RIB_EXPLORATIONSUPPBOTHSCT" type="Button">Suppress Rows and Columns</string>
+      <string id="MSG_RIB_EXPLORATIONSUPPBOTHDES" type="Button">Suppress rows and columns in Exploration</string>
+      <string id="MSG_RIB_EXPLORATIONSUPPNONE" type="Button">No Suppression</string>
+      <string id="MSG_RIB_EXPLORATIONSUPPNONESCT" type="Button">No Suppression</string>
+      <string id="MSG_RIB_EXPLORATIONSUPPNONEDES" type="Button">No Suppression in Exploration</string>
+      <string id="MSG_RIB_DYNAMICREPORT" type="Button">Dynamic Report</string>
+      <string id="MSG_RIB_DYNAMICREBUILDSHEET" type="Button">Rebuild Sheet</string>
+      <string id="MSG_RIB_DYNAMICREBUILDSHEETSCT" type="Button">Rebuild Sheet</string>
+      <string id="MSG_RIB_DYNAMICREBUILDSHEETDES" type="Button">Rebuild all Dynamic Reports in current Sheet</string>
+      <string id="MSG_RIB_DYNAMICREBUILDWORKBOOK" type="Button">Rebuild Book</string>
+      <string id="MSG_RIB_DYNAMICREBUILDWORKBOOKSCT" type="Button">Rebuild Book</string>
+      <string id="MSG_RIB_DYNAMICREBUILDWORKBOOKDES" type="Button">Rebuild all Dynamic Reports in current Book</string>
+      <string id="MSG_RIB_DYNAMICREPAIRWORKBOOK" type="Button">Repair Book</string>
+      <string id="MSG_RIB_DYNAMICREPAIRWORKBOOKSCT" type="Button">Repair Book</string>
+      <string id="MSG_RIB_DYNAMICREPAIRWORKBOOKDES" type="Button">Repair all Dynamic Reports in current Book</string>
+      <string id="MSG_RIB_DYNAMICREGENWORKBOOK" type="Button">Regenerate Book</string>
+      <string id="MSG_RIB_DYNAMICREGENWORKBOOKSCT" type="Button">Regenerate Book</string>
+      <string id="MSG_RIB_DYNAMICREGENWORKBOOKDES" type="Button">Regenerate all Dynamic Reports in current Book</string>
+      <string id="MSG_RIB_DYNAMICRECREATEWORKBOOK" type="Button">Recreate Book</string>
+      <string id="MSG_RIB_DYNAMICRECREATEWORKBOOKSCT" type="Button">Recreate Book</string>
+      <string id="MSG_RIB_DYNAMICRECREATEWORKBOOKDES" type="Button">Recreate all Dynamic Reports in current Book</string>
+    </section>
+    <section name="PKG" usage="Messages for Open Package UI" type="UI">
+      <string id="MSG_PKG_TITLE" type="Dialog Caption">Select package</string>
+      <string id="MSG_PKG_LOOK_IN" type="Control Label">System:</string>
+      <string id="MSG_PKG_PUBLIC" type="Check Box">Public folders</string>
+      <string id="MSG_PKG_MY" type="Check Box">My folders</string>
+      <string id="MSG_PKG_MRU" type="Check Box">Recently used</string>
+      <string id="MSG_PKG_OK" type="Button">OK</string>
+      <string id="MSG_PKG_REFRESH" type="Tooltip">Load packages</string>
+      <string id="MSG_PKG_CANCEL" type="Button">Cancel</string>
+      <string id="MSG_PKG_CANCEL_DIALOG" type="Button">Cancel select package dialog</string>
+      <string id="MSG_PKG_CUBE_PRIVATE_VIEW_PLURAL" type="String">Private views</string>
+      <string id="MSG_PKG_DIMENSION_PRIVATE_SET_PLURAL" type="String">Private subsets</string>
+      <string id="MSG_PKG_DIMENSION_ATTRIBUTE_PLURAL" type="String">Attributes</string>
+      <string id="MSG_SELECT_SYSTEM" type="List Item Label">Select an IBM system...</string>
+      <string id="MSG_PKG_NONE" type="Menu Item">No server selected</string>
+      <string id="MSG_PKG_CUSTOM_SETS_FOLDERNAME" type="String">Custom sets</string>
+      <string id="MSG_PKG_INFO" type="String">Information</string>
+      <string id="MSG_PKG_SERVER_NAME" type="String">System name</string>
+      <string id="MSG_PKG_PACKAGE_NAME" type="String">Package name</string>
+      <string id="MSG_PKG_CUBE_CREATED_ON" type="String">Cube created on</string>
+      <string id="MSG_PKG_CUBE_CURRENT_PERIOD" type="String">Cube current period</string>
+      <string id="MSG_PKG_CUBE_DATA_UPDATED" type="String">Cube data updated</string>
+      <string id="MSG_PKG_CUBE_SCHEMA_UPDATED" type="String">Cube schema updated</string>
+    </section>
+    <section name="OPS" usage="Messages for Open/Save Set Dialog" type="Messages">
+      <string id="MSG_OPS_SAVEAS" type="String">Save as</string>
+      <string id="MSG_OPS_OPEN" type="String">Open</string>
+      <string id="MSG_OPS_SAVE" type="String">Save</string>
+      <string id="MSG_OPS_CANCEL" type="String">Cancel</string>
+      <string id="MSG_OPS_PUBLIC" type="String">Public</string>
+      <string id="MSG_OPS_PRIVATE" type="String">Private</string>
+    </section>
+    <section name="CNL" usage="Messages for Exploration" type="Messages">
+      <string id="MSG_PROCESSING_CELLS" type="String">Processing cells...</string>
+      <string id="MSG_BN_CLONE" type="String">Clone</string>
+    </section>
+    <section name="EXP" usage="Messages for Exploration" type="Messages">
+      <string id="MSG_ROWS" type="String">Rows:</string>
+      <string id="MSG_COLS" type="String">Columns:</string>
+      <string id="MSG_CONTEXT" type="String">Context:</string>
+      <string id="MSG_SERVER" type="String">System:</string>
+      <string id="MSG_PACKAGE" type="String">Package:</string>
+      <string id="MSG_FILTER_ROWS" type="String">Filter rows:</string>
+      <string id="MSG_FILTER_COLS" type="String">Filter columns:</string>
+      <string id="MSG_FILTER_CONTEXT" type="String">Filter context:</string>
+      <string id="MSG_FILTER" type="String">Filter:</string>
+      <string id="MSG_TIME_CREATED" type="String">Created:</string>
+      <string id="MSG_TIME_MODIFIED" type="String">Modified:</string>
+      <string id="MSG_MORE" type="String">More</string>
+      <string id="MSG_ALL" type="String">All</string>
+      <string id="MSG_DELETE_VIEW" type="String">Delete</string>
+      <string id="MSG_RENAME_VIEW" type="String">Rename</string>
+      <string id="MSG_REPLACE_EXP" type="String">Replace exploration</string>
+      <string id="MSG_ADD_ROWS_EXP" type="String">Add to rows</string>
+      <string id="MSG_ADD_COLS_EXP" type="String">Add to columns</string>
+      <string id="MSG_ADD_SLICER_EXP" type="String">Add to context</string>
+      <string id="MSG_ADD_MEASURE_EXP" type="String">Add as measure</string>
+      <string id="MSG_WIPE_CHANGES" type="String">Refreshing the report on '{0}' will remove all changes.</string>
+      <string id="MSG_LIST_GROUP" type="Button">Group/Ungroup</string>
+      <string id="MSG_BLOCK_TOOLTIPDIM" type="String">Dimension: {0}</string>
+      <string id="MSG_BLOCK_TOOLTIPHIER" type="String">Hierarchy: {0}</string>
+    </section>
+    <section name="TAG" usage="Messages for Smart Tag" type="Messages">
+      <string id="MSG_DRILLUP" type="String">Drill up</string>
+      <string id="MSG_DRILLDOWN" type="String">Drill down</string>
+      <string id="MSG_TOGGLE_EXPANSION" type="String">Expand / Collapse</string>
+      <string id="MSG_TOGGLE_EXPAND_ALL" type="String">Expand level / Collapse level</string>
+      <string id="MSG_DELETE" type="String">Hide</string>
+      <string id="MSG_KEEP" type="String">Keep</string>
+      <string id="MSG_MAKE_ASYMMETRIC" type="String">Convert axis to asymmetric</string>
+      <string id="MSG_MAKE_SYMMETRIC" type="String">Convert axis to symmetric</string>
+      <string id="MSG_AXI_SYMMETRIC_TOOLTIP" type="Tooltip">Convert axis to symmetric</string>
+      <string id="MSG_RANGE_INSERT" type="String">&amp;Insert...</string>
+      <string id="MSG_RANGE_DELETE" type="String">&amp;Delete...</string>
+      <string id="MSG_RANGE_DELETE_EDITMENU" type="String">&amp;Delete...</string>
+      <string id="MSG_RANGE_INSERT_ROWCOL" type="String">&amp;Insert</string>
+      <string id="MSG_RANGE_DELETE_ROWCOL" type="String">&amp;Delete</string>
+      <string id="MSG_RANGE_INSERTMENU_CELLS" type="String">C&amp;ells...</string>
+      <string id="MSG_RANGE_INSERTMENU_ROWS" type="String">&amp;Rows</string>
+      <string id="MSG_RANGE_INSERTMENU_COLS" type="String">&amp;Columns</string>
+      <string id="MSG_RANGESHIFT_INSERTTITLE" type="String">Insert</string>
+      <string id="MSG_RANGESHIFT_DELETETITLE" type="String">Delete</string>
+      <string id="MSG_RANGESHIFT_OK" type="String">Ok</string>
+      <string id="MSG_RANGESHIFT_CANCEL" type="String">Cancel</string>
+      <string id="MSG_RANGESHIFT_ENTIREROW" type="String">Entire &amp;row</string>
+      <string id="MSG_RANGESHIFT_ENTIRECOL" type="String">Entire &amp;column</string>
+      <string id="MSG_RANGESHIFT_CELLSRIGHT" type="String">Shift cells r&amp;ight</string>
+      <string id="MSG_RANGESHIFT_CELLSDOWN" type="String">Shift cells &amp;down</string>
+      <string id="MSG_RANGESHIFT_CELLSLEFT" type="String">Shift cells &amp;left</string>
+      <string id="MSG_RANGESHIFT_CELLSUP" type="String">Shift cells &amp;up</string>
+      <string id="MSG_SYNCH" type="String">Display package</string>
+      <string id="MSG_DRILL" type="String">Drill...</string>
+      <string id="MSG_EXPLORE" type="String">Explore</string>
+      <string id="MSG_EXPAND" type="String">Expand</string>
+      <string id="MSG_EXPAND_LEFT" type="String">Expand left</string>
+      <string id="MSG_EXPAND_RIGHT" type="String">Expand right</string>
+      <string id="MSG_EXPAND_UP" type="String">Expand up</string>
+      <string id="MSG_EXPAND_DOWN" type="String">Expand down</string>
+      <string id="MSG_CREATE_LIST" type="String">Create Excel list</string>
+      <string id="MSG_SELECT_MEMBER" type="String">Select member...</string>
+      <string id="MSG_REFRESH_POPOUT" type="String">Refresh</string>
+      <string id="MSG_CLEAR_POPOUT" type="String">Clear data</string>
+      <string id="MSG_UNLINK_POPOUT" type="String">Convert to snapshot</string>
+      <string id="MSG_REFRESH_CELLS" type="String">Refresh selected cells</string>
+      <string id="MSG_REFRESH_WORKSHEET" type="String">Refresh worksheet</string>
+      <string id="MSG_REFRESH_WORKBOOK" type="String">Refresh workbook</string>
+      <string id="MSG_UNLINK_CELLS" type="String">Convert selected cells to snapshot</string>
+      <string id="MSG_UNLINK_CELLS_CONFIRM" type="String">Do you want to convert the selected cells to snapshot?</string>
+      <string id="MSG_UNLINK_WORKSHEET" type="String">Convert worksheet to snapshot</string>
+      <string id="MSG_UNLINK_WORKSHEET_CONFIRM" type="String">Do you want to convert the selected exploration to snapshot?</string>
+      <string id="MSG_UNLINK_WORKBOOK" type="String">Convert workbook to snapshot</string>
+      <string id="MSG_UNLINK_WORKBOOK_CONFIRM" type="String">Do you want to convert all explorations in the workbook to snapshots?</string>
+      <string id="MSG_UNLINK_CONVERT_CONFIRM" type="String">Converting data to a snapshot will remove links to the data source.</string>
+      <string id="MSG_CLEAR_CELLS" type="String">Clear selected cells</string>
+      <string id="MSG_CLEAR_CELLS_CONFIRM" type="String">Clear data for the selected cells?</string>
+      <string id="MSG_CLEAR_WORKSHEET" type="String">Clear worksheet</string>
+      <string id="MSG_CLEAR_WORKSHEET_CONFIRM" type="String">Clear data for the selected worksheet?</string>
+      <string id="MSG_CLEAR_WORKBOOK" type="String">Clear workbook</string>
+      <string id="MSG_CLEAR_WORKBOOK_CONFIRM" type="String">Clear data for the selected workbook?</string>
+      <string id="MSG_ENCAPSULATE_FORMULA" type="String">Encapsulate formula</string>
+      <string id="MENU_ID_OPEN_DBRW" type="String">Open DBRW dialog</string>
+    </section>
+    <section name="CEL" usage="Messages for Cell Based" type="Messages">
+      <string id="MSG_CEL_REGISTRATION" type="String">Microsoft Excel must be restarted to complete the registration in order to use custom reports.</string>
+      <string id="MSG_CEL_NODATA" type="String">Exploration cannot be converted since there is no data.</string>
+      <string id="MSG_WORKSHEET_PROTECTED" type="String" whiteSpace="preserve">The cell or chart you are trying to change is protected and therefore read-only. To modify a protected cell or chart, first remove protection using the Unprotect Sheet command (Tools menu, Protection submenu). You may be prompted for a password.</string>
+      <string id="MSG_XL_TEXT_LIMITED" type="String">Text values in formulas are limited to 255 characters. To create text values longer than 255 characters in a formula, use the CONCATENATE function or the concatenation operator ( &amp; ).</string>
+      <string id="MSG_ADD_FORMULA" type="String">Add metadata formula</string>
+      <string id="MSG_COGVAL_NOFILL" type="String">Non-empty cells detected.  COGVAL generation aborted.</string>
+      <string id="MSG_CEL_REFRESHCOMPLETE" type="String">Custom report retrieval complete.</string>
+      <string id="MSG_CEL_RENDERCOMPLETE" type="String">Render complete.</string>
+      <string id="MSG_CEL_RENDERSTART" type="String" usage="{0:Request message}">{0} - Rendering results</string>
+      <string id="MSG_COGNAME_REQUEST" type="String" usage="{0:Count}">Requesting member captions for {0} COGNAME formulas.</string>
+      <string id="MSG_COGVAL_REQUEST" type="String" usage="{0:Count}">Requesting tuple data for {0} COGVAL formulas.</string>
+      <string id="MSG_COGFORMULA_PROGRESS" type="String" usage="{0:Count} of {1:Count}">Data retrieved for {0} of {1} formulas.</string>
+      <string id="MSG_UNLINK_WS_PROTECTED_ERR" type="String" whiteSpace="preserve">Custom reports cannot be converted to a snapshot on worksheet {0} because the worksheet is protected. To modify a protected worksheet, first remove protection using the Unprotect Worksheet command. You may be prompted for a password.</string>
+    </section>
+    <section name="ITM" usage="Messages for Choose Items" type="Messages">
+      <string id="MSG_ITM_TITLE" type="Dialog Caption">Select member</string>
+      <string id="MSG_ITM_OK" type="Button">OK</string>
+      <string id="MSG_ITM_CANCEL" type="Button">Cancel</string>
+      <string id="MSG_ITM_APPLY" type="Button">Apply</string>
+      <string id="MSG_ITM_RESET" type="Button">Reset</string>
+    </section>
+    <section name="EDT" usage="Messages for Editing Expressions" type="Messages">
+      <string id="MSG_EDT_OK" type="Button">OK</string>
+      <string id="MSG_EDT_CANCEL" type="Button">Cancel</string>
+      <string id="MSG_EDT_SHOW_FUNCTIONS" type="Button">Show functions</string>
+      <string id="MSG_EDT_HIDE_FUNCTIONS" type="Button">Hide functions</string>
+      <string id="MSG_EDT_ARGUMENTS" type="Dialog Caption" usage="{0:SUM} Arguments">{0} arguments</string>
+      <string id="MSG_EDT_SELECTED_MEMBERS" type="Dialog Caption">Selected members</string>
+      <string id="MSG_EDT_SELECT_FUNCTION" type="Dialog Caption">Selected a function</string>
+      <string id="MSG_EDT_CHANGE_FUNCTION" type="String">Change function</string>
+      <string id="MSG_EDT_ADD_FUNCTION" type="String">Add</string>
+      <string id="MSG_EDT_DELETE_FUNCTION" type="String">Delete</string>
+      <string id="MSG_EDT_DISABLE_FUNCTION" type="String">Disable</string>
+      <string id="MSG_EDT_CHANGE_IGNORED" type="String">Changed ignored</string>
+      <string id="MSG_EDT_UPDATE_FUNCTION" type="String">Update</string>
+      <string id="MSG_EDT_TYPE_VALUE" type="String">Value</string>
+      <string id="MSG_EDT_TYPE_MEMBER_SET" type="String">Set of Members</string>
+      <string id="MSG_EDT_TYPE_MEMBER" type="String">Member</string>
+      <string id="MSG_EDT_TYPE_LEVEL" type="String">Level</string>
+      <string id="MSG_EDT_TYPE_HIERARCHY" type="String">Hierarchy</string>
+      <string id="MSG_EDT_TYPE_DIMENSION" type="String">Dimension</string>
+      <string id="MSG_EDT_TYPE_NUMBER" type="String">Number</string>
+      <string id="MSG_EDT_TYPE_TEXT" type="String">Text</string>
+      <string id="MSG_EDT_TYPE_CONDITION" type="String">Condition</string>
+      <string id="MSG_FNS_TYPE_LABEL_VALUE" type="String">Value of</string>
+      <string id="MSG_FNS_TYPE_LABEL_MEMBER_SET" type="String">Member set</string>
+      <string id="MSG_FNS_TYPE_LABEL_MEMBER" type="String">Member</string>
+      <string id="MSG_FNS_TYPE_LABEL_LEVEL" type="String">Level</string>
+      <string id="MSG_FNS_TYPE_LABEL_HIERARCHY" type="String">Hierarchy</string>
+      <string id="MSG_FNS_TYPE_LABEL_DIMENSION" type="String">Dimension</string>
+      <string id="MSG_FNS_TYPE_LABEL_NUMBER" type="String">Number</string>
+      <string id="MSG_FNS_TYPE_LABEL_TEXT" type="String">Text</string>
+      <string id="MSG_FNS_TYPE_LABEL_OPTION" type="String">Option</string>
+      <string id="MSG_FNS_TYPE_LABEL_FILTER" type="String">Filter condition</string>
+      <string id="MSG_EDT_PENDING_INCOMPLETE" type="String">Function arguments incomplete</string>
+      <string id="MSG_EDT_PENDING_CHANGES" type="String">Changes pending ready to apply</string>
+    </section>
+    <section name="DRL" usage="Messages for drill" type="Messages">
+      <string id="MSG_DRL_TITLE" type="Dialog Caption">Drill</string>
+      <string id="MSG_DRL_NO_INFORMATION" type="String">No drill information available for this item.</string>
+      <string id="MSG_DRL_OK" type="Button">OK</string>
+      <string id="MSG_DRL_CANCEL" type="Button">Cancel</string>
+    </section>
+    <section name="RDR" usage="Messages for reorder" type="Messages">
+      <string id="MSG_RDR_EDIT" type="String">Edit</string>
+      <string id="MSG_RDR_EDIT_CUSTOM_SET" type="String">Edit custom set</string>
+      <string id="MSG_RDR_SELECTION" type="String">Selection</string>
+      <string id="MSG_RDR_TOOLTIP_DELETE" type="Tooltip">Remove items from list</string>
+      <string id="MSG_RDR_TOOLTIP_MOVERIGHT" type="Tooltip">Add items to list</string>
+      <string id="MSG_RDR_TOOLTIP_DOWN" type="Tooltip">Move items down</string>
+      <string id="MSG_RDR_TOOLTIP_UP" type="Tooltip">Move items up</string>
+      <string id="MSG_RDR_TOOLTIP_SORTUP" type="Tooltip">Sort items alphabetically</string>
+      <string id="MSG_RDR_TOOLTIP_SORTDOWN" type="Tooltip">Sort items reverse-alphabetically</string>
+    </section>
+    <section name="SRH" usage="Message for Search Metadata dialog" type="UI">
+      <string id="MSG_SRH_LIMIT" type="String">Limit results to:</string>
+      <string id="MSG_SRH_SETLIMITALL" type="String">All</string>
+      <string id="MSG_SRH_NAME" type="String">Name</string>
+      <string id="MSG_SRH_LEVELKEY" type="String">Level</string>
+      <string id="MSG_SRH_SEARCH" type="String">Search</string>
+      <string id="MSG_SRH_CONTAINS" type="String">Contains</string>
+      <string id="MSG_SRH_MEMBER_SEARCH" type="Dialog Caption">Member search</string>
+      <string id="MSG_SRH_WORDS" type="Dialog Caption">&amp;Words:</string>
+      <string id="MSG_SRH_RESULTS" type="Dialog Caption">Results:</string>
+      <string id="MSG_SRH_ALL" type="Radio Button">Contains all of these words</string>
+      <string id="MSG_SRH_ANY" type="Radio Button">Contains any of these words</string>
+      <string id="MSG_SRH_EXACT" type="Radio Button">Contains exact phrase</string>
+      <string id="MSG_SRH_STARTS" type="Radio Button">Starts with any of these words</string>
+      <string id="MSG_SRH_WILDCARD" type="Radio Button">Wildcard search</string>
+      <string id="MSG_SRH_CASE" type="Check Box">Match case</string>
+      <string id="MSG_SRH_TITLE" type="Dialog Caption">Search: "{0}"</string>
+      <string id="MSG_SRH_CLOSE" type="Button">Close</string>
+      <string id="MSG_SRH_NO_MATCH" type="String">No match found.</string>
+      <string id="MSG_SRH_OPTIONS" type="Group Box Label">Options</string>
+      <string id="MSG_SRH_ALL_CHILDREN" type="Radio Button">In all descendants</string>
+      <string id="MSG_SRH_DIRECT_CHILDREN" type="Radio Button">In children</string>
+      <string id="MSG_SRH_LEVEL" type="Radio Button">At the level:</string>
+      <string id="MSG_SRH_LEVEL1" type="Radio Button">At the current level</string>
+      <string id="MSG_SRH_SEARCH_IN" type="Group Box Label">Search In</string>
+      <string id="MSG_SRH_TOOLTIP_SEARCH" type="Tooltip">Search</string>
+      <string id="MSG_SRH_INVALID" type="String">Invalid search. Either no search parameters found or all search parameter values were empty.</string>
+      <string id="MSG_SRH_INVALIDMULTIVALUEPARAM" type="String">Invalid search: "{0}" occurs twice.</string>
+      <string id="MSG_SRH_SEARCHKEY_ERROR1" type="String">Could not find searchkey</string>
+      <string id="MSG_SRH_SEARCHKEY_ERROR2" type="String">Unhandled control type</string>
+      <string id="MSG_SRH_DYN_CAPTION" type="String">Search - ({0})</string>
+    </section>
+    <section name="LST" usage="Messages for select list" type="Messages">
+      <string id="MSG_LST_TITLE" type="Dialog Caption">Choose list items</string>
+      <string id="MSG_LST_OK" type="Button">OK</string>
+      <string id="MSG_LST_CANCEL" type="Button">Cancel</string>
+    </section>
+    <section name="LVL" usage="Messages for Level" type="Messages">
+      <string id="MSG_LVL_TITLE" type="String">Level:</string>
+      <string id="MSG_LVL_NO_INFO" type="String">No level information</string>
+    </section>
+    <section name="SFN" usage="Messages for Set Functions" type="Messages">
+      <string id="MSG_SFN_ORDER_TITLE" type="Dialog Caption">Sort order</string>
+      <string id="MSG_SFN_TB_TITLE" type="Dialog Caption">Top/Bottom subset</string>
+      <string id="MSG_SFN_SET_TITLE" type="Dialog Caption">Set manipulation</string>
+      <string id="MSG_SFN_TOGGLE_TITLE" type="Dialog Caption">Toggle drill states</string>
+    </section>
+    <section name="QRY" usage="Message for the Query object" type="Messages">
+      <string id="MSG_COMBINATION" type="String">Combination</string>
+      <string id="MSG_SET_LIST" type="String" usage="{0:time} (list)">{0} (list)</string>
+      <string id="MSG_SET_SUM" type="String" usage="SUM( {0:time} )">SUM( {0} )</string>
+      <string id="MSG_SET_FUNCTION" type="String" usage="{0:DESCENDANTS} ({1:Europe})">{0}({1})</string>
+      <string id="MSG_SET_DIMENSION" type="String" usage="{0:time} : {1:All Months}">{0} : {1}</string>
+      <string id="MSG_HEADING" type="String">&lt;Heading&gt;</string>
+      <string id="MSG_SET_MDX_EXPRESSION" type="String">MDX expression</string>
+    </section>
+    <section name="MDX" usage="Messages for the MDX Parsing" type="Messages">
+      <string id="MSG_MDX_CUBENOTFOUND" type="String">Cube {0} not found</string>
+      <string id="MSG_MDX_DIMNOTFOUND" type="String">Dimension {0} not found</string>
+      <string id="MSG_MDX_MEMNOTFOUND" type="String">Undefined members: {0}</string>
+    </section>
+    <section name="FLT" usage="Messages for Filtering" type="Messages">
+      <string id="MSG_FLT_EXPAND" type="Tooltip">Expand</string>
+      <string id="MSG_FLT_COLLAPSE" type="Tooltip">Collapse</string>
+      <string id="MSG_FLT_EXPAND_ACCESS" type="Tooltip">Expand filter lines</string>
+      <string id="MSG_FLT_COLLAPSE_ACCESS" type="Tooltip">Collapse filter lines</string>
+      <string id="MSG_FLT_FILTER_MENU" type="Menu Item">Filter</string>
+      <string id="MSG_FLT_CUSTOM_FILTER" type="Menu Item">Edit / Add filter...</string>
+      <string id="MSG_FLT_FILTER_APPLIED" type="Menu Item">Apply filter</string>
+      <string id="MSG_FLT_TITLE" type="String">Edit filter</string>
+      <string id="MSG_FLT_OK" type="Button">OK</string>
+      <string id="MSG_FLT_CANCEL" type="Button">Cancel</string>
+      <string id="MSG_FLT_UNDO" type="Button">Undo</string>
+      <string id="MSG_FLT_REDO" type="Button">Redo</string>
+      <string id="MSG_FLT_INSERT_ABOVE" type="Button">Insert Above</string>
+      <string id="MSG_FLT_APPEND_ARGUMENT" type="Button">Append argument</string>
+      <string id="MSG_FLT_DELETE" type="Button">Delete</string>
+      <string id="MSG_FLT_FILTER" type="Dialog Caption">Filter</string>
+      <string id="MSG_FLT_EDIT_FILTER" type="Dialog Caption">Filter line</string>
+      <string id="MSG_FLT_EDIT_ITEM" type="Dialog Caption">Item</string>
+      <string id="MSG_FLT_EDIT_OPERATOR" type="Dialog Caption">Operator</string>
+      <string id="MSG_FLT_EDIT_TYPE" type="Dialog Caption">Type</string>
+      <string id="MSG_FLT_EDIT_VALUE" type="Dialog Caption">Value</string>
+      <string id="MSG_FLT_LINK_VALUE" type="Menu Item">Enter a value</string>
+      <string id="MSG_FLT_LINK_CELL" type="Menu Item">Enter a cell reference</string>
+      <string id="MSG_FLT_LINK_COLUMN" type="Menu Item">Select a column</string>
+      <string id="MSG_FLT_LINK_MEASURE" type="Menu Item">Select a measure</string>
+      <string id="MSG_FLT_CHECK_BEFORE_AUTO_AGGREGATE">Before aggregation</string>
+      <string id="MSG_FLT_CRITERIA_AND" type="Menu Item">AND (all criteria at this level must be met)</string>
+      <string id="MSG_FLT_CRITERIA_OR" type="Menu Item">OR (one or more criteria at this level must be met)</string>
+      <string id="MSG_FLT_EDIT_APPLY" type="Button">Apply</string>
+      <string id="MSG_FLT_EDIT_CANCEL" type="Button">Cancel</string>
+      <string id="MSG_FLT_UNDO_TOOLTIP" type="Tooltip">Back</string>
+      <string id="MSG_FLT_REDO_TOOLTIP" type="Tooltip">Forward</string>
+      <string id="MSG_FLT_EDIT_DEFAULT" type="String">Default&lt;{0}&gt;</string>
+      <string id="MSG_FLT_SUMMARY_LABEL" type="String">Label {0} "{1}"</string>
+      <string id="MSG_FLT_CANCELEDIT" type="String">Do you want to apply changes?</string>
+      <string id="MSG_FLT_CONTINUE" type="String">Changes will be lost, continue?</string>
+      <string id="MSG_FLT_EDIT_ROWS" type="String">Rows:</string>
+      <string id="MSG_FLT_EDIT_COLUMNS" type="String">Columns:</string>
+      <string id="MSG_FLT_FOR" type="String">for</string>
+      <string id="MSG_FLT_GROUP" type="Menu Item">Group selected filter lines</string>
+      <string id="MSG_FLT_GROUP_TOOLTIP" type="Tooltip">Group selected filter lines</string>
+      <string id="MSG_FLT_UNGROUP" type="Menu Item"> Remove the group containing selected filter line(s)</string>
+      <string id="MSG_FLT_UNGROUP_TOOLTIP" type="Tooltip">Remove the group containing selected filter line(s)</string>
+      <string id="MSG_FLT_EDIT" type="Menu Item">Edit</string>
+      <string id="MSG_FLT_DELETE_ALL" type="Menu Item">Delete all</string>
+      <string id="MSG_FLT_DELETE_TOOLTIP" type="Tooltip">Delete selected filter line</string>
+      <string id="MSG_FLT_ADD_LINE" type="Menu Item">Add a filter line</string>
+      <string id="MSG_FLT_ADD_LINE_TOOLTIP" type="Tooltip">Add a filter Line</string>
+      <string id="MSG_FLT_INSERT_LINE" type="Menu Item">Insert a filter line</string>
+      <string id="MSG_FLT_INSERT_GROUP" type="Menu Item">Insert a filter group</string>
+      <string id="MSG_FLT_NEW_GROUP" type="Menu Item">Add a filter group</string>
+      <string id="MSG_FLT_EXPLANATION" type="String">Create a filter to limit the number of items in a selected set. Group filters to create custom conditions (AND or OR).</string>
+      <string id="MSG_FLT_EDIT_EXPLANATION" type="String">Enter your filter criteria</string>
+      <string id="MSG_FLT_TYPE_LABEL" type="String">Label</string>
+      <string id="MSG_FLT_TYPE_MEASURE" type="String">Measure</string>
+      <string id="MSG_FLT_TYPE_ATTRIBUTE" type="String">Attribute</string>
+      <!--filter operators-->
+      <string id="MSG_FLT_MISSING" type="String">?</string>
+      <!--tuple description-->
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_1" type="String" usage="{0:Revenue}">{0}</string>
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_2" type="String" usage="{0:Revenue} for {1:Camping Equipment}">{0} for {1}</string>
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_3" type="String" usage="{0:Revenue} for {1:Camping Equipment}, (2:Europe}">{0} for {1}, {2}</string>
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_4" type="String" usage="{0:Revenue} for {1:Camping Equipment}, (2:Europe}, {3:2005}">{0} for {1}, {2}, {3}</string>
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_5" type="String" usage="{0:Revenue} for {1:Camping Equipment}, (2:Europe}, {3:2005}, {4:Other}">{0} for {1}, {2}, {3}, {4}</string>
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_6" type="String" usage="{0:Revenue} for {1:Camping Equipment}, (2:Europe}, {3:2005}, ... , {5:Other}">{0} for {1}, {2}, {3}, {4}, {5}</string>
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_7" type="String" usage="{0:Revenue} for {1:Camping Equipment}, (2:Europe}, {3:2005}, ... , {6:Other}">{0} for {1}, {2}, {3}, {4}, {5}, {6}</string>
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_8" type="String" usage="{0:Revenue} for {1:Camping Equipment}, (2:Europe}, {3:2005}, ... , {7:Other}">{0} for {1}, {2}, {3}, {4}, {5}, {6}, {7}</string>
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_9" type="String" usage="{0:Revenue} for {1:Camping Equipment}, (2:Europe}, {3:2005}, ... , {8:Other}">{0} for {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}</string>
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_10" type="String" usage="{0:Revenue} for {1:Camping Equipment}, (2:Europe}, {3:2005}, ... , {9:Other}">{0} for {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9},</string>
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_11" type="String" usage="{0:Revenue} for {1:Camping Equipment}, (2:Europe}, {3:2005}, ... , {10:Other}">{0} for {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}</string>
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_12" type="String" usage="{0:Revenue} for {1:Camping Equipment}, (2:Europe}, {3:2005}, ... , {11:Other}">{0} for {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}}</string>
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_13" type="String" usage="{0:Revenue} for {1:Camping Equipment}, (2:Europe}, {3:2005}, ... , {12:Other}">{0} for {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}</string>
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_14" type="String" usage="{0:Revenue} for {1:Camping Equipment}, (2:Europe}, {3:2005}, ... , {13:Other}">{0} for {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}</string>
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_15" type="String" usage="{0:Revenue} for {1:Camping Equipment}, (2:Europe}, {3:2005}, ... , {14:Other}">{0} for {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}, {14}</string>
+      <string id="MSG_FLT_MEASURE_MEMBERS_COMBINATION_16" type="String" usage="{0:Revenue} for {1:Camping Equipment}, (2:Europe}, {3:2005}, ... , {15:Other}">{0} for {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}, {14}, {15}</string>
+    </section>
+    <section name="FNS" usage="Functions for expressions" type="Messages">
+      <!--numeric operators-->
+      <string id="MSG_FNS_ADD" type="String">+</string>
+      <string id="MSG_FNS_SUB" type="String">-</string>
+      <string id="MSG_FNS_NEGATE" type="String">-</string>
+      <string id="MSG_FNS_MULT" type="String">*</string>
+      <string id="MSG_FNS_DIV" type="String">/</string>
+      <string id="MSG_FNS_PCT_OF" type="String">% Of</string>
+      <string id="MSG_FNS_PCT_CHG" type="String">% Change</string>
+      <string id="MSG_FNS_PCT_BASE" type="String">% Of Base</string>
+      <string id="MSG_FNS_PCT_PARENT" type="String">% Of Parent</string>
+      <!--boolean operators-->
+      <string id="MSG_FNS_AND" type="String">AND</string>
+      <string id="MSG_FNS_OR" type="String">OR</string>
+      <string id="MSG_FNS_NOT" type="String">NOT</string>
+      <!--filter operators-->
+      <string id="MSG_FNS_MATCHES" type="String">Matches</string>
+      <string id="MSG_FNS_NOTMATCH" type="String">Does not match</string>
+      <string id="MSG_FNS_CONTAINS" type="String">Contains</string>
+      <string id="MSG_FNS_NOT_CONTAINS" type="String">Does not contain</string>
+      <string id="MSG_FNS_STARTS_WITH" type="String">Starts with</string>
+      <string id="MSG_FNS_NOT_STARTS_WITH" type="String">Does not start with</string>
+      <string id="MSG_FNS_ENDS_WITH" type="String">Ends with</string>
+      <string id="MSG_FNS_NOT_ENDS_WITH" type="String">Does not end with</string>
+      <string id="MSG_FNS_GT" type="String">&gt; (Greater than)</string>
+      <string id="MSG_FNS_LT" type="String">&lt; (Less than)</string>
+      <string id="MSG_FNS_GTE" type="String">&gt;= (Greater than or equal)</string>
+      <string id="MSG_FNS_LTE" type="String">&lt;= (Less than or equal)</string>
+      <string id="MSG_FNS_EQ" type="String">= (Equal)</string>
+      <string id="MSG_FNS_NEQ" type="String">!= (Not equal)</string>
+      <string id="MSG_FNS_IS_NULL" type="String">Is null</string>
+      <string id="MSG_FNS_NOT_IS_NULL" type="String">Is not null</string>
+      <string id="MSG_FNS_IN" type="String">Is in</string>
+      <string id="MSG_FNS_LABEL" type="String">Label</string>
+      <string id="MSG_FNS_LAST_DAYS" type="String">Last # days</string>
+      <!-- TM1 functions -->
+      <string id="MSG_FNS_CURRENTMEMBER" type="String">CURRENTMEMBER</string>
+      <string id="MSG_FNS_FIRSTCHILD" type="String">FIRSTCHILD</string>
+      <string id="MSG_FNS_FIRSTSIBLING" type="String">FIRSTSIBLING</string>
+      <string id="MSG_FNS_LAG" type="String">LAG</string>
+      <string id="MSG_FNS_LASTCHILD" type="String">LASTCHILD</string>
+      <string id="MSG_FNS_LASTSIBLING" type="String">LASTSIBLING</string>
+      <string id="MSG_FNS_LEAD" type="String">LEAD</string>
+      <string id="MSG_FNS_NEXTMEMBER" type="String">NEXTMEMBER</string>
+      <string id="MSG_FNS_PARENT" type="String">PARENT</string>
+      <string id="MSG_FNS_PREVMEMBER" type="String">PREVMEMBER</string>
+      <string id="MSG_FNS_MEMBERS" type="String">MEMBERS</string>
+      <string id="MSG_FNS_CHILDREN" type="String">CHILDREN</string>
+      <string id="MSG_FNS_SIBLINGS" type="String">SIBLINGS</string>
+      <string id="MSG_FNS_ANCESTOR" type="String">ANCESTOR</string>
+      <string id="MSG_FNS_COUSIN" type="String">COUSIN</string>
+      <string id="MSG_FNS_OPENINGPERIOD" type="String">OPENINGPERIOD</string>
+      <string id="MSG_FNS_PARALELLPERIOD" type="String">PARALELLPERIOD</string>
+      <string id="MSG_FNS_DISTINCT" type="String">DISTINCT</string>
+      <string id="MSG_FNS_ADDCALCULATEDMEMBERS" type="String">ADDCALCULATEDMEMBERS</string>
+      <string id="MSG_FNS_DRILLDOWNMEMBERBOTTOM" type="String">DRILLDOWNMEMBERBOTTOM</string>
+      <string id="MSG_FNS_DRILLDOWNMEMBERTOP" type="String">DRILLDOWNMEMBERTOP</string>
+      <string id="MSG_FNS_CROSSJOIN" type="String">CROSSJOIN</string>
+      <string id="MSG_FNS_UNION" type="String">UNION</string>
+      <string id="MSG_FNS_INTERSECT" type="String">INTERSECT</string>
+      <string id="MSG_FNS_EXCEPT" type="String">EXCEPT</string>
+      <string id="MSG_FNS_DRILLDOWNMEMBER" type="String">DRILLDOWNMEMBER</string>
+      <string id="MSG_FNS_TOGGLEDRILLSTATE" type="String">Expand Members</string>
+      <string id="MSG_FNS_DRILLUPMEMBER" type="String">DRILLUPMEMBER</string>
+      <string id="MSG_FNS_LASTPERIODS" type="String">LASTPERIODS</string>
+      <string id="MSG_FNS_TOPCOUNT" type="String">Top rows</string>
+      <string id="MSG_FNS_BOTTOMCOUNT" type="String">Bottom rows</string>
+      <string id="MSG_FNS_TOPPERCENT" type="String">Top percent</string>
+      <string id="MSG_FNS_BOTTOMPERCENT" type="String">Bottom percent</string>
+      <string id="MSG_FNS_TOPSUM" type="String">Sum of top rows</string>
+      <string id="MSG_FNS_BOTTOMSUM" type="String">Sum of bottom rows</string>
+      <string id="MSG_FNS_FILTER" type="String">FILTER</string>
+      <string id="MSG_FNS_FILTER-EXPRESSION" type="String">Filter</string>
+      <string id="MSG_FNS_SUBSET" type="String">SUBSET</string>
+      <string id="MSG_FNS_ORDER" type="String">ORDER</string>
+      <string id="MSG_FNS_PERIODSTODATE" type="String">PERIODSTODATE</string>
+      <string id="MSG_FNS_HEAD" type="String">HEAD</string>
+      <string id="MSG_FNS_HIERARCHIZE" type="String">HIERARCHIZE</string>
+      <string id="MSG_FNS_DRILLUPLEVEL" type="String">DRILLUPLEVEL</string>
+      <string id="MSG_FNS_DRILLDOWNLEVEL" type="String">DRILLDOWNLEVEL</string>
+      <string id="MSG_FNS_DRILLDOWNLEVELTOP" type="String">DRILLDOWNLEVELTOP</string>
+      <string id="MSG_FNS_DRILLDOWNLEVELBOTTOM" type="String">DRILLDOWNLEVELBOTTOM</string>
+      <string id="MSG_FNS_DESCENDANTS" type="String">DESCENDANTS</string>
+      <string id="MSG_FNS_ANCESTORS" type="String">ANCESTORS</string>
+      <string id="MSG_FNS_ASCENDANTS" type="String">ASCENDANTS</string>
+      <string id="MSG_FNS_INPUTONLY" type="String">INPUTONLY</string>
+      <string id="MSG_FNS_TM1FILTERBYPATTERN" type="String">TM1FILTERBYPATTERN</string>
+      <string id="MSG_FNS_TM1FILTERBYLEVEL" type="String">TM1FILTERBYLEVEL</string>
+      <string id="MSG_FNS_TM1DRILLDOWNMEMBER" type="String">TM1DRILLDOWNMEMBER</string>
+      <string id="MSG_FNS_TM1SORT" type="String">TM1SORT</string>
+      <string id="MSG_FNS_TM1SORTBYINDEX" type="String">TM1SORTBYINDEX</string>
+      <string id="MSG_FNS_TM1SUBSETALL" type="String">TM1SUBSETALL</string>
+      <string id="MSG_FNS_TM1SUBSETTOSET" type="String">TM1SUBSETTOSET</string>
+      <string id="MSG_FNS_MEMBER_WITH_LEAVES_BELOW" type="String">To inputs</string>
+      <string id="MSG_FNS_MEMBER_WITH_DESCENDANTS_BELOW" type="String">To descendants</string>
+      <string id="MSG_FNS_MEMBER_WITH_GRANDCHILDREN_BELOW" type="String">To descendants</string>
+      <string id="MSG_FNS_MEMBER_WITH_CHILDREN_BELOW" type="String">To children</string>
+      <string id="MSG_FNS_MEMBER_WITH_LEAVES_ABOVE" type="String">To inputs</string>
+      <string id="MSG_FNS_MEMBER_WITH_DESCENDANTS_ABOVE" type="String">To descendants</string>
+      <string id="MSG_FNS_MEMBER_WITH_GRANDCHILDREN_ABOVE" type="String">To descendants</string>
+      <string id="MSG_FNS_MEMBER_WITH_CHILDREN_ABOVE" type="String">To children</string>
+      <string id="MSG_FNS_MEMBER_WITH_ANCESTORS" type="String">With ancestors</string>
+      <string id="MSG_FNS_COR_MEMBER_SET" type="String">Member set</string>
+      <string id="MSG_FNS_COR_SET_UNION" type="String">Union</string>
+      <string id="MSG_FNS_COR_SET_JOIN" type="String">Join</string>
+      <string id="MSG_FNS_COR_NO_OP" type="String">Function ...</string>
+      <string id="MSG_FNS_OPTION_ALL" type="String">Include duplicates</string>
+      <string id="MSG_FNS_OPTION_RECURSIVE" type="String">Recursively</string>
+      <string id="MSG_FNS_OPTION_POST" type="String">Totals follow components</string>
+      <string id="MSG_FNS_OPTION_ASC" type="String">Ascending</string>
+      <string id="MSG_FNS_OPTION_DESC" type="String">Descending</string>
+      <string id="MSG_FNS_OPTION_BASC" type="String">Ascending breaking hierarchy</string>
+      <string id="MSG_FNS_OPTION_BDESC" type="String">Descending breaking hierarchy</string>
+      <string id="MSG_FNS_OPTION_SELF" type="String">At the selected level</string>
+      <string id="MSG_FNS_OPTION_BEFORE" type="String">Above the selected level</string>
+      <string id="MSG_FNS_OPTION_AFTER" type="String">Below the selected level</string>
+      <string id="MSG_FNS_OPTION_SELF_AND_BEFORE" type="String">At or above the selected level</string>
+      <string id="MSG_FNS_OPTION_SELF_AND_AFTER" type="String">At or below the selected level</string>
+      <string id="MSG_FNS_OPTION_SELF_BEFORE_AFTER" type="String">At all levels</string>
+      <string id="MSG_FNS_OPTION_BEFORE_AND_AFTER" type="String">Above or below the selected level</string>
+      <string id="MSG_FNS_OPTION_LEAVES" type="String">Leaves at or above the selected level</string>
+      <string id="MSG_FNS_DEFAULT_MEMBER" type="String">Default member</string>
+      <string id="MSG_FNS_NONEMPTY" type="String">NonEmpty</string>
+    </section>
+    <section name="BLK" usage="Messages for Block" type="Messages">
+      <string id="MSG_BLK_DEFAULTALIAS" type="String">Member ID</string>
+      <string id="MSG_BLK_CONFSTATIC" type="String">This will convert your current selection into a snapshot. Proceed?</string>
+      <string id="MSG_BLK_WARNING" type="String">Warning</string>
+      <string id="MSG_BLK_SUM" type="Menu Item">Sum</string>
+      <string id="MSG_BLK_DELETE" type="Menu Item">Delete</string>
+      <string id="MSG_BLK_DELETE_ALL" type="Menu Item">Delete all</string>
+      <string id="MSG_BLK_LOAD_CHILD" type="Menu Item">Loading children...</string>
+      <string id="MSG_BLK_GROUP" type="Menu Item">Group / Ungroup</string>
+      <string id="MSG_BLK_LIST" type="Menu Item">{0} (List)</string>
+      <string id="MSG_BLK_SORT" type="Menu Item">Sort</string>
+      <string id="MSG_BLK_SORT_ON" type="Menu Item">Sort on...</string>
+      <string id="MSG_BLK_TOP_BOTTOM" type="Menu Item">Top/Bottom...</string>
+      <string id="MSG_BLK_SET_FUNCTIONS" type="Menu Item">Functions...</string>
+      <string id="MSG_BLK_TOGGLE" type="Menu Item">Toggle drill state...</string>
+      <string id="MSG_BLK_SET_ALIAS" type="Menu Item" usage="{0}:Dimension name">{0} alias</string>
+      <string id="MSG_BLK_REMOVE" type="Menu Item" usage="{0}:Operation name">remove {0}</string>
+    </section>
+    <section name="SRT" usage="Messages for Sort" type="Messages">
+      <string id="MSG_SRT" type="Menu Item">Sort...</string>
+      <string id="MSG_SRT_ROW_NAMES" type="Menu Item">Sort by names...</string>
+      <string id="MSG_SRT_ROW_VALUES" type="Menu Item">Sort by values...</string>
+      <string id="MSG_SRT_COLUMN_NAMES" type="Menu Item">Sort by names...</string>
+      <string id="MSG_SRT_COLUMN_VALUES" type="Menu Item">Sort by values...</string>
+      <string id="MSG_SRT_FUNCTION" type="Control Label">Function</string>
+      <string id="MSG_SRT_VALUE" type="Control Label">Value or cell</string>
+      <string id="MSG_SRT_OPTION_NONE" type="Menu Item">None</string>
+      <string id="MSG_SRT_OPTION_REMOVE" type="Menu Item">Remove</string>
+      <string id="MSG_SRT_OPTION_ASCENDING" type="Menu Item">Ascending</string>
+      <string id="MSG_SRT_OPTION_DESCENDING" type="Menu Item">Descending</string>
+      <string id="MSG_SRT_OPTION_ASC" type="Menu Item">Ascending within hierarchy</string>
+      <string id="MSG_SRT_OPTION_DESC" type="Menu Item">Descending within hierarchy</string>
+      <string id="MSG_SRT_OPTION_BASC" type="Menu Item">Ascending breaking hierarchy</string>
+      <string id="MSG_SRT_OPTION_BDESC" type="Menu Item">Descending breaking hierarchy</string>
+      <string id="MSG_SRT_OPTION_ASCENDING_BREAK" type="Menu Item">Ascending breaking hierarchy</string>
+      <string id="MSG_SRT_OPTION_DESCENDING_BREAK" type="Menu Item">Descending breaking hierarchy</string>
+      <string id="MSG_SRT_OPTION_ASCENDING_WITHIN" type="Menu Item">Ascending within hierarchy</string>
+      <string id="MSG_SRT_OPTION_DESCENDING_WITHIN" type="Menu Item">Descending within hierarchy</string>
+    </section>
+    <section name="MGR" usage="Messages for Cognos Office Reporting Manager dialog" type="UI">
+      <string id="MSG_MGR_TITLE" type="Dialog Caption">IBM Planning Analytics</string>
+      <string id="MSG_MGR_SELECT_PKG" type="Control Label">Select a package...</string>
+      <string id="MSG_MGR_OPEN_PACKAGE_TOOLTIP" type="Tooltip">Open (Ctrl+M, O)</string>
+      <string id="MSG_MGR_FORMULA_MODE_PAUSE_TOOLTIP" type="Tooltip">Pause formula resolution</string>
+      <string id="MSG_MGR_FORMULA_MODE_RUN_TOOLTIP" type="Tooltip">Run formula resolution</string>
+      <string id="MSG_MGR_LOADING_META" type="List Item Label">Loading metadata...</string>
+      <string id="MSG_MGR_SEARCH_META" type="Link">Search metadata</string>
+      <string id="MSG_MGR_NEW_EXPLORE" type="Link">Create exploration</string>
+      <string id="MSG_MGR_NEW_LIST" type="Link">Create List</string>
+      <string id="MSG_MGR_NEW_CUSTOM_SET" type="Link">Create custom set</string>
+      <string id="MSG_MGR_NEW" type="String">Do you want to create a new exploration sheet?</string>
+      <string id="MSG_MGR_NEW_LIST_SHEET" type="String">Do you want to create a new list sheet?</string>
+      <string id="MSG_MGR_OVER_BOUNDS" type="Link">This item cannot be expanded. Microsoft Excel has reached the maximum number of rows or columns for this worksheet.</string>
+      <string id="MSG_MGR_ABOUT" type="Menu Item">About</string>
+      <string id="MSG_MGR_REFRESH" type="Menu Item">Refresh</string>
+      <string id="MSG_MGR_REFRESH_MENU" type="Menu Item">Show and hide</string>
+      <string id="MSG_MGR_DELETE" type="Menu Item">Delete</string>
+      <string id="MSG_MGR_REFRESH_PACKAGE" type="Tooltip">Refresh</string>
+      <string id="MSG_MGR_USERGUIDE" type="Menu Item">IBM Planning Analytics Analysis User Guide</string>
+      <string id="MSG_MGR_WB_PROTECTED" type="String" whiteSpace="preserve">The workbook you are trying to change is protected. To modify a protected workbook, first remove protection using the Unprotect Workbook command (Tools menu, Protection submenu). You may be prompted for a password.</string>
+      <string id="MSG_MGR_RUN" type="String">Run process</string>
+      <string id="MSG_MGR_EDIT" type="String">Edit parameters</string>
+      <string id="MSG_PARAMETER_DIALOG_VISIBLE" type="String">Parameter selection dialog is currently in use.</string>
+      <string id="MSG_MGR_OK" type="String">OK</string>
+      <string id="MSG_MGR_CANCEL" type="String">Cancel</string>
+      <string id="MSG_MGR_PROCESS_BUTTON_TEXT" type="String">Button caption</string>
+      <string id="MSG_MGR_SERVER_BUTTON_TEXT" type="String">Server</string>
+      <string id="MSG_MGR_WORKBOOK_BUTTON_TEXT" type="String">Workbook</string>
+      <string id="MSG_MGR_REFRESH_ALL_MENU" type="Menu Item">Refresh all</string>
+      <string id="MSG_MGR_CONTROL_OBJECTS_MENU" type="Menu Item">Show control objects</string>
+      <string id="MSG_MGR_PROCESSES_MENU" type="Menu Item">Show processes</string>
+      <string id="MSG_MGR_EXPLORATION_MENU" type="Menu Item">Insert members</string>
+      <string id="MSG_MGR_EXPLORATIONINSERTSINGLE" type="Button">Insert single member</string>
+      <string id="MSG_MGR_EXPLORATIONINSERTCHILDREN" type="Button">Insert member with children</string>
+      <string id="MSG_MGR_EXPLORATIONINSERTDYNCHILDREN" type="Button">Insert member with dynamic children</string>
+      <string id="MSG_MGR_EXPLORATIONINSERTDESCENDANTS" type="Button">Insert member with descendants</string>
+      <string id="MSG_MGR_EXPLORATIONINSERTANCESTORS" type="Button">Insert member with ancestors</string>
+      <string id="MSG_MGR_EXPLORATIONINSERTINPUTS" type="Button">Insert member with inputs</string>
+    </section>
+    <section name="CST" usage="Messages for Custom Sets dialogs and Tree" type="UI">
+      <string id="MSG_CST_TITLE_NEW_SUBSET" type="Dialog Caption">New subset</string>
+      <string id="MSG_CST_TITLE_EDIT_SUBSET" type="Dialog Caption">Edit subset</string>
+      <string id="MSG_CST_TITLE_WEB_SUBSET" type="Dialog Caption">Set editor</string>
+      <string id="MSG_CST_TITLE_SUBSET" type="Dialog Caption">Subset editor - {0}</string>
+      <string id="MSG_CST_TITLE_CUSTOMSET" type="Dialog Caption">Custom set editor - {0}</string>
+      <string id="MSG_CST_SAVE" type="Button">Save</string>
+      <string id="MSG_CST_SAVEAS" type="Button">Save as</string>
+      <string id="MSG_CST_CUSTOM_SETS" type="Control Label">Custom sets:</string>
+      <string id="MSG_CST_SUBSETS" type="Control Label">Subsets:</string>
+      <string id="MSG_CST_CREATE_NEWCUSTOMSET" type="Menu Item">New set</string>
+      <string id="MSG_CST_EDIT_CUSTOMSET" type="Menu Item">Edit set</string>
+      <string id="MSG_CST_NEWCUSTOMSET" type="String">Set</string>
+      <string id="MSG_CST_CUSTOM_SETS_FOLDERNAME" type="String">Custom sets</string>
+      <string id="MSG_CST_NEW_CUSTOM_SET_TITLE" type="Control Label">New set</string>
+      <string id="MSG_CST_EDIT_CUSTOM_SET_TITLE" type="Control Label">Edit set</string>
+      <string id="MSG_CST_NEW_CUSTOM_SET_NAME" type="Control Label">Name:</string>
+      <string id="MSG_CST_NEW_CUSTOM_SET_EXISTING_SETS" type="Control Label">Existing custom sets:</string>
+      <string id="MSG_CST_NEW_CUSTOM_SET_EMPTY_ERROR" type="String">Empty custom set name</string>
+      <string id="MSG_CST_NEW_CUSTOM_SET_DUP_ERROR" type="String">Duplicate custom set name</string>
+      <string id="MSG_CST_REPLACE_CUSTOM_SET_MEMBERS" type="Menu Item">'{0}' already exists. Do you want to replace it?</string>
+      <string id="MSG_CST_RENAME_CUSTOM_SET_TITLE" type="Control Label">Rename custom set</string>
+      <string id="MSG_CST_RENAME_CUSTOM_SET_NAME" type="Control Label">Name:</string>
+      <string id="MSG_CST_CUSTOM_SET_SAVE" type="Menu Item">Save as custom set...</string>
+      <string id="MSG_CST_EDIT_SET" type="Menu Item">Edit Set</string>
+      <string id="MSG_CST_SELECTED_MEMBERS" type="Control Label">Selected members:</string>
+      <string id="MSG_CST_AVAILABLE_MEMBERS" type="Control Label">Available members:</string>
+      <string id="MSG_CST_CONSISTANT_MEMBERS" type="String">Selected members must be in same dimension and hierarchy</string>
+      <string id="MSG_CST_CONFIRM_DELETE" type="String">Do you want to delete the selected custom set(s)?</string>
+      <string id="MSG_CST_TOOLTIP_ADD" type="Tooltip">Add items to list</string>
+      <string id="MSG_CST_TOOLTIP_DELETE" type="Tooltip">Remove items from list</string>
+      <string id="MSG_CST_TOOLTIP_ADD_ALL" type="Tooltip">Add all items to list</string>
+      <string id="MSG_CST_TOOLTIP_DEL_ALL" type="Tooltip">Remove all items from list</string>
+      <string id="MSG_CST_NOT_FOUND" type="String">'{0}' no longer exists on the server. The custom sets folder will be refreshed with an updated list of available custom sets.</string>
+    </section>
+
+    <section name="RER" usage="Messages for Reorder/Rename dialog" type="UI">
+      <string id="MSG_RER_MENU_REORDER_RENAME" type="Menu Item">Reorder/Rename...</string>
+      <string id="MSG_RER_TITLE_REORDER_RENAME" type="Dialog Caption">Reorder/Rename</string>
+      <string id="MSG_RER_LABEL_MEMBERS" type="String">Members:</string>
+      <string id="MSG_RER_CONTINUE" type="String">Changes will be lost, continue?</string>
+      <string id="MSG_RER_BUTTON_RENAME" type="Button">Rename</string>
+      <string id="MSG_RER_TOOLTIP_RENAME" type="Tooltip">Rename selected item</string>
+      <string id="MSG_RER_TOOLTIP_TOP" type="Tooltip">Move item to the top of the list</string>
+      <string id="MSG_RER_TOOLTIP_UP" type="Tooltip">Move item up the list</string>
+      <string id="MSG_RER_TOOLTIP_DOWN" type="Tooltip">Move item down the list</string>
+      <string id="MSG_RER_TOOLTIP_BOTTOM" type="Tooltip">Move item to the bottom of the list</string>
+      <string id="MSG_RER_TOOLTIP_APPLY" type="Tooltip">Apply changes now</string>
+      <string id="MSG_RER_TOOLTIP_RESET" type="Tooltip">Reset member captions</string>
+      <string id="MSG_RER_RESET" type="Button">Reset captions</string>
+    </section>
+    <section name="FOR" usage="Messages for Assign Formula dialog" type="UI">
+      <string id="MSG_FOR_PROTOTYPE" type="String">Enter formula prototype</string>
+      <string id="MSG_FOR_SELECT_PROTOTYPE" type="String">Select cell for formula prototype</string>
+    </section>
+    <section name="TRE" usage="Messages for Treeview Metadata dialog" type="UI">
+      <string id="MSG_TRE_LOADING" type="List Item Label">Loading...</string>
+      <string id="MSG_TRE_MORE" type="List Item Label">More</string>
+      <string id="MSG_TRE_SEARCH" type="List Item Label">Search...</string>
+    </section>
+    <section name="PLU" usage="Messages for Plugin COR" type="Messages">
+      <string id="MSG_PLU_APP_NAME" type="String">IBM Planning Analytics</string>
+      <string id="MSG_PLU_APP_LABEL" type="String">Use IBM Planning Analytics to author your organization's financial reports.</string>
+    </section>
+    <section name="ANA" usage="Messages for analysis" type="Messages">
+      <string id="MSG_ANA_MEASURE" type="String">Measure</string>
+      <string id="MSG_ANA_DROP_MEASURE" type="String">Include a measure</string>
+      <string id="MSG_ANA_ROWS" type="String">Rows</string>
+      <string id="MSG_ANA_COLUMNS" type="String">Columns</string>
+      <string id="MSG_ANA_LIST_DROP_AREA" type="String">Drop items here to create new columns</string>
+      <string id="MSG_ANA_CROSSTAB_DROP_AREA" type="String">Drop items to row and column</string>
+      <string id="MSG_ANA_NO_INSERTION" type="String">Insertion not allowed here</string>
+    </section>
+    <section name="PAG" usage="Messages for Page selector" type="Messages">
+    </section>
+    <section name="AXI" usage="Messages for Axis bar" type="Messages">
+      <string id="MSG_AXI_ROWS" type="String">Rows:</string>
+      <string id="MSG_AXI_COLUMNS" type="String">Columns:</string>
+      <string id="MSG_AXI_CONTEXT" type="String">Context:</string>
+      <string id="MSG_AXI_PAGES" type="String">Pages:</string>
+      <string id="MSG_AXI_ADD_CELL_REFERENCE">Add cell reference</string>
+      <string id="MSG_AXI_CONVERT_TOOLTIP">Convert</string>
+      <string id="MSG_AXI_CONVERT_THIS_SHEET" type="Button">On this sheet</string>
+      <string id="MSG_AXI_CONVERT_NEW_SHEET" type="Button">On new sheet</string>
+      <string id="MSG_AXI_CONVERT_LOCATION" type="Button">At specified location</string>
+      <string id="MSG_AXI_CONVERT_FLEXVIEW" type="Button">Convert to quick report</string>
+      <string id="MSG_AXI_CONVERT_ACTIVEFORM" type="Button">Convert to dynamic report</string>
+      <string id="MSG_AXI_CONVERT_FORMULAS" type="Button">Convert to custom report</string>
+      <string id="MSG_AXI_UNDO_TOOLTIP" type="Button">Back</string>
+      <string id="MSG_AXI_REDO_TOOLTIP" type="Button">Forward</string>
+      <string id="MSG_AXI_COMMIT_TOOLTIP" type="Button">Commit changed values (Ctrl+M, C)</string>
+      <string id="MSG_AXI_COMMIT" type="Button">Commit changed values</string>
+      <string id="MSG_AXI_DISCARD_TOOLTIP" type="Button">Discard changed values</string>
+      <string id="MSG_AXI_SAVE_VIEW" type="Button">Save view</string>
+      <string id="MSG_AXI_RESET_ANALYSIS" type="Button">Reset to a blank exploration</string>
+      <string id="MSG_AXI_RESET_LIST" type="Button">Reset to a blank list</string>
+      <string id="MSG_AXI_REFRESH_ANALYSIS" type="Button">Refresh this exploration</string>
+      <string id="MSG_AXI_REFRESH_LIST" type="Button">Refresh this list</string>
+      <string id="MSG_AXI_REFRESH_RUN_ALL" type="Button">Refresh with server formats</string>
+      <string id="MSG_AXI_REFRESH_RUN_ALL_TOOLTIP" type="Button">Run with all data (Ctrl+M, R)</string>
+      <string id="MSG_AXI_REFRESH_RUN_WITHOUT_FORMAT" type="Button">Refresh with Excel formats</string>
+      <string id="MSG_AXI_REFRESH_PREVIEW_ONLY" type="Button">Preview with no data</string>
+      <string id="MSG_AXI_RESET_CONFIRM" type="String">Reset will clear exploration. Do you want to reset?</string>
+      <string id="MSG_AXI_RESET_CONFIRM_LIST" type="String">Reset will clear list. Do you want to reset?</string>
+      <string id="MSG_AXI_LAUNCH_REPORT" type="Button">Launch report</string>
+      <string id="MSG_LAUNCH_REPORT_STUDIO" type="Button">Open report in report studio</string>
+      <string id="MSG_LAUNCH_REPORT_STUDIO_TOOLTIP" type="Tooltip">Open report in report studio</string>
+      <string id="MSG_LAUNCH_ANALYSIS_STUDIO" type="Button">Open report in analysis studio</string>
+      <string id="MSG_LAUNCH_ANALYSIS_STUDIO_TOOLTIP" type="Tooltip">Open report in analysis studio</string>
+      <string id="MSG_LAUNCH_BUSINESS_INSIGHT_ADVANCED" type="Button">Open report in Cognos Workspace Advanced</string>
+      <string id="MSG_LAUNCH_BUSINESS_INSIGHT_ADVANCED_TOOLTIP" type="Tooltip">Open report in Cognos Workspace Advanced</string>
+      <string id="MSG_LAUNCH_CUBE_VIEWER" type="Button">Open in viewer</string>
+      <string id="MSG_LAUNCH_CUBE_VIEWER_TOOLTIP" type="Tooltip">Open report in viewer</string>
+      <string id="MSG_LAUNCH_CUBE_VIEWER_CURRENT_REPORT" type="Tooltip">Current report</string>
+      <string id="MSG_PUBLISH_TO_COGNOS_CONNECTION" type="Button">Publish to Cognos Connection</string>
+      <string id="MSG_PUBLISH_TO_COGNOS_CONNECTION_TOOLTIP" type="Tooltip">Publish to Cognos Connection</string>
+      <string id="MSG_PUBLISH_TO_COGNOS_CONNECTION_FILENAME" type="String">Report1</string>
+      <string id="MSG_AXI_INSERT_CALCULATION" type="Tooltip">Insert calculation</string>
+      <string id="MSG_AXI_INSERT_LEAVES" type="String">Insert member with inputs</string>
+      <string id="MSG_AXI_INSERT_ANCESTORS" type="String">Insert member with ancestors</string>
+      <string id="MSG_AXI_INSERT_HEADING" type="Tooltip">Insert user row / column</string>
+      <string id="MSG_CUBE_VIEWER" type="Button">IBM Planning Analytics</string>
+      <string id="MSG_REPORT_STUDIO" type="Button">IBM Cognos</string>
+      <string id="MSG_ANALYSIS_STUDIO" type="Button">IBM Cognos</string>
+      <string id="MSG_BUSINESS_INSIGHT_ADVANCED" type="Button">IBM Cognos</string>
+      <string id="MSG_AXI_SWAP" type="Button">Swap rows and columns</string>
+      <string id="MSG_AXI_SUPPRESS_TOOLTIP" type="Tooltip">Zero suppressed</string>
+      <string id="MSG_AXI_SUPPRESS" type="Button">Apply zero suppression</string>
+      <string id="MSG_AXI_SUPPRESS_OFF" type="Button">No suppression</string>
+      <string id="MSG_AXI_SUPPRESS_ROWS" type="Button">Suppress rows only</string>
+      <string id="MSG_AXI_SUPPRESS_ROWS_LIST" type="Button">Suppress rows</string>
+      <string id="MSG_AXI_SUPPRESS_COLUMNS" type="Button">Suppress columns only</string>
+      <string id="MSG_AXI_SUPPRESS_BOTH" type="Button">Suppress rows and columns</string>
+      <string id="MSG_AXI_EXPLORATION" type="Control Label">Exploration</string>
+      <string id="MSG_AXI_LIST" type="Control Label">List</string>
+      <string id="MSG_AXI_PROPERTIES_SHORTCUT" type="Control Label">Ctrl+M, M</string>
+      <string id="MSG_AXI_INSERT_SINGLE" type="Button">Insert single member</string>
+      <string id="MSG_AXI_INSERT_CHILDREN" type="Button">Insert member with children</string>
+      <string id="MSG_AXI_INSERT_CHILDREN_DYN" type="Button">Insert member with dynamic children</string>
+      <string id="MSG_AXI_INSERT_DESCENDANTS" type="Button">Insert member with descendants</string>
+      <string id="MSG_AXI_NOTIFY_SUPPRESS_ROWS" type="String">Zero suppression applied to rows.</string>
+      <string id="MSG_AXI_NOTIFY_SUPPRESS_COLS" type="String">Zero suppression applied to columns.</string>
+      <string id="MSG_AXI_NOTIFY_SUPPRESS_BOTH" type="String">Zero suppression applied to both rows and columns.</string>
+      <string id="MSG_AXI_NOTIFY_TRUNCATED_ROWS" type="String">Data rows have been truncated due to the length exceeding available worksheet rows.</string>
+      <string id="MSG_AXI_NOTIFY_TRUNCATED_COLS" type="String">Data columns have been truncated due to the length exceeding available worksheet columns.</string>
+      <string id="MSG_AXI_NOTIFY_BUTTON_TOOLTIP" type="String">Notifications</string>
+      <string id="MSG_AXI_ROWCOLUMNRENAME_RENAMENOTSUPPORTED" type="String">You cannot rename rows or columns.</string>
+      <string id="MSG_AXI_ROWCOLUMNRENAME_COMMITNOTSUPPORTED" type="String">Commit of data in an exploration is not permitted after a row/column rename.</string>
+      <string id="MSG_AXI_SANDBOX_DELETE" type="String">Delete sandbox '{0}'?</string>
+      <string id="MSG_AXI_CLEARAXIS" type="String">Clear axis</string>
+      <string id="MSG_AXI_DISCARD_CELL" type="String">Are you sure you want to discard all changed cells?</string>
+      <string id="MSG_AXI_DISCARD_TITLE" type="String">Discard changes</string>
+      <string id="MSG_AXI_WRNDYNREORDER" type="String">You changed the order of items in a dynamic subset. To save the change you must convert the subset to a snapshot. This will remove all links beteen the data and the datasource and cannot be undone. Do you want to convert to a snapshot?</string>
+      <string id="MSG_AXI_WRNDYNREORDERTITLE" type="String">Dynamic selection contains user reorders</string>
+      <string id="MSG_AXI_WRNVIEWDYNREORDER" type="String">You changed the order of items in a dynamic subset. To save the view you must convert the subsets to a snapshot. This will remove all links beteen the data and the datasource and cannot be undone. Do you want to convert to a snaphot?</string>
+      <string id="MSG_AXI_WRNVIEWDYNREORDERTITLE" type="String">TM1 View contains user reorders</string>
+    </section>
+    <section name="OPT" usage="Messages for Option Pane" type="UI">
+      <string id="MSG_OPT_SHOW_INFO" type="Check Box">&amp;Show system and package information in exploration and list sheet</string>
+      <string id="MSG_OPT_EXPLORE_SETTING" type="Control Label">Exploration or list settings:</string>
+      <string id="MSG_OPT_APP_SETTING" type="Control Label">Application settings:</string>
+      <string id="MSG_OPT_USE_MRUPACKAGE_SETTING" type="Control Label">&amp;Load most recently used system and package</string>
+      <string id="MSG_OPT_DOUBLECLICK" type="Control Label">&amp;Expand with double-click (applies to package based data sources only)</string>
+      <string id="MSG_OPT_MEMBER_LIMIT_SETTING" type="Control Label">&amp;Member display count limit</string>
+      <string id="MSG_OPT_ROW_LIMIT_SETTING" type="Control Label">&amp;Data display row limit</string>
+      <string id="MSG_OPT_GROUPINGOPTION_SETTING" type="Control Label">&amp;Grouping option</string>
+      <string id="MSG_OPT_GROUPINGOPTIONFULL_SETTING" type="Menu Item">Merge cells</string>
+      <string id="MSG_OPT_GROUPINGOPTIONNORMALIZED_SETTING" type="Menu Item">Repeat labels</string>
+      <string id="MSG_OPT_GROUPINGOPTIONSPARSE_SETTING" type="Menu Item">Label top cell</string>
+      <string id="MSG_OPT_REFRESH_MODE_SETTING" type="Menu Item">Refresh mode</string>
+      <string id="MSG_OPT_REFRESH_WITH_FORMATTING_SETTING" type="Menu Item">Refresh with formatting</string>
+      <string id="MSG_OPT_REFRESH_DATA_ONLY_SETTING" type="Menu Item">Refresh data only</string>
+      <string id="MSG_OPT_PREVIEW_DATA_SETTING" type="Menu Item">Preview data</string>
+      <string id="MSG_OPT_FORMULA_SETTING" type="Control Label">Custom report settings</string>
+      <string id="MSG_OPT_CUSTOM_LOC_SETTING" type="Control Label">&amp;Assign exploration or list starting cell</string>
+      <string id="MSG_OPT_EXPAND_MEMBER_LIMIT" type="Control Label">E&amp;xpand member limit</string>
+      <string id="MSG_OPT_FLEXVIEW_SETTING" type="Control Label">Quick report settings</string>
+      <string id="MSG_OPT_DOUBLE_CLICK_OPTION" type="Control Label">Do&amp;uble-click option</string>
+      <string id="MSG_OPT_DOUBLECLICK_NONE_SETTING" type="Menu Item">None</string>
+      <string id="MSG_OPT_DOUBLECLICK_REPLACE_SETTING" type="Menu Item">Replace</string>
+      <string id="MSG_OPT_DOUBLECLICK_TOGGLE_SETTING" type="Menu Item">Toggle</string>
+      <string id="MSG_OPT_ACTION_BUTTON_SETTING" type="Control Label">Action button settings</string>
+      <string id="MSG_OPT_UPGRADE_ACTION_BUTTON" type ="String">Upgrade action buttons </string>
+      <string id="MSG_OPT_UPGRADE_ACTION_BUTTON_INFO" type ="String">This utility will upgrade Perspectives action button in selected workbooks.</string>
+      <string id="MSG_OPT_UPGRADE_VBA_PROJECT_PERMISSION" type ="String">The Excel setting "Trust access to the VBA project object model" must be enabled before upgrading.</string>
+      <string id="MSG_OPT_FILE_EXIST" type="String">The file {0} already exists. Do you want to replace the existing file?</string>
+      <string id="MSG_OPT_PRESERVE_FORMULAS_SETTING" type="String">Preserve user formulas</string>
+      <string id="MSG_OPT_REFRESH_CONFIRMATION" type="String">Hide refresh confirmation for each worksheet and workbook</string>
+      <string id="MSG_OPT_COMMIT_CONFIRMATION" type="String">Hide commit confirmation</string>
+      <string id="MSG_OPT_EXPLORATION_OVERRIDE_DOUBLE_CLICK" type="String">Expand with double-click</string>
+      <string id="MSG_OPT_DEFAULT_EXPAND_DIRECTION" type="String">Default expand direction</string>
+      <string id="MSG_OPT_CONTEXT_MEMBER_LIMIT" type="String">Context member dropdown limit</string>
+      <string id="MSG_OPT_AUTOSPREAD_CONSOLIDATED_INPUT" type="String">Auto spread consolidated input</string>
+      <string id="MSG_OPT_ALLOW_CONTEXT_SUM" type="String">Allow sum on context dropdown</string>
+      <string id="MSG_OPT_FLEXVIEW_DEFAULT_INDENT_ON" type="String">Use level based indents</string>
+      <string id="MSG_OPT_PROMPT_UNCOMMITTED_CHANGES" type="String">Prompt for uncommitted changes </string>
+      <string id="MSG_OPT_DEFAULT_EXPAND_DIRECTION_EXPANDABOVE_SETTING" type="Menu Item">Expand above</string>
+      <string id="MSG_OPT_DEFAULT_EXPAND_DIRECTION_EXPANDBELOW_SETTING" type="Menu Item">Expand below</string>
+      <string id="MSG_OPT_SET_REBUILD_OPTION_ONSLICE" type="Control Label">Set TM1RebuildOption when generating new formula content</string>
+      <string id="MSG_OPT_REFRESH_ON_EXCEL_HOTKEYS" type="Control Label">Refresh data on Excel recalculation Keys (F9, Shift F9) - Restart Excel after change</string>
+      <string id="MSG_OPT_REFRESH_ON_WRITE_BACK" type="Control Label">Refresh data on writeback</string>
+      <string id="MSG_OPT_REFRESH_ON_WRITE_BACK_NONE" type="Menu Item">None</string>
+      <string id="MSG_OPT_REFRESH_ON_WRITE_BACK_WORKBOOK" type="Menu Item">Workbook</string>
+      <string id="MSG_OPT_REFRESH_ON_WRITE_BACK_WORKSHEET" type="Menu Item">Worksheet</string>
+    </section>
+    <section name="ERR" usage="Error Messages" type="Messages">
+      <string id="ERR_INCONSISTENT_DIMENSIONS" type="String">Dimension: "{0}" found on multiple axes.</string>
+      <string id="ERR_INVALID_AXIS_SPEC" type="String" errorCode="2004">Axis specification is not valid.</string>
+      <string id="ERR_RETRIEVE_RESOURCES" type="String" errorCode="2007">Error retrieving from resources. Tried '{0}'.</string>
+      <string id="ERR_INVALID_FORMULA_NAME" type="String" errorCode="2009">Name formula is not valid.</string>
+      <string id="ERR_INVALID_FORMULA" type="String" errorCode="2010">Formula is not valid.</string>
+      <string id="ERR_INVALID_RANGE" type="String" errorCode="2011">Invalid Range: Please enter a valid range for exploration or list.</string>
+      <string id="ERR_CONVERT_FORBIDDEN" type="String" errorCode="2012">Exploration can not be converted</string>
+      <string id="ERR_CONVERT_CONTEXT_SELECTION" type="String" errorCode="2013">Exploration can not be converted to a custom report because at least one context item contains a selection.</string>
+      <string id="ERR_CROSSTAB_TRUNCATED" type="String" errorCode="2014">Due to Excel worksheet limitations the results may be truncated.</string>
+      <string id="ERR_CROSSTAB_TRUNCATED_RENDER" type="String" errorCode="2015">The current exploration cannot be rendered at this location on the worksheet.</string>
+      <string id="ERR_RETRIEVE_PACKAGE" type="String" errorCode="2016">Unable to retrieve package '{0}'.</string>
+      <string id="ERR_NO_DATA" type="String" errorCode="2017">The current selection did not return any data.</string>
+      <string id="ERR_HELP_FILE_NOT_FOUND" type="String" errorCode="2018">Help file not found</string>
+      <string id="ERR_INVALID_NAME" type="String" errorCode="2019">Invalid characters in name</string>
+      <string id="ERR_INVALID_EXTERNAL_FILE" type="String" errorCode="2020">Unable to parse browser session</string>
+      <string id="ERR_WS_PROTECTED_ERROR" type="String" errorCode="2021">Worksheet protected, IBM Planning Analytics Styles cannot be populated.</string>
+    </section>
+    <section name="SND" usage="Messages for Sandbox Name Dialog" type="UI">
+      <string id="MSG_SND_OK" type="String">OK</string>
+      <string id="MSG_SND_CANCEL" type="String">Cancel</string>
+      <string id="MSG_SND_NAME_TITLE" type="String">Set sandbox name</string>
+      <string id="MSG_SND_NAME_LABEL" type="String">Sandbox name:</string>
+      <string id="MSG_SND_NAME_NEW" type="String">New sandbox</string>
+      <string id="MSG_SND_NAME_ERROR" type="String">Replacing default sandbox '{0}' is not allowed.</string>
+      <string id="MSG_SND_NAME_CONFIRM_REPLACE" type="String">'{0}' currently exists. Replace the server copy with '{0}' and reset to defaults?</string>
+      <string id="MSG_SND_NAME_MERGE" type="String">Merge sandbox with...</string>
+    </section>
+    <section name="ANN" usage="Messages for Annotations" type="UI">
+      <string id="MSG_ANN_ANNOTATIONS" type="String">&amp;Annotations</string>
+      <string id="MSG_ANN_MENU_ID" type="String">Annotations</string>
+      <string id="MSG_ANN_UNSAVED_DATA" type="String">Unsaved changes, do you want to continue?</string>
+      <string id="MSG_ANN_COUNT_AND_NEW" type="String">Annotations: {0} -  New Annotation</string>
+      <string id="MSG_ANN_NEW" type="String"> New annotation</string>
+      <string id="MSG_ANN_COUNT" type="String">Annotations: {0} of {1}</string>
+      <string id="MSG_ANN_DIM" type="String">Cell dimension</string>
+      <string id="MSG_ANN_MEMBER" type="String">Member</string>
+      <string id="MSG_ANN_ANNOTATION" type="String">Updated by: {0} at {1}</string>
+      <string id="MSG_ANN_NEWBUTTON" type="Button">&amp;New</string>
+      <string id="MSG_ANN_APPLY" type="Button">&amp;Apply</string>
+      <string id="MSG_ANN_DELETE" type="Button">&amp;Delete</string>
+      <string id="MSG_ANN_NEXT" type="Tooltip">Next annotation</string>
+      <string id="MSG_ANN_PREVIOUS" type="Tooltip">Previous annotation</string>
+      <string id="MSG_ANN_EXIT" type="Button">&amp;Exit</string>
+      <string id="MSG_ANN_ANN_LABEL" type="Control Label">Annotation:</string>
+      <string id="MSG_ANN_LASTUPDATEDBY" type="Control Label">Last updated by:</string>
+      <string id="MSG_ANN_LASTUPDATETIME" type="Control Label">Last update time:</string>
+      <string id="MSG_ANN_CELL_VALUE" type="Control Label">Cell value:</string>
+    </section>
+    <section name="SCS" usage="Messages for Start Cell Selection Dialog" type="UI">
+      <string id="MSG_SCS_OK" type="String">OK</string>
+      <string id="MSG_SCS_CANCEL" type="String">Cancel</string>
+      <string id="MSG_SCS_START_LOC" type="String">Select start location</string>
+      <string id="MSG_SCS_START_LOC_DYNAMIC" type="String">Select cell reference for : {0}</string>
+      <string id="MSG_SCS_START_ADD" type="String">Start address:</string>
+      <string id="MSG_SCS_DISPLAY_SETTING" type="String">Always start exploration or list at default location</string>
+    </section>
+    <section name="PRG" usage="Messages for the Sheet Property Grid" type="UI">
+      <string id="MSG_PROPGRID_SHEET_TITLE" type="String">Properties</string>
+      <string id="MSG_PROPGRID_SHEET_SERVERURI" type="String">Server</string>
+      <string id="MSG_PROPGRID_SHEET_PACKAGESEARCHPATH" type="String">Package</string>
+      <string id="MSG_PROPGRID_SHEET_DATECREATED" type="String">Date created</string>
+      <string id="MSG_PROPGRID_SHEET_ROWSTART" type="String">Row start</string>
+      <string id="MSG_PROPGRID_SHEET_COLSTART" type="String">Column start</string>
+      <string id="MSG_PROPGRID_SHEET_MOREALLVISIBLE" type="String">Visible</string>
+      <string id="MSG_PROPGRID_SHEET_REPORT" type="String">Serialized report</string>
+      <string id="MSG_PROPGRID_SHEET_SHEETTYPE" type="String">Sheet type</string>
+      <string id="MSG_PROPGRID_SHEET_VALIDSTATE" type="String">Valid state</string>
+      <string id="MSG_PROPGRID_SHEET_REQUESTFORMAT" type="String">Request format</string>
+      <string id="MSG_PROPGRID_SHEET_CSV" type="String">Unformatted values</string>
+      <string id="MSG_PROPGRID_SHEET_RAWXML" type="String">Formatted values</string>
+      <string id="MSG_PROPGRID_SHEET_DEFAULTEXPANDDIRECTION" type="String">Expand direction</string>
+      <string id="MSG_PROPGRID_SHEET_EXPANDABOVE" type="String">Totals after</string>
+      <string id="MSG_PROPGRID_SHEET_EXPANDBELOW" type="String">Totals before</string>
+      <string id="MSG_PROPGRID_SHEET_GROUPINGOPTION" type="String">Default grouping option</string>
+      <string id="MSG_PROPGRID_SHEET_GROUPING_OPTION_FULL" type="String">Merge cells</string>
+      <string id="MSG_PROPGRID_SHEET_GROUPING_OPTION_NORMALIZED" type="String">Repeat labels</string>
+      <string id="MSG_PROPGRID_SHEET_GROUPING_OPTION_SPARSE" type="String">Label top cell</string>
+      <string id="MSG_PROPGRID_SHEET_GROUPING_OPTION_NONE" type="String">None</string>
+      <string id="MSG_PROPGRID_SHEET_POSTAUTOAGGREGATION" type="String">Post auto aggregation</string>
+      <string id="MSG_PROPGRID_SHEET_EXCEED_XL_LIMIT" type="String">Row start or column start cannot exceed excel limits.</string>
+      <string id="MSG_PROPGRID_SHEET_WORKSHEET" type="String">Worksheet</string>
+      <string id="MSG_PROPGRID_SHEET_PROMPTS" type="String">Prompts</string>
+      <string id="MSG_PROPGRID_SHEET_PROMPTS_DISPLAY" type="String">Display</string>
+      <string id="MSG_PROPGRID_SHEET_PROMPTS_VALUE" type="String">Value</string>
+      <string id="MSG_PROPGRID_SHEET_PROMPTS_CLEAR" type="String">Clear prompts</string>
+      <string id="MSG_PROPGRID_SHEET_DYNAMICQUERY" type="String">Use dynamic query</string>
+      <string id="MSG_PROPGRID_SHEET_DATAROWLIMIT" type="String">Data display row limit</string>
+      <string id="MSG_PROPGRID_SHEET_RENDERINDENT" type="String">Render indented metadata</string>
+      <string id="MSG_PROPGRID_SHEET_TRUE" type="String">True</string>
+      <string id="MSG_PROPGRID_SHEET_FALSE" type="String">False</string>
+    </section>
+    <section name="PMP" usage="Messages for the Model Prompts" type="UI">
+      <string id="MSG_PMP_OK" type="String">OK</string>
+      <string id="MSG_PMP_CANCEL" type="String">Cancel</string>
+      <string id="MSG_PMP_TITLE" type="String">Prompt</string>
+    </section>
+    <section name="WRI" usage="Messages for Writeback" type="UI">
+      <string id="MSG_WRI_SAVESPREADCHANGES" type="String">You have either spread across a range or consolidation. Changes will not be reflected until you commit. Other changes will be discarded. Do you want to commit changes to the database now?</string>
+      <string id="MSG_WRI_SAVECHANGES" type="String">Do you want to commit changes to the database?</string>
+      <string id="MSG_WRI_TITLE" type="String">Commit changes</string>
+    </section>
+    <section name="SAV" usage="Messages for save view" type="UI">
+      <string id="MSG_SAV_NAME" type="String">View name:</string>
+      <string id="MSG_SAV_TITLE" type="String">Save view</string>
+      <string id="MSG_SAV_RENAME" type="String">Rename view</string>
+      <string id="MSG_SAV_PRIVATE" type="String">Save as private view</string>
+      <string id="MSG_SAV_DELETE_CONFIRMATION" type="String">Do you want to delete the selected view?</string>
+    </section>
+    <section name="SOS" usage="Messages for set open save dialog" type="UI">
+      <string id="MSG_SOS_CONFIRMTITLE" type="String">Confirm overwrite</string>
+      <string id="MSG_SOS_CONFIRMMESSAGE" type="String">A set with the name "{0}" already exist. It will be overwritten.</string>
+    </section>
+    <section name="SSE" usage="Message for the subset editor" type="UI">
+      <string id="MSG_SSE_INVALIDOP" type="String">Invalid operation</string>
+      <string id="MSG_SSE_SHOWALIAS" type="String">Display alias</string>
+      <string id="MSG_SSE_EXPANDABOVE" type="String">Expand above</string>
+      <string id="MSG_SSE_SHOWMDX" type="String">Show MDX</string>
+      <string id="MSG_SSE_MDXBOXTITLE" type="String">Edit MDX</string>
+      <string id="MSG_SSE_MDXERRORTITLE" type="String">Edit MDX error</string>
+      <string id="MSG_SSE_INCOMPATIBLEDIM" type="String">Sets have incompatible dimensionality</string>
+      <string id="MSG_SSE_INCOMPATIBLEMDX" type="String">Invalid MDX. MDX can not be parsed.</string>
+      <string id="MSG_SSE_UNKNOWNERROR" type="String">Unknown Error. MDX is not valid.</string>
+      <string id="MSG_SSE_AVAILABLEMEMBERS" type="String">Available members:</string>
+      <string id="MSG_SSE_CUSTOMSET" type="String">Custom set:</string>
+      <string id="MSG_SSE_SUBSET" type="String">Subset:</string>
+      <string id="MSG_SSE_SELECTION" type="String">Selection:</string>
+      <string id="MSG_SSE_CUSTOMSETFORMTITLE" type="String">Custom set: "{0}"</string>
+      <string id="MSG_SSE_SELFORMTITLE" type="String">Selection on dimension "{0}"</string>
+      <string id="MSG_SSE_SETFORMTITLE" type="String">Subset: "{0}" on dimension "{1}"</string>
+      <string id="MSG_SSE_BIDYNAMICCHILDREN" type="String">{0} with children</string>
+      <string id="MSG_SET_EMPTY" type="String">Empty set</string>
+      <string id="MSG_SSE_INVALIDSET" type="String">Invalid elements</string>
+      <string id="MSG_SSE_INVALIDSETMEMBERS" type="String">The set has elements that can not be saved. Click "OK" to continue.</string>
+      <string id="MSG_SSE_OK" type="String">OK</string>
+      <string id="MSG_SSE_REORDER" type="String">Reorder columns</string>
+      <string id="MSG_SSE_CANCEL" type="String">Cancel</string>
+      <string id="MSG_SSE_SAVE" type="String">Save (Ctrl+S)</string>
+      <string id="MSG_SSE_SAVEAS" type="String">Save as (Ctrl+Shift+S)</string>
+      <string id="MSG_SSE_FILE" type="String">File</string>
+      <string id="MSG_SSE_OPEN" type="String">Open (Ctrl+O)</string>
+      <string id="MSG_SSE_CUT" type="String">Cut</string>
+      <string id="MSG_SSE_COPY" type="String">Copy</string>
+      <string id="MSG_SSE_PASTE" type="String">Paste</string>
+      <string id="MSG_SSE_COLUMNS" type="String">Columns</string>
+      <string id="MSG_SSE_EXIT" type="String">Exit</string>
+      <string id="MSG_SSE_VIEW" type="String">View</string>
+      <string id="MSG_SSE_EDIT" type="String">Edit</string>
+      <string id="MSG_SSE_SELITEMS" type="String">{0} Items selected</string>
+      <string id="MSG_SSE_FILTERED" type="String">Filter applied ({0} items found)</string>
+      <string id="MSG_SSE_SELANC" type="String">Select ancestors</string>
+      <string id="MSG_SSE_SELCHI" type="String">Select children</string>
+      <string id="MSG_SSE_SELDES" type="String">Select descendants</string>
+      <string id="MSG_SSE_FIND" type="String">Find..</string>
+      <string id="MSG_SSE_SELLEV" type="String">Select level</string>
+      <string id="MSG_SSE_SELLOW" type="String">Select lowest</string>
+      <string id="MSG_SSE_SELPAR" type="String">Select parent(s)</string>
+      <string id="MSG_SSE_EXPNODE" type="String">Expand node</string>
+      <string id="MSG_SSE_COLLNODE" type="String">Collapse node</string>
+      <string id="MSG_SSE_FILTER" type="String">Filter tree (Ctrl+F)</string>
+      <string id="MSG_SSE_CLEARFILTER" type="String">Clear filters (Ctrl+H)</string>
+      <string id="MSG_SSE_CLEARALL" type="String">Clear all</string>
+      <string id="MSG_SSE_KEEP" type="String">Keep</string>
+      <string id="MSG_SSE_ADDSELF" type="String">Self</string>
+      <string id="MSG_SSE_ADDANC" type="String">Ancestors</string>
+      <string id="MSG_SSE_ADDCHI" type="String">Children</string>
+      <string id="MSG_SSE_ADDDES" type="String">Descendants</string>
+      <string id="MSG_SSE_ADDLOW" type="String">Inputs</string>
+      <string id="MSG_SSE_ADDPAR" type="String">Add parent(s)</string>
+      <string id="MSG_SSE_MOVEUP" type="String">Move up</string>
+      <string id="MSG_SSE_MOVEDOWN" type="String">Move down</string>
+      <string id="MSG_SSE_MOVETOP" type="String">Move to top</string>
+      <string id="MSG_SSE_MOVEBOTTOM" type="String">Move to bottom</string>
+      <string id="MSG_SSE_NAME" type="String">Name</string>
+      <string id="MSG_SSE_LEVEL" type="String">Child levels</string>
+      <string id="MSG_SSE_WEIGHT" type="String">Weight</string>
+      <string id="MSG_SSE_VALUE" type="String">Value</string>
+      <string id="MSG_SSE_NEWSET" type="String">New subset</string>
+      <string id="MSG_SSE_PARENT" type="String">New subset</string>
+      <string id="MSG_SSE_CAPTION" type="String">Caption</string>
+      <string id="MSG_SSE_SEARCHRESULTS" type="String">Search results</string>
+      <string id="MSG_SSE_NORESULTSFOUND" type="String">No results found!</string>
+      <string id="MSG_SSE_SEARCH" type="String">Search results</string>
+      <string id="MSG_SSE_FILBYNAME" type="String">Name</string>
+      <string id="MSG_SSE_FILBYLEV" type="String">Level</string>
+      <string id="MSG_SSE_FILTYPEERR" type="String">Invalid filter value for  '{0}': "{1}"</string>
+      <string id="MSG_SSE_CONFSAVETITLE" type="String">Confirm save</string>
+      <string id="MSG_SSE_CONFSAVE" type="String">The set has not been saved. Would you like to save?</string>
+      <string id="MSG_SSE_ATTRNOTDEFINED" type="String">-</string>
+      <string id="MSG_SSE_SHOWPROP" type="String">Show properties</string>
+      <string id="MSG_SSE_HIDEPROP" type="String">Hide properties</string>
+      <string id="MSG_SSE_PROPNAME" type="String">Name</string>
+      <string id="MSG_SSE_PROPVAL" type="String">Value</string>
+      <string id="MSG_SSE_MAKESTATIC" type="String">Convert to snapshot</string>
+      <string id="MSG_SSE_DYNGROUP" type="String">Add with..</string>
+      <string id="MSG_SSE_WITHCHILDREN" type="String">Children</string>
+      <string id="MSG_SSE_WITHDESCENDANTS" type="String">Descendants</string>
+      <string id="MSG_SSE_WITHLEAVES" type="String">Input only</string>
+      <string id="MSG_SSE_WITHANCESTORS" type="String">Ancestors</string>
+      <string id="MSG_SSE_REMOVEDYN" type="String">Remove dynamic function</string>
+      <string id="MSG_SSE_DYNAMIC" type="String">Dynamic</string>
+      <string id="MSG_SSE_CVTSTATIC" type="String">Convert to snapshot</string>
+      <string id="MSG_SSE_SETDEFINTION" type="String">View set definition</string>
+      <string id="MSG_SSE_SETCONTENTS" type="String">View set contents</string>
+      <string id="MSG_SSE_MEMBER" type="String">Member</string>
+      <string id="MSG_SSE_SUBSETCAPTION" type="String">Subset</string>
+      <string id="MSG_SSE_COLLCAPTION" type="String">Collapse</string>
+      <string id="MSG_SSE_EXPCAPTION" type="String">Expand</string>
+      <string id="MSG_SSE_CLEAR_EXPANSIONS" type="String">Clear expansions</string>
+      <string id="MSG_SSE_INCLUDE_ALL" type="String">Include all</string>
+      <string id="MSG_SSE_INSERTCAPTION" type="String">Insert options</string>
+      <string id="MSG_SSE_ADD_TOOLTIP" type="String">Add</string>
+      <string id="MSG_SSE_REMOVE_TOOLTIP" type="String">Remove</string>
+      <string id="MSG_SSE_CONTAINSEXC" type="String">{0} (Excludes members)</string>
+      <string id="MSG_SSE_CONTAINSEXP" type="String">{0} (Contains expansions)</string>
+      <string id="MSG_SSE_ADD_CONSTRAINT" type="String">Add</string>
+      <string id="MSG_SSE_REMOVE_CONSTRAINT" type="String">Remove</string>
+      <string id="MSG_SSE_TOOLBAR_ACCESSIBILITY" type="String">Toolbar (Ctrl+T) to navigate pressed left or right arrow keys</string>
+    </section>
+    <section name="LSS" usage="Messages for List Selector" type="UI">
+      <string id="MSG_LSS_CANCEL" type="String">Cancel</string>
+      <string id="MSG_LSS_OK" type="String">OK</string>
+      <string id="MSG_LSS_UP" type="String">Move up</string>
+      <string id="MSG_LSS_DOWN" type="String">Move down</string>
+      <string id="MSG_LSS_COLUMN" type="String">Columns:</string>
+      <string id="MSG_LSS_TITLE" type="String">Reorder columns</string>
+      <string id="MSG_LSS_DESC" type="String">Select the columns you want to display for the items in this Set.</string>
+    </section>
+    <section name="TPL" usage="Messages for the Tuple Property View">
+      <string id="MSG_TPL_ANNOTATED" type="String">Annotated</string>
+      <string id="MSG_TPL_CONSOLIDATED" type="String">Consolidated</string>
+      <string id="MSG_TPL_LOCKED" type="String">Locked</string>
+      <string id="MSG_TPL_HOLD" type="String">Hold</string>
+      <string id="MSG_TPL_DIFFERSFROMBASE" type="String">Differs from base</string>
+      <string id="MSG_TPL_PICKLIST" type="String">Pick list</string>
+      <string id="MSG_TPL_RULEDERIVED" type="String">Rule derived</string>
+    </section>
+    <section name="MPV" usage="Messages for the member properties view and menus">
+      <string id="MSG_MPV_MEMBER_PROPERTIES" type="String">Member properties</string>
+      <string id="MSG_MPV_MEMBER_PROPERTIES_MENU" type="String">Member properties...</string>
+      <string id="MSG_MPV_SANDBOX_NAME" type="String">Sandbox name</string>
+      <string id="MSG_MPV_CAPTION" type="String">Caption</string>
+      <string id="MSG_MPV_NAME" type="String">Name</string>
+      <string id="MSG_MPV_DIMENSION" type="String">Dimension</string>
+      <string id="MSG_MPV_HIERARCHY" type="String">Hierarchy</string>
+      <string id="MSG_MPV_MEASURE" type="String">Measure</string>
+      <string id="MSG_MPV_HASCHILDREN" type="String">Has children</string>
+      <string id="MSG_MPV_PARENT" type="String">Parent</string>
+      <string id="MSG_MPV_METADATA_TYPE" type="String">Metadata type</string>
+      <string id="MSG_MPV_METADATA_UNKNOWN" type="String">Unknown</string>
+      <string id="MSG_MPV_METADATA_MEASURE" type="String">Measure</string>
+      <string id="MSG_MPV_METADATA_MEMBER" type="String">Member</string>
+      <string id="MSG_MPV_METADATA_LEVEL" type="String">Level</string>
+      <string id="MSG_MPV_METADATA_HIERARCHY" type="String">Hierarchy</string>
+      <string id="MSG_MPV_METADATA_DIMENSION" type="String">Dimension</string>
+      <string id="MSG_MPV_METADATA_PACKAGE" type="String">Package</string>
+      <string id="MSG_MPV_METADATA_QUERYITEM" type="String">Query item</string>
+      <string id="MSG_MPV_METADATA_QUERYSUBJECT" type="String">Query subject</string>
+      <string id="MSG_MPV_METADATA_FILTER" type="String">Filter</string>
+      <string id="MSG_MPV_METADATA_CUSTOMSET" type="String">Custom set</string>
+      <string id="MSG_MPV_METADATA_FOLDER" type="String">Folder</string>
+      <string id="MSG_MPV_METADATA_CLIENTFOLDER" type="String">Client folder</string>
+      <string id="MSG_MPV_METADATA_INFO" type="String">Info</string>
+      <string id="MSG_MPV_METADATA_AXIS" type="String">Axis</string>
+      <string id="MSG_MPV_METADATA_VIEW" type="String">View</string>
+      <string id="MSG_MPV_METADATA_CALCULATION" type="String">Calculation</string>
+      <string id="MSG_MPV_METADATA_HEADING" type="String">Heading</string>
+      <string id="MSG_MPV_METADATA_ATTRIBUTE" type="String">Attribute</string>
+      <string id="MSG_MPV_METADATA_PROCESS" type="String">Process</string>
+      <string id="MSG_MPV_METADATA_ACTION" type="String">Action</string>
+      <string id="MSG_MPV_TRUE" type="String">True</string>
+      <string id="MSG_MPV_FALSE" type="String">False</string>
+    </section>
+    <section name="MAP" usage="Messages for the Mapping Report Mode" type="UI">
+      <string id="MSG_MAP_MAP" type="String">Quick report</string>
+      <string id="MSG_MAP_WKSHT_MAPS" type="String">Quick reports in worksheet</string>
+      <string id="MSG_MAP_UNLINK" type="String">Convert to snapshot</string>
+      <string id="MSG_MAP_HIGHLIGHT_REPORT" type="String">Show report</string>
+      <string id="MSG_MAP_HIGHLIGHT_AXIS" type="String">Show regions...</string>
+      <string id="MSG_MAP_HIGHLIGHT_ROWS" type="String">Rows</string>
+      <string id="MSG_MAP_HIGHLIGHT_COLUMNS" type="String">Columns</string>
+      <string id="MSG_MAP_HIGHLIGHT_CONTEXT" type="String">Context</string>
+      <string id="MSG_MAP_HIGHLIGHT_DATA" type="String">Data</string>
+      <string id="MSG_MAP_ADD_ROWS" type="String">Add to rows</string>
+      <string id="MSG_MAP_ADD_COLUMNS" type="String">Add to columns</string>
+      <string id="MSG_MAP_ADD_MAP" type="String">Add as quick report</string>
+      <string id="MSG_MAP_ADD_ACTIVE" type="String">Add as dynamic report</string>
+      <string id="MSG_MAP_COMMIT" type="String">Commit</string>
+      <string id="MSG_MAP_COMMITSELECTED" type="String">Commit selected</string>
+      <string id="MSG_MAP_UPDATE" type="String">Update</string>
+      <string id="MSG_MAP_BURST" type="String">Burst</string>
+      <string id="MSG_MAP_TOGGLE_FORMATS" type="String">Use server formats</string>
+      <string id="MSG_MAP_TOGGLE_FORMATS_DISABLE" type="String">Disable server formats</string>
+      <string id="MSG_MAP_REFRESH_ALL" type="String">Refresh all data</string>
+      <string id="MSG_MAP_CLEAR_ALL" type="String">Clear all data</string>
+      <string id="MSG_MAP_REMOVE_ALL" type="String">Convert all to snapshot</string>
+      <string id="MSG_MAP_REFRESH" type="String">Refresh</string>
+      <string id="MSG_MAP_REMOVE" type="String">Convert to snaphost</string>
+      <string id="MSG_MAP_DISPLAY_CUBE" type="String">Display cube</string>
+      <string id="MSG_MAP_CLEARDATA" type="String">Clear data</string>
+      <string id="MSG_MAP_PROPERTIES" type="String">Properties...</string>
+      <string id="MSG_MAP_REPLACE" type="String">Replace members...</string>
+      <string id="MSG_MAP_CELLPROPERTIES" type="String">Cell properties...</string>
+      <string id="MSG_MAP_CELLPROPERTIES_TITLE" type="String">Cell properties</string>
+      <string id="MSG_MAP_CAPABILITIES_TITLE" type="String">Capabilities</string>
+      <string id="MSG_MAP_EXPLAND_UP" type="String">Expand up</string>
+      <string id="MSG_MAP_EXPLAND_DOWN" type="String">Expand down</string>
+      <string id="MSG_MAP_EXPLAND_LEFT" type="String">Expand left</string>
+      <string id="MSG_MAP_EXPLAND_RIGHT" type="String">Expand right</string>
+      <string id="MSG_MAP_TREEROOT" type="String">Quick reports</string>
+      <string id="MSG_MAP_INDENT" type="String">Apply row indents</string>
+      <!--state captions description-->
+      <string id="MSG_MAP_ACTION_NONE" type="String" usage="{0:My Great Mapping}">{0}</string>
+      <string id="MSG_MAP_ACTION_REFRESHING_DATA" type="String" usage="{0:My Great Mapping}">{0} - Refreshing data</string>
+      <string id="MSG_MAP_ACTION_REFRESH_ERROR" type="String" usage="{0:My Great Mapping}">{0} - Refresh error</string>
+      <string id="MSG_MAP_ACTION_ENTERING_UPDATE_MODE" type="String" usage="{0:My Great Mapping}">{0} - Entering update mode</string>
+      <string id="MSG_MAP_ACTION_UPDATE_MODE" type="String" usage="{0:My Great Mapping}">{0} - Update mode</string>
+      <string id="MSG_MAP_ACTION_UPDATE_MODE_ERROR" type="String" usage="{0:My Great Mapping}">{0} - Update mode error</string>
+      <string id="MSG_MAP_ACTION_VERYIFYING_CHANGES" type="String" usage="{0:My Great Mapping}">{0} - Verifying changes</string>
+      <string id="MSG_MAP_ACTION_VERIFY_COMPLETE" type="String" usage="{0:My Great Mapping}">{0} - Verify complete</string>
+      <string id="MSG_MAP_ACTION_VERIFY_ERROR" type="String" usage="{0:My Great Mapping}">{0} - Verify error</string>
+      <string id="MSG_MAP_ACTION_COMMITTING_CHANGES" type="String" usage="{0:My Great Mapping}">{0} - Committing changes</string>
+      <string id="MSG_MAP_ACTION_COMMIT_COMPLETE" type="String" usage="{0:My Great Mapping}">{0} - Commit complete</string>
+      <string id="MSG_MAP_ACTION_COMMIT_ERROR" type="String" usage="{0:My Great Mapping}">{0} - Commit error</string>
+      <string id="MSG_MAP_ACTION_CLEARING_DATA" type="String" usage="{0:My Great Mapping}">{0} - Clearing data</string>
+      <string id="MSG_MAP_ACTION_NO_UPDATES" type="String" usage="{0:My Great Mapping}">{0} - No Cells changed</string>
+      <string id ="MSG_CREATE_SUBMAP" type="String">Create quick report from selection</string>
+      <string id ="MSG_MAP_CLEAR_CONFIRM" type="String">Clear data for the selected reports?</string>
+      <string id ="MSG_MAP_BURST_CONFIRM" type="String">Burst data for the selected reports?</string>
+      <string id ="MSG_MAP_UNLINK_CONFIRM" type="String">Convert the selected reports to snapshots?</string>
+      <string id ="MSG_MAP_UPDATE_ALREADY" type="String" usage="{0:My Great Mapping, My Other Mapping}">The following reports are already in update mode: ( "{0}" )  Leave update mode and clear changes?</string>
+      <string id ="MSG_MAP_CLEAR_UPDATE_CONFIRM" type="String" usage="{0:My Great Mapping, My Other Mapping}">The following reports are in update mode: ( "{0}" )  Refresh and clear changes?</string>
+      <string id="MSG_MAP_HOST" type="String">Host information</string>
+      <string id="MSG_MAP_SLICERS" type="String">Context dimensions</string>
+      <string id="MSG_MAP_ROWS" type="String">Row dimensions</string>
+      <string id="MSG_MAP_COLUMNS" type="String">Column dimensions</string>
+      <string id="MSG_MAP_USE_HOT_REFRESH" type="String">Use type-in refresh</string>
+      <string id="MSG_MAP_NO_COPY" type="String">Unable to copy quick report</string>
+      <string id="MSG_MAP_NO_COPY_DETAIL" type="String">One or more axes are missing from the current quick report</string>
+      <!--map properties dialog-->
+      <string id="MSG_MAP_PROPS_CAPTION" type="String">Caption</string>
+      <string id="MSG_MAP_PROPS_GROUP" type="String">Current quick report properties</string>
+      <string id="MSG_MAP_PROPS_UPDATE" type="String">Update...</string>
+      <string id="MSG_MAP_PROPS_CUBE" type="String">Cube</string>
+      <string id="MSG_MAP_PROPS_SERVER" type="String">TM1 Server</string>
+      <string id="MSG_MAP_PROPS_HOST" type="String">Host</string>
+      <string id="MSG_MAP_PROPS_SANDBOX" type="String">Sandbox</string>
+      <string id="MSG_MAP_PROPS_FORMAT" type="String">Use server formatting</string>
+      <string id="MSG_MAP_PROPS_CANCEL" type="String">Cancel</string>
+      <string id="MSG_MAP_PROPS_OK" type="String">OK</string>
+      <string id="MSG_MAP_PROPS_GLOBAL_GROUP" type="String">Global quick report properties</string>
+      <string id="MSG_MAP_PROPS_REFRESH" type="String">Use type-in refresh</string>
+      <string id="MSG_MAP_PROPS_TOGGLE" type="String">Indent rows</string>
+      <string id="MSG_MAP_PROPS_TRUE" type="String">True</string>
+      <string id="MSG_MAP_PROPS_FALSE" type="String">False</string>
+      <string id="MSG_MAP_PROPS" type="String">Properties - {0}</string>
+      <string id="MSG_MAP_HOLD" type="String">Set hold</string>
+      <string id="MSG_MAP_REMOVE_HOLD" type="String">Remove hold</string>
+    </section>
+    <section name="ETR" usage="Messages for the exploration tree" type="UI">
+      <string id="MSG_EXPLOR_REFRESH_ALL" type="String">Refresh all data</string>
+      <string id="MSG_EXPLOR_CLEAR_ALL" type="String">Clear all data</string>
+      <string id="MSG_EXPLOR_MAKESTATIC_ALL" type="String">Convert all to snapshot</string>
+      <string id="MSG_EXPLOR_DISPLAY_CUBE" type="String">Display cube</string>
+      <string id="MSG_EXPLOR_REFRESH" type="String">Refresh data</string>
+      <string id="MSG_EXPLOR_CLEARDATA" type="String">Clear data</string>
+      <string id="MSG_EXPLOR_HIGHLIGHT" type="String">Show exploration</string>
+      <string id="MSG_EXPLOR_MAKESTATIC" type="String">Convert to snapshot</string>
+      <string id="MSG_EXPLOR_PROPERTIES" type="String">Properties</string>
+      <string id="MSG_EXPLOR_TREEROOT" type="String">Explorations</string>
+      <string id="MSG_EXPLOR_REFRESHALL_COMFIRM" type="String">Refresh all explorations in workbook?</string>
+      <string id="MSG_EXPLOR_REFRESH_COMFIRM" type="String">Refresh data for the selected explorations?</string>
+      <string id="MSG_EXPLOR_CLEARALL_COMFIRM" type="String">Clear data for all explorations in workbooks?</string>
+      <string id="MSG_EXPLOR_UNLINKALL_COMFIRM" type="String">Convert all explorations in workbook to snapshot</string>
+      <string id="MSG_EXPLOR_CLEAR_COMFIRM" type="String">Clear data for the selected explorations?</string>
+      <string id="MSG_EXPLOR_UNLINK_COMFIRM" type="String">Do you want to convert the selected explorations to snapshot?</string>
+    </section>
+    <section name="TML" usage="Messages for TM1 Logon Dialog" type="UI">
+      <string id="MSG_TML_OK" type="String">OK</string>
+      <string id="MSG_TML_CANCEL" type="String">Cancel</string>
+    </section>
+    <section name="SBX" usage="Messages for TM1 Sandbox Ops on Toolbar" type="UI">
+      <string id="MSG_SBX_LABEL" type="String">Sandbox:</string>
+      <string id="MSG_SBX_NEW" type="String">New sandbox</string>
+      <string id="MSG_SBX_RENAME" type="String">Rename sandbox</string>
+      <string id="MSG_SBX_DELETE" type="String">Delete sandbox</string>
+      <string id="MSG_SBX_CLONE" type="String">Clone sandbox</string>
+      <string id="MSG_SBX_MERGE" type="String">Merge sandbox</string>
+    </section>
+    <section name="SPD" usage="Messages for TM1 Spreading Ops" type="UI">
+      <string id="MSG_SPD_SPREADVALUE" type="String">Value:</string>
+      <string id="MSG_SPD_SPREADINGMETHOD" type="String">Data spreading method:</string>
+      <string id="MSG_SPD_SPREADACTION" type="String">Update action (optional):</string>
+      <string id="MSG_SPD_SPREADTITLE" type="String">Spreading...</string>
+      <string id="MSG_SPD_DIRECTION" type="String">Extend:</string>
+      <string id="MSG_SPD_APPLYTO" type="String">Apply to:</string>
+      <string id="MSG_SPD_VALUE" type="String">Value:</string>
+      <string id="MSG_SPD_POPLEAVES" type="String">Populated leaf cells</string>
+      <string id="MSG_SPD_ALLLEAVES" type="String">All leaf cells</string>
+      <string id="MSG_SPD_OK" type="String">OK</string>
+      <string id="MSG_SPD_CANCEL" type="String">Cancel</string>
+      <string id="MSG_SPD_SPREAD" type="String">Spread</string>
+      <string id="MSG_SPD_REPLACE" type="String">Replace</string>
+      <string id="MSG_SPD_ADD" type="String">Add</string>
+      <string id="MSG_SPD_SUBTRACT" type="String">Subtract</string>
+      <string id="MSG_SPD_PROP" type="String">Proportional</string>
+      <string id="MSG_SPD_EQUAL" type="String">Equal</string>
+      <string id="MSG_SPD_REPEAT" type="String">Repeat</string>
+      <string id="MSG_SPD_CLEAR" type="String">Clear</string>
+      <string id="MSG_SPD_PCT_CHG" type="String">% Change</string>
+      <string id="MSG_SPD_STRAIGHT" type="String">Straight</string>
+      <string id="MSG_SPD_GROWTH_PCT" type="String">Growth %</string>
+      <string id="MSG_SPD_REL_PROP" type="String">Relative proportional</string>
+      <string id="MSG_SPD_REL_PCT" type="String">Relative %</string>
+      <string id="MSG_SPD_REPEAT_LVS" type="String">Repeat across leaves</string>
+      <string id="MSG_SPD_EQUAL_LVS" type="String">Equal across leaves</string>
+      <string id="MSG_SPD_DEFAULT" type="String"></string>
+      <string id="MSG_SPD_DIRDOWN" type="String">Down</string>
+      <string id="MSG_SPD_DIRUP" type="String">Up</string>
+      <string id="MSG_SPD_DIRLEFT" type="String">Left</string>
+      <string id="MSG_SPD_DIRRIGHT" type="String">Right</string>
+      <string id="MSG_SPD_DIRDOWNRIGHT" type="String">Down, right</string>
+      <string id="MSG_SPD_DIRDOWNLEFT" type="String">Down, left</string>
+      <string id="MSG_SPD_DIRUPDOWN" type="String">Up, down</string>
+      <string id="MSG_SPD_DIRDOWNRIGHTLEFT" type="String">Down, left, right</string>
+      <string id="MSG_SPD_DIRLEFTRIGHT" type="String">Left, right</string>
+      <string id="MSG_SPD_DIRUPRIGHT" type="String">Up, right</string>
+      <string id="MSG_SPD_DIRUPRIGHTLEFT" type="String">Up, left, right</string>
+      <string id="MSG_SPD_DIRUPLEFTDOWN" type="String">Up, left, down</string>
+      <string id="MSG_SPD_DIRUPRIGHTDOWN" type="String">Up, right, down</string>
+      <string id="MSG_SPD_DIRUPLEFT" type="String">Up, left</string>
+      <string id="MSG_SPD_DIRALL" type="String">All</string>
+      <string id="MSG_SPD_TYPEIN_PERMISSION" type="String">'Consolidated type in' permissions are required to automatically spread to consolidated cells.</string>
+      <string id="MSG_SPD_SPREAD_PERMISSION" type="String">Spread permissions are required to perform this operation.</string>
+      <string id="MSG_SPD_SPREAD_ERROR" type="String">Spread error</string>
+    </section>
+    <section name="CPV" usage="Messages for commit preview" type="UI">
+      <string id="MSG_CPV_PREVIEW_CHANGES" type="String">Preview changes</string>
+      <string id="MSG_CPV_TITLE" type="Dialog Caption">Commit preview</string>
+      <string id="MSG_CPV_NAME" type="String">Name</string>
+      <string id="MSG_CPV_CONTEXT" type="String">Context</string>
+      <string id="MSG_CPV_TUPLE" type="String">Tuple</string>
+      <string id="MSG_CPV_CURRENTVAL" type="String">Current value</string>
+      <string id="MSG_CPV_NEWVAL" type="String">New value</string>
+      <string id="MSG_CPV_ROW" type="String">Row</string>
+      <string id="MSG_CPV_COLUMN" type="String">Column</string>
+      <string id="MSG_CPV_SPREADVAL" type="String">Spread value</string>
+      <string id="MSG_CPV_SPREADMTD" type="String">Spread method</string>
+      <string id="MSG_CPV_SPREADACT" type="String">Spread action</string>
+      <string id="MSG_CPV_ERROR" type="String">Commit preview unavailable</string>
+      <string id="MSG_CPV_NOCHANGES" type="String">No changes found</string>
+      <string id="MSG_CPV_CANCEL" type="String">Cancel</string>
+      <string id="MSG_CPV_COMMIT_CHANGES" type="String">Commit changes</string>
+      <string id="MSG_CPV_COMMIT_ALL" type="String">Commit all</string>
+      <string id="MSG_CPV_COMMIT_ERROR_GROUP" type="String">Errors - {0}</string>
+      <string id="MSG_CPV_COMMIT_VALID_GROUP" type="String">Valid - {0}</string>
+    </section>
+    <section name="HLS" usage="Messages for Host List Selections" type="UI">
+      <string id="MSG_HLS_OK" type="String">OK</string>
+      <string id="MSG_HLS_CANCEL" type="String">Cancel</string>
+      <string id="MSG_HLS_REMEMBER" type="String">Remember selection</string>
+      <string id="MSG_HLS_SELECTHOST" type="String">Please select a host:</string>
+    </section>
+    <section name="RPM" usage="Messages for Running Process Management" type="UI">
+      <string id="MSG_RPM_RUNNING" type="String">Working</string>
+      <string id="MSG_RPM_ERROR" type="String">Error</string>
+      <string id="MSG_RPM_COMPLETED" type="String">Completed</string>
+      <string id="MSG_RPM_CANCELING" type="String">Canceling</string>
+      <string id="MSG_RPM_NO_CANCELING" type="String">This process cannot be canceled.</string>
+      <string id="MSG_RPM_TITLE" type="String">Active processes</string>
+      <string id="MSG_RPM_CANCEL_ALL" type="String">Cancel all</string>
+      <string id="MSG_RPM_CLEAR_COMPLETED" type="String">Clear completed</string>
+      <string id="MSG_RPM_CANCEL" type="String">Cancel</string>
+      <string id="MSG_RPM_CLEAR" type="String">Clear</string>
+      <string id="MSG_RPM_MESSAGE" type="String">Message</string>
+      <string id="MSG_RPM_CURRENT_STATUS" type="String">Current status</string>
+      <string id="MSG_RPM_PROCESS_NAME" type="String">Process name</string>
+      <string id="MSG_RPM_PERCENT_COMPLETE" type="String">Percent complete</string>
+      <string id="MSG_RPM_TASKS_COMPLETE" type="String">All tasks completed</string>
+      <string id="MSG_RPM_TASKS_RUNNING" type="String">Completed {0} of {1} tasks</string>
+      <string id="MSG_RPM_TASKS_ERROR" type="String">Process completed with an error</string>
+      <string id="MSG_RPM_TASKS_NAME" type="String">Name</string>
+      <string id="MSG_RPM_TASKS_PROGRESS" type="String">Progress</string>
+    </section>
+    <section name="ABP" usage="Messages for Action Button Properties" type="UI">
+      <string id="MSG_ABP_CAPTION" type="Dialog Caption">Action button properties</string>
+      <string id="MSG_ABP_GP_SERVER" type="String">TM1 Server</string>
+      <string id="MSG_ABP_USE_REFERENCE" type="String">Use reference</string>
+      <string id="MSG_ABP_CONNECT" type="Button">Connect...</string>
+      <string id="MSG_ABP_DISCONNECT" type="Button">Disconnect</string>
+      <string id="MSG_ABP_GP_ACTION" type="String">Action</string>
+      <string id="MSG_ABP_RUN_TURBO" type="String">Run a Turbo Integrator process</string>
+      <string id="MSG_ABP_GO_WORKSHEET" type="String">Go to another worksheet</string>
+      <string id="MSG_ABP_RUN_PROCESS" type="String">Run a process, then go to another worksheet</string>
+      <string id="MSG_ABP_CALCULATE" type="String">Calculate / Rebuild only</string>
+      <string id="MSG_ABP_OK" type="Button">OK</string>
+      <string id="MSG_ABP_CANCEL" type="Button">Cancel</string>
+      <string id="MSG_ABP_TAB_CALC" type="String">Calculate</string>
+      <string id="MSG_ABP_TAB_PROCESS" type="String">Process</string>
+      <string id="MSG_ABP_TAB_WORKSHEET" type="String">Worksheet</string>
+      <string id="MSG_ABP_TAB_APPEARENCE" type="String">Appearance</string>
+      <string id="MSG_ABP_PROCESS_PROCESS" type="String">Process:</string>
+      <string id="MSG_ABP_PROCESS_PARAMETERS" type="String">Parameters:</string>
+      <string id="MSG_ABP_PARAMETER_NAME" type="String">Name</string>
+      <string id="MSG_ABP_PARAMETER_VALUE" type="String">Value</string>
+      <string id="MSG_ABP_PROCESS_GETPROCESSES" type="String">-- Get process info from worksheet --</string>
+      <string id="MSG_ABP_PROCESS_NAME" type="String">Process name:</string>
+      <string id="MSG_ABP_PROCESS_VALUE" type="String">Value</string>
+      <string id="MSG_ABP_APP_CAPTION" type="String">Caption:</string>
+      <string id="MSG_ABP_APP_DEFAULT_CAPTION" type="String">Run</string>
+      <string id="MSG_ABP_APP_RESIZE" type="String">Resize button to caption</string>
+      <string id="MSG_ABP_APP_FONT" type="Button">Font...</string>
+      <string id="MSG_ABP_APP_SHOW" type="String">Show background image</string>
+      <string id="MSG_ABP_APP_BROWSE" type="String">Browse</string>
+      <string id="MSG_ABP_APP_HYPERLINK" type="String">Display as hyperlink</string>
+      <string id="MSG_ABP_APP_PREVIEW" type="String">Preview</string>
+      <string id="MSG_ABP_APP_COLORS" type="String">Colors</string>
+      <string id="MSG_ABP_APP_TEXT" type="String">Text</string>
+      <string id="MSG_ABP_APP_BACKGROUND" type="String">Background</string>
+      <string id="MSG_ABP_APP_MODIFY" type="String">After initial creation, action button appearance should be modified using native Excel formatting.</string>
+      <string id="MSG_ABP_WS_LOOKIN" type="String">Look in:</string>
+      <string id="MSG_ABP_WS_TM1APPS" type="String">TM1 Applications</string>
+      <string id="MSG_ABP_WS_FILES" type="String">Files</string>
+      <string id="MSG_ABP_WS_BROWSE" type="String">Browse</string>
+      <string id="MSG_ABP_WS_WORKBOOK" type="String">Workbooks:</string>
+      <string id="MSG_ABP_WS_SHEET" type="String">Sheet</string>
+      <string id="MSG_ABP_WS_MATCH_TITLE" type="String">Match title elements</string>
+      <string id="MSG_ABP_WS_REPLACE_WB" type="String">Replace current workbook</string>
+      <string id="MSG_ABP_WS_ADVANCED_OPTIONS" type="Button">Advanced options</string>
+      <string id="MSG_ABP_GP_CALCULATION" type="String">Calculation</string>
+      <string id="MSG_ABP_GP_CALCULATION_AUTO" type="String">Automatically recalculate sheet</string>
+      <string id="MSG_ABP_GP_CALCULATION_REBUILD_SHEET" type="String">Rebuild sheet</string>
+      <string id="MSG_ABP_GP_CALCULATION_NONE" type="String">None</string>
+      <string id="MSG_ABP_OPTIONS" type="Dialog Caption">Options</string>
+      <string id="MSG_ABP_OPTIONS_SUCCESS" type="String">Show success</string>
+      <string id="MSG_ABP_OPTIONS_FAILURE" type="String">Show failure</string>
+      <string id="MSG_ABP_OPTIONS_CONFIRM" type="String">Show confirmation</string>
+      <string id="MSG_ABP_OPTIONS_TEXT_SUCCESS" type="String">Process completed successfully.</string>
+      <string id="MSG_ABP_OPTIONS_TEXT_FAILURE" type="String">Process failed.</string>
+      <string id="MSG_ABP_OPTIONS_TEXT_CONFIRM" type="String">Are you sure you want to run this process?</string>
+      <string id="MSG_ABP_SELECT_RANGE" type="String">Select a range</string>
+      <string id="MSG_ABP_SELECT_CELL" type="String">Select a cell</string>
+      <string id="MSG_ABP_ADV_CAPTION" type ="Dialog Caption">Advanced options</string>
+      <string id="MSG_ABP_ADV_LABEL" type="String">Map items from source worksheet to items on the target worksheet.</string>
+      <string id="MSG_ABP_ADV_ADD" type="String">Add</string>
+      <string id="MSG_ABP_ADV_DELETE" type="String">Delete</string>
+      <string id="MSG_ABP_ADV_OK" type="String">OK</string>
+      <string id="MSG_ABP_ADV_CANCEL" type="String">Cancel</string>
+      <string id="MSG_ABP_ADV_SOURCETYPE" type="String">Source type</string>
+      <string id="MSG_ABP_ADV_SOURCEOBJECT" type="String">Source object</string>
+      <string id="MSG_ABP_ADV_TARGETTYPE" type="String">Target type</string>
+      <string id="MSG_ABP_ADV_TARGETOBJECT" type="String">Target object</string>
+      <string id="MSG_ABP_ADV_SUBSET" type="String">Subset</string>
+      <string id="MSG_ABP_ADV_ALIAS" type="String">Alias</string>
+      <string id="MSG_ABP_ADV_VALUE" type="String">Value</string>
+      <string id="MSG_ABP_ADV_SUBNM" type="String">Subnm</string>
+      <string id="MSG_ABP_ADV_SELECTED_DBRW" type="String">Selected DBRW</string>
+      <string id="MSG_ABP_ADV_RANGE" type="String">Range</string>
+      <string id="MSG_ABP_ADV_NAMED_RANGE" type="String">Named range</string>
+      <string id="MSG_ABP_TREERUN" type="String">Run</string>
+      <string id="MSG_ABP_TREECREATE" type="String">Create new action button</string>
+      <string id="MSG_ABP_TREEEDIT" type="String">Edit</string>
+      <string id="MSG_ABP_TREEDELETE" type="String">Delete</string>
+      <string id="MSG_ABP_TREESHOW" type="String">Select</string>
+      <string id="MSG_ABP_TREEREFRESH" type="String">Refresh list</string>
+      <string id="MSG_ABP_TREEROOT" type="String">Action buttons</string>
+      <string id="MSG_ABP_EMPTY_SERVER_ERR" type="String">Server cannot be empty</string>
+      <string id="MSG_ABP_EMPTY_PROCESS_ERR" type="String">Process cannot be empty</string>
+      <string id="MSG_ABP_BUTTON_DEFAULT_CAPTION" type="String">Run</string>
+      <string id="MSG_ABP_BUTTON_SAVE_WORKBOOK" type="String">Do you want to save the changes you made to {0}?</string>
+      <string id="MSG_ABP_BUTTON_ADD_ACTION_BUTTON" type="String">Add</string>
+      <string id="MSG_ABP_RUN_CONFIRMTITLE" type="String">Confirm</string>
+      <string id="MSG_ABP_RUN_SUCCESSTITLE" type="String">Success</string>
+      <string id="MSG_ABP_RUN_FAILURETITLE" type="String">Failure</string>
+      <string id="MSG_ABP_LOGIN" type="String">Please log in to a server first before edit</string>
+      <string id="MSG_ABP_ERROR_FIND" type="String">Cannot find the action button specified</string>
+      <string id="MSG_ABP_ERROR_PARAMETERS" type="String">Cannot retrieve parameters for process {0}</string>
+      <string id="MSG_ABP_VBA_PROJECT_PERMISSION" type="String">To create an action button, the Excel setting "Trust access to the VBA project object model" must be enabled.</string>
+      <string id="MSG_ABP_CONFIRM_ACTION_BUTTON_DELETE" type="String">Do you want to delete the selected action button(s)?</string>
+    </section>
+    <section name="ABU" usage="Messages for Action Button Upgrade" type="UI">
+      <string id="MSG_ABU_CAPTION" type="Dialog Caption">Upgrade perspectives action buttons</string>
+      <string id="MSG_ABU_OK" type="Button">OK</string>
+      <string id="MSG_ABU_CANCEL" type="Button">Cancel</string>
+      <string id="MSG_ABU_BACKUP_BROWSE" type="Button">Browse...</string>
+      <string id="MSG_ABU_LOG_BROWSE" type="Button">Browse...</string>
+      <string id="MSG_ABU_BACKUP" type="String">Backup Excel files</string>
+      <string id="MSG_ABU_BACKUP_OPTION" type="Check Box">Create backup files</string>
+      <string id="MSG_ABU_BACKUP_DIR" type="String">Backup directory:</string>
+      <string id="MSG_ABU_LOG" type="String">Conversion log</string>
+      <string id="MSG_ABU_LOG_DIR" type="String">Log directory:</string>
+      <string id="MSG_ABU_UPGRADE_COMPLETE" type="String">Action button upgrade completed!</string>
+      <string id="MSG_ABU_UPGRADE_FILES_FOUND" type="String" usage="Total number of files found : {0:cpount}">Total number of files found : {0}</string>
+      <string id="MSG_ABU_UPGRADE_FILES_UPGRADED" type="String" usage="Total number of files upgraded : {0:count}">Total number of files upgraded : {0}</string>
+      <string id="MSG_ABU_BACKUPDIR_NOT_FOUND" type="String">Backup directory not found</string>
+      <string id="MSG_ABU_LOGDIR_NOT_FOUND" type="String">Log directory not found</string>
+    </section>
+    <section name="BUL" usage="Bulk Upload" type="UI">
+      <string id="MSG_BUL_ERROR_REPORT" type="String">Error report</string>
+      <string id="MSG_BUL_CELL_REFERENCE" type="String">Cell reference</string>
+      <string id="MSG_BUL_CURRENT" type="String">Current value</string>
+      <string id="MSG_BUL_NEW" type="String">New value</string>
+      <string id="MSG_BUL_METADATA" type="String">Metadata</string>
+      <string id="MSG_BUL_MESSAGE" type="String">Message</string>
+      <string id="MSG_BUL_CELL_STATUS" type="String">Cell status</string>
+      <string id="MSG_BUL_NONE" type="String">None</string>
+      <string id="MSG_BUL_LOCKED" type="String">Locked</string>
+      <string id="MSG_BUL_HOLD" type="String">Hold</string>
+      <string id="MSG_BUL_CONSOLIDATED" type="String">Consolidated</string>
+      <string id="MSG_BUL_RULE" type="String">Rule derived</string>
+      <string id="MSG_BUL_INCORRECT_TYPE" type="String">Incorrect type</string>
+      <string id="MSG_BUL_INCORRECT_FORMAT" type="String">Incorrect format</string>
+      <string id="MSG_BUL_EXCEL_ERROR" type="String">Excel Error</string>
+      <string id="MSG_BUL_CLICK_CELL" type="String">Click cell reference to display error location</string>
+      <string id="MSG_BUL_INVALID_METADATA" type="String">Invalid metadata</string>
+      <string id="MSG_BUL_NON_EXISTENT_TM1_ELE" type="String">Non-existent TM1 element</string>
+      <string id="MSG_BUL_INVALID_CUBE_NAME" type="String">Invalid cube name</string>
+      <string id="MSG_BUL_COMMIT_VALID_INTERSECTION" type="String">Commit valid intersections</string>
+      <string id="MSG_BUL_CREATE_ERROR_REPORT" type="String">Create error report</string>
+      <string id="MSG_BUL_COMMIT_VALID" type="String">Commit valid</string>
+      <string id="MSG_BUL_NO_WRITE" type="String">Read only permission</string>
+      <string id="MSG_BUL_AUTO_COMMIT" type="String">Automatically commit valid intersections</string>
+      <string id="MSG_BUL_SAVE" type="String">Commit</string>
+      <string id="MSG_BUL_SAVE_ALL" type="String">Commit all</string>
+      <string id="MSG_BUL_SAVE_VALID" type="String">Commit valid</string>
+      <string id="MSG_BUL_PREVIEW" type="String">Preview</string>
+    </section>
+    <section name="AFU" usage="Messages for the Active Forms UI" type="UI">
+      <string id="MSG_AF_TREEROOT" type="String">Dynamic reports</string>
+      <string id="MSG_AF_REFRESH_ALL" type="String">Refresh all dynamic reports</string>
+      <string id="MSG_AF_REBUILD_ALL" type="String">Rebuild all dynamic reports</string>
+      <string id="MSG_AF_REPAIR_ALL" type="String">Repair all dynamic reports</string>
+      <string id="MSG_AF_REFRESH" type="String">Refresh</string>
+      <string id="MSG_AF_REBUILD" type="String">Rebuild</string>
+      <string id="MSG_AF_REPAIR" type="String">Repair</string>
+      <string id="MSG_AF_REFRESH_LIST" type="String">Refresh list</string>
+    </section>
+    <section name="PUB" usage="Messages for Publish Folder Dialog" type="UI">
+      <string id="MSG_PUB_APPLICATIONS" type="String">Applications</string>
+      <string id="MSG_PUB_SERVERS" type="String">Servers</string>
+    </section>
+    <section name="DBR" usage="Messages for DBR/W Formula Dialog">
+      <string id="MSG_DBR_ARGS_MODIFY_TITLE" type="String">Arguments</string>
+      <string id="MSG_DBR_CANCEL" type="String">Cancel</string>
+      <string id="MSG_DBR_CELL_REF" type="String">Cell reference</string>
+      <string id="MSG_DBR_CUBE_LABEL" type="String">Cube name</string>
+      <string id="MSG_DBR_EVAL" type="String">Evaluate</string>
+      <string id="MSG_DBR_LABEL_FORMULA" type="String">Formula result:</string>
+      <string id="MSG_DBR_OK" type="String">OK</string>
+      <string id="MSG_DBR_OPN_SET_EDT" type="String">Open set editor</string>
+      <string id="MSG_DBR_SERVER_LABEL" type="String">Server name</string>
+      <string id="MSG_DBR_TITLE" type="String">DBR function editor - {0}</string>
+      <string id="MSG_DBR_INVALID_MEMBER" type="String">Invalid</string>
+      <string id="MSG_DBR_MULIIPLE_VALUES" type="String">Multiple values</string>
+      <string id="MSG_DBR_ALREADY_PRESENT" type="String">Please close the opened dialog to create a new one</string>
+      <string id="MSG_DBR_UNDO_OR_CLOSE" type="String">Range being updated is referenced by a DBRW Wizard {0} Press Ok to continue updating the range and close DBRW Wizard {0} Press Cancel to undo the changes been made</string>
+      <string id="MSG_DBR_MSG_ALERT" type="String">Alert</string>
+    </section>
+    <section name="RCM" usage="Messages for Report UI Metadata Context Menu">
+      <string id="MSG_RCM_ACTIVEFORM" type="String">Dynamic report</string>
+      <string id="MSG_RCM_FLEXVIEW" type="String">Quick report</string>
+      <string id="MSG_RCM_EXPLORATION" type="String">Exploration</string>
+      <string id="MSG_RCM_FORMULA" type="String">Custom report</string>
+      <string id="MSG_RCM_THISSHEET" type="String">On this sheet</string>
+      <string id="MSG_RCM_NEWSHEET" type="String">On new sheet</string>
+      <string id="MSG_RCM_CURRENTCELL" type="String">At current location</string>
+      <string id="MSG_RCM_SPECIFIEDCELL" type="String">At specified location</string>
+    </section>
+    <section name="PAB" usage="Messages for Migrating Perspective Action Buttons" type="Messages">
+      <string id="MSG_PAB_DIALOG_MESSAGE" type="Dialog Caption">Current sheet contains Perspective action button. Do you want to migrate them to Cafe action button?</string>
+      <string id="MSG_PAB_DIALOG_TITLE" type="Button">Alert</string>
+    </section>
+    <section name="API" usage="Error Strings for API" type="Messages">
+      <string id="MSG_API_CUBENOTFOUND" type="String">cube not found</string>
+      <string id="MSG_API_DATASOURCE" type="String">datasource</string>
+    </section>
+  </component>
+</stringTable>
+<!-- UFRID:658D009F-D1F1-413B-8A1C-00610B181435 -->
